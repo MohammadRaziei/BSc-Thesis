@@ -1,0 +1,16 @@
+\edef \SavedTocDepth {\the \value {tocdepth}}
+\setcounter {tocdepth}{-10}
+\contentsline {chapter}{فهرست اشکال}{ج}{section*.4}% 
+\contentsline {chapter}{فهرست جداول}{د}{section*.5}% 
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
+\contentsline {chapter}{\numberline {1}یادگیری تقویتی}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1-1}تست}{2}{section.1.1}% 
+\contentsline {chapter}{\numberline {2}جزئیات فنی پروژه}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}% 
+\contentsline {section}{\numberline {2-2}دورنمای کلی طرح}{5}{section.2.2}% 
+\contentsline {chapter}{منابع و مراجع}{6}{appendix*.6}% 
+\contentsline {chapter}{پیوست}{7}{appendix*.7}% 
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{8}{appendix*.9}% 
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{10}{appendix*.10}% 
+\contentsfinish 
