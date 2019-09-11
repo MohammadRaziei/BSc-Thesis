@@ -1,21 +1,21 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
-\contentsline {chapter}{فهرست اشکال}{ج}{section*.4}% 
-\contentsline {chapter}{فهرست جداول}{د}{section*.5}% 
+\contentsline {chapter}{فهرست اشکال}{ج}{section*.4}
+\contentsline {chapter}{فهرست جداول}{د}{section*.5}
 \par عنوان\hfill صفحه \par 
 \setcounter {tocdepth}{\SavedTocDepth }
-\contentsline {chapter}{\numberline {1}یادگیری تقویتی}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1-1}تست}{2}{section.1.1}% 
-\contentsline {chapter}{\numberline {2}جزئیات فنی پروژه}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}% 
-\contentsline {section}{\numberline {2-2}دورنمای کلی طرح}{5}{section.2.2}% 
-\contentsline {subsection}{\numberline {2-2-1}تقسیم بندی وظایف هر بخش}{6}{subsection.2.2.1}% 
-\contentsline {section}{\numberline {2-3}معرفی نرم افزار پری‌اسکن}{7}{section.2.3}% 
-\contentsline {subsection}{\numberline {2-3-1}بخش های مختلف نرم افزار پری‌اسکن}{7}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2-3-2}فرمت های فایل های خروجی}{9}{subsection.2.3.2}% 
-\contentsline {section}{\numberline {2-4}بررسی دقیق‌تر فایل سیمولینک}{10}{section.2.4}% 
-\contentsline {chapter}{منابع و مراجع}{14}{appendix*.6}% 
-\contentsline {chapter}{پیوست}{15}{appendix*.7}% 
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{16}{appendix*.9}% 
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{18}{appendix*.10}% 
+\contentsline {chapter}{\numberline {1}یادگیری تقویتی}{1}{chapter.1}
+\contentsline {section}{\numberline {1-1}تست}{2}{section.1.1}
+\contentsline {chapter}{\numberline {2}جزئیات فنی پروژه}{3}{chapter.2}
+\contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
+\contentsline {section}{\numberline {2-2}دورنمای کلی طرح}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2-2-1}تقسیم بندی وظایف هر بخش}{6}{subsection.2.2.1}
+\contentsline {section}{\numberline {2-3}معرفی نرم افزار پری‌اسکن}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2-3-1}بخش های مختلف نرم افزار پری‌اسکن}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2-3-2}فرمت های فایل های خروجی}{9}{subsection.2.3.2}
+\contentsline {section}{\numberline {2-4}بررسی دقیق‌تر فایل سیمولینک}{10}{section.2.4}
+\contentsline {chapter}{منابع و مراجع}{14}{appendix*.6}
+\contentsline {chapter}{پیوست}{15}{appendix*.7}
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{16}{appendix*.9}
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{18}{appendix*.10}
 \contentsfinish 

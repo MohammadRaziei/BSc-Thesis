@@ -327,7 +327,7 @@
 
 \begin{table}[h!]
 	\tableset{
-		\begin{tabular}{|C{0.08\linewidth}|C{0.23\linewidth}|C{0.15\linewidth}|p{0.45\linewidth}|}
+		\begin{tabular}{|C{0.08\linewidth}|C{0.23\linewidth}|C{0.17\linewidth}|p{0.43\linewidth}|}
 			\hline\rowcolor{lightgray}
 			نوع & عنوان & بلوک مربوط & توضیحات
 			\\\hline\hline
@@ -339,21 +339,30 @@
 			\RTLfootnote{بعدا خواهید دید که مشخص بودن طول بسیار بسیار اهمیت دارد!}
 			را خروجی می‌دهد.
 			\\\hline
-			& & & 
-			\\\hline
-			& & & 
-			\\\hline
-			& & &
+			ورودی & کنترل لاین و سرعت ماشین & \lr{PathFollower\_1} & دستورات کنترلی اتومبیل، شامل کدام خط بودن و مقدار سرعت نهایی، به صورت ورودی وارد یک \lr{demux} می‌شود و پس از جدا سازی، به بلوک مربوط متصل می‌شود.
 			\\\hline
 	\end{tabular}}
-	\caption{توضیحات فرمت فایل خروجی}
+	\caption{بررسی ورودی ها و خروجی های مهم در شکل \ref{fig:simulink-agent}}
 	\label{tab:simuink-agent-io}
 \end{table}
 
-سلام
+در جدول \ref{tab:simuink-agent-io} صرفا ورودی خروجی های مهم مورد بررسی قرار گرفته است. این ورودی ها و خروجی های مهم به یک بلوک دیگر منتقل می‌شود. بلوک 
+\lr{Environment}
+همان بلوک است که در شکل
+\ref{fig:simulink-firstview}
+نیز مشخص است و در شکل 
+\ref{fig:simulink-env}
+نیز از زاویه نزدیک تر با جزییات بیشتر می‌توان آن‌را مشاهده نمود.
+%\code[matlab]{simulink-json-sensor.m}
 
-\code[matlab]{simulink-json-sensor.m}
 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/simulink/simulink-Env}
+	\caption{نگاهی از نزدیک به بلوک \lr{Environmnet}}
+	\label{fig:simulink-env}
+\end{figure}
 
 
 
