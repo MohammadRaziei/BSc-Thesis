@@ -218,10 +218,10 @@
 مربوط می‌شود.
 
 \begin{table}[h!]
-\centering
-{\setcellgapes{0.5em}\makegapedcells
+\tableset{
+%{\setcellgapes{0.5em}\makegapedcells
 \begin{tabular}{|C{0.15\linewidth}|p{0.8\linewidth}|}
-	\hline
+	\hline\rowcolor{lightgray}
 	فرمت فایل
 	&
 	توضیحات 
@@ -229,7 +229,7 @@
 	\texttt{**.pex} &	این فایل مربوط به اولین بلوک شکل
 	\ref{fig:block-diagram}
 	است و ارتباط مستقیم با \lr{GUI} دارد. برای تغییر محیط گرافیکی باید این فایل را باز کرد.
-	\\ \hline
+	\\ \hline   
 	\texttt{**.pb} & این فایل برخی از اطلاعات فایل 
 	\texttt{**.pex}
 	را در اختیار دارد و با تغییر آن فایل این فایل نیز عوض می‌شود. این فایل حاوی اطلاعات استاتیک محیط ایجاد شده است و مهم ترین کاربرد آن در بلوک موتور متلب که در شکل 
@@ -260,21 +260,99 @@
 
 \section{بررسی دقیق‌تر فایل سیمولینک}\label{ch:fani|sec:simulink}
 
-
-\code{test.py}
-
-
-
+فایل سیمولینک ایجاد شده توسط نرم افزار پری‌اسکن، قابلیت تغییر به دست کاربر را دارد. شکل 
+\ref{fig:simulink-firstview}
+فایل تغییر‌یافته مربوط به این پروژه را نشان می‌دهد.
 
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/simulink/first_view}
+	\caption{فایل سیمولینک ایجاد شده توسط نرم افزار پری‌اسکن همراه با تغییرات}
+	\label{fig:simulink-firstview}
+\end{figure}
 
 
 
 
+بلوک های سمت راست نشان داده شده در سمت راست شکل
+\ref{fig:simulink-firstview}
+توسط نرم افزار پری اسکن ایجاد شده است که البته دست‌خوش تغییراتی نیز بوده اند. 
+
+در صورتی که با استفاده از محیط گرافیکی \lr{GUI} فایل \texttt{**.pex} تغییر کند، فایل سیمولینک تغییر نمی‌کند. در برخی موارد این تغییرات ممکن است منجر به پیغام خطا شود.
+
+\begin{remark}\label{remark:Regenerate}
+	در صورتی که فایل
+	 \texttt{**.pex}
+	 تغییر کند، برای اعمال این تغییرات، باید روی کلمه 
+	 \lr{Regenerate}
+	 که در شکل 
+	 \ref{fig:simulink-generate}
+	 آمده است، کلیک کرد. با این کار، تغییرات جدید اعمال می‌شود بی‌آن‌که تغییرات کاربر تحت تاثیر قرار بگیرد.
+\end{remark}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\linewidth]{Figures/simulink/generate}
+	\caption{روش صحیح اعمال تغییرات روی فایل سیمولینک}
+	\label{fig:simulink-generate}
+\end{figure}
+
+در شکل 
+\ref{fig:simulink-generate}
+همانطور که در نکته
+\ref{remark:Regenerate} 
+به آن اشاره شد، دکمه ای تحت عنوان 
+\lr{Regenerate}
+وجود دارد که استفاده از آن در همان نکته مشخص شده است. همچنین در این تصویر در زیر لوگوی برنامه پری‌اسکن، اطلاعاتی مانند شماره نسخه نرم افزار (که در این‌جا \lr{8.5.0} می‌باشد.)، نام نویسنده مشاهده می‌شود.
+
+در شکل 
+\ref{fig:simulink-firstview}
+اولین بلوک سمت راست همان ماشینی است که ما آن‌را تحت کنترل گرفته‌ایم. اگه به آن وارد شویم، شکل 
+\ref{fig:simulink-agent}
+را مشاهده می‌کنیم.
+در این تصویر ورودی و خروجی ها نقش خیلی مهمی دارند. این اطلاعات در جدول
+\ref{tab:simuink-agent-io}
+ آمده‌اند.
 
 
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/simulink/agent}
+	\caption{فایل سیمولینک - شبیه سازی اتومبیل}
+	\label{fig:simulink-agent}
+\end{figure}
 
+
+\begin{table}[h!]
+	\tableset{
+		\begin{tabular}{|C{0.08\linewidth}|C{0.23\linewidth}|C{0.15\linewidth}|p{0.45\linewidth}|}
+			\hline\rowcolor{lightgray}
+			نوع & عنوان & بلوک مربوط & توضیحات
+			\\\hline\hline
+			خروجی &اطلاعات ماشین & \lr{SELF\_Demux} & اطلاعات ماشین، شامل اطلاعات موقعیت($x$،$y$ و$z$) و اطلاعات چرخش (حول $x$،$y$ و$z$) به همراه سرعت ماشین را خروجی می‌دهد. این 7 داده قبل از خروجی توسط یک \lr{mux} با یکدیگر ادغام می‌شوند.
+			\\\hline
+			خروجی& اطلاعات سنسور ماشین & \lr{AIR\_Demux}  & اطلاعات سنسور \lr{V2C} را خروجی می‌دهد. از آنجا که این سنسور فاصله و زاویه و ...  تا ده ماشین نزدیک خود را می‌دهد. بنابراین هر‌یک از این اطلاعات یک بردار ده تایی است. برای فرستادن آن اطلاعات به خروجی، ابتدا آن‌ها را به  طریقی به فرمت جیسون
+			\LTRfootnote{json}
+			تبدیل می‌کند و یک رشته کاراکتر با طول مشخص
+			\RTLfootnote{بعدا خواهید دید که مشخص بودن طول بسیار بسیار اهمیت دارد!}
+			را خروجی می‌دهد.
+			\\\hline
+			& & & 
+			\\\hline
+			& & & 
+			\\\hline
+			& & &
+			\\\hline
+	\end{tabular}}
+	\caption{توضیحات فرمت فایل خروجی}
+	\label{tab:simuink-agent-io}
+\end{table}
+
+سلام
+
+\code[matlab]{simulink-json-sensor.m}
 
 
 

@@ -7,6 +7,8 @@
 % بسته‌‌ای برای ظاهر شدن شکل‌ها و تصاویر متن
 \usepackage{graphicx}
 \usepackage{color}
+\usepackage[table]{xcolor}
+
 %%%% Page color
 \definecolor{cream}{rgb}{1.0, 0.99, 0.82}
 \definecolor{floralwhite}{rgb}{1.0, 0.98, 0.94}
@@ -17,17 +19,18 @@
 \definecolor{mintcream}{rgb}{0.96, 1.0, 0.98}
 \definecolor{oldlace}{rgb}{0.99, 0.96, 0.9}
 \definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
-
 \definecolor{whitegray}{rgb}{0.98, 0.98, 0.98}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
 
 \usepackage{listings}
 
-
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{lightgray}{rgb}{0.8,0.8,0.8}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
 \lstset{frame=tBLr,
+%	frameround=fttt,
 	language=python,
 	aboveskip=3mm,
 	belowskip=3mm,
@@ -46,6 +49,7 @@
 	keywordstyle=\color{blue},
 	commentstyle=\color{dkgreen},
 	stringstyle=\color{mauve},
+	rulecolor=\color{black},
 	breaklines=true,
 	breakatwhitespace=true,
 	tabsize=4
@@ -92,8 +96,11 @@
 \usepackage{titletoc}
 \usepackage{tocloft}
 
-\usepackage{array,makecell, cellspace,tabularx}
+\usepackage{array}%,makecell, cellspace}
+%\newcommand{\tablewidth}{\def\arraystretch{5}}
+\newcommand{\tableset}[1]{\centering\renewcommand{\arraystretch}{2}{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
 
 %با فعال کردن بسته زیر فوت‌نوت‌ها در هر صفحه ریست می‌شوند. حالت پیش‌فرض آن ریست شدن در هر فصل می‌باشد.
 %\usepackage[perpage]{footmisc}
