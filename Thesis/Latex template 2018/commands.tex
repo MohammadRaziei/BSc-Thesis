@@ -7,10 +7,94 @@
 % بسته‌‌ای برای ظاهر شدن شکل‌ها و تصاویر متن
 \usepackage{graphicx}
 \usepackage{color}
+%%%% Page color
+\definecolor{cream}{rgb}{1.0, 0.99, 0.82}
+\definecolor{floralwhite}{rgb}{1.0, 0.98, 0.94}
+\definecolor{ghostwhite}{rgb}{0.97, 0.97, 1.0}
+\definecolor{honeydew}{rgb}{0.94, 1.0, 0.94}
+\definecolor{isabelline}{rgb}{0.96, 0.94, 0.93}
+\definecolor{magnolia}{rgb}{0.97, 0.96, 1.0}
+\definecolor{mintcream}{rgb}{0.96, 1.0, 0.98}
+\definecolor{oldlace}{rgb}{0.99, 0.96, 0.9}
+\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
+
+\definecolor{whitegray}{rgb}{0.98, 0.98, 0.98}
+
+\usepackage{listings}
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tBLr,
+	language=python,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	lineskip=0.5em,
+	xleftmargin=23pt,
+	xrightmargin=9pt,
+	framexleftmargin=17pt,
+	framexrightmargin=5pt,
+	framexbottommargin=2pt,
+	numbers=left,
+	firstnumber=1,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=4
+}
+%\lstset{
+%	language=python,
+%	frame=trBL,  
+%%	frameround=fttt,
+%	numberstyle=\tiny\color{gray},
+%	keywordstyle=\color{blue},
+%	commentstyle=\color{dkgreen},
+%	stringstyle=\color{mauve},
+%	numbers=left,
+%	numberstyle=\scriptsize,
+%	showspaces=false,         
+%	showtabs=false,       
+%	xleftmargin=23pt,
+%	xrightmargin=9pt,
+%	framexleftmargin=17pt,
+%	framexrightmargin=5pt,
+%	framexbottommargin=2pt,
+%	showstringspaces=false ,
+%	breaklines=true,
+%	texcl=true,
+%	basicstyle=\setLTR\footnotesize\ttfamily,
+%	lineskip=0.5em,
+%	commentstyle= \itshape,
+%	belowcaptionskip=12pt,
+%	aboveskip=15pt,
+%	belowskip=15pt
+%}  
+\newcommand{\code}[2][python]{
+	\begin{latin}
+%		\noindent #2
+		\lstinputlisting[language=#1]{code/#2}
+	\end{latin}
+}
+
+
+
+
 %بسته‌ای برای تنظیم فاصله عمودی خط‌های متن
 \usepackage{setspace}
 \usepackage{titletoc}
 \usepackage{tocloft}
+
+\usepackage{array,makecell, cellspace,tabularx}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
 %با فعال کردن بسته زیر فوت‌نوت‌ها در هر صفحه ریست می‌شوند. حالت پیش‌فرض آن ریست شدن در هر فصل می‌باشد.
 %\usepackage[perpage]{footmisc}
 \usepackage{enumitem}
