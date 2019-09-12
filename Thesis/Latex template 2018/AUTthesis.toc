@@ -14,8 +14,10 @@
 \contentsline {subsection}{\numberline {2-3-1}بخش های مختلف نرم افزار پری‌اسکن}{7}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2-3-2}فرمت های فایل های خروجی}{9}{subsection.2.3.2}
 \contentsline {section}{\numberline {2-4}بررسی دقیق‌تر فایل سیمولینک}{10}{section.2.4}
-\contentsline {chapter}{منابع و مراجع}{14}{appendix*.6}
-\contentsline {chapter}{پیوست}{15}{appendix*.7}
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{16}{appendix*.9}
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{18}{appendix*.10}
+\contentsline {subsection}{\numberline {2-4-1}معرفی بلوک \lr {Environment} و بررسی جزییات آن }{11}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2-4-2}بررسی ساختار داده های ارسالی و کد آن در سیمولینک}{16}{subsection.2.4.2}
+\contentsline {chapter}{منابع و مراجع}{17}{appendix*.6}
+\contentsline {chapter}{پیوست}{18}{appendix*.7}
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{19}{appendix*.9}
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{21}{appendix*.10}
 \contentsfinish 
