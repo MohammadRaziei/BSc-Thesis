@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.3)  12 SEP 2019 22:48
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.3)  13 SEP 2019 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1768,13 +1768,9 @@ LaTeX Font Info:    Font shape `TU/Yas(0)/m/n' will be
 File: Figures/block-diagram-white.jpg Graphic file (type bmp)
 <Figures/block-diagram-white.jpg>
  [5]
-
-LaTeX Warning: Reference `fig:python-layers' on page 6 undefined on input line 
-93.
-
 LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' will be
 (Font)              scaled to size 15.84007pt on input line 96.
-[6]
+ [6]
 File: Figures/Prescan-gallery.png Graphic file (type bmp)
 <Figures/Prescan-gallery.png>
 File: Figures/prescan-icons.png Graphic file (type bmp)
@@ -1848,20 +1844,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--529
 
 File: Figures/simulink/json-total.png Graphic file (type bmp)
 <Figures/simulink/json-total.png>
-[15] (./code/structure-string.json)) [16] (./AUTthesis.bbl
+[15] [16]
+File: Figures/python-layers-white.jpg Graphic file (type bmp)
+<Figures/python-layers-white.jpg>
+ [17] (./code/structure-string.json)) [18] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 4.
 
 
 LaTeX Warning: Empty `thebibliography' environment on input line 6.
 
-) [17
+) [19
 
 
 ]
 \openout2 = `appendix1.aux'.
 
- (./appendix1.tex) [18
+ (./appendix1.tex) [20
 
 
 ]
@@ -1872,7 +1871,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [19
+ [21
 
 
 
@@ -1881,7 +1880,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [20])
+ [22])
 \openout2 = `dicen2fa.aux'.
 
  (./dicen2fa.tex
@@ -1890,7 +1889,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 
-[21
+[23
 
 
 
@@ -1899,11 +1898,11 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
-) [22]
+) [24]
 No file AUTthesis.ind.
 \openout2 = `en-abstract.aux'.
 
-(./en-abstract.tex) [23
+(./en-abstract.tex) [25
 
 
 ] (./en_title.tex)
@@ -1921,12 +1920,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 26924 strings out of 493007
- 508957 string characters out of 6136720
- 826659 words of memory out of 5000000
- 30358 multiletter control sequences out of 15000+600000
+ 26946 strings out of 493007
+ 509418 string characters out of 6136720
+ 825659 words of memory out of 5000000
+ 30379 multiletter control sequences out of 15000+600000
  539725 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,18n,74p,10458b,1209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,18n,74p,10458b,1211s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AUTthesis.pdf (34 pages).
+Output written on AUTthesis.pdf (36 pages).

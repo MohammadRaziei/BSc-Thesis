@@ -16,8 +16,11 @@
 \contentsline {section}{\numberline {2-4}بررسی دقیق‌تر فایل سیمولینک}{10}{section.2.4}
 \contentsline {subsection}{\numberline {2-4-1}معرفی بلوک \lr {Environment} و بررسی جزییات آن }{11}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2-4-2}بررسی ساختار داده های ارسالی و کد آن در سیمولینک}{16}{subsection.2.4.2}
-\contentsline {chapter}{منابع و مراجع}{17}{appendix*.6}
-\contentsline {chapter}{پیوست}{18}{appendix*.7}
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{19}{appendix*.9}
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{21}{appendix*.10}
+\contentsline {section}{\numberline {2-5}بررسی جزییات بخش پایتون}{17}{section.2.5}
+\contentsline {subsection}{\numberline {2-5-1}معرفی لایه های کد پایتون}{17}{subsection.2.5.1}
+\contentsline {section}{\numberline {2-6}بررسی دقیق تر برخی چالش های فنی پروژه}{18}{section.2.6}
+\contentsline {chapter}{منابع و مراجع}{19}{appendix*.6}
+\contentsline {chapter}{پیوست}{20}{appendix*.7}
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{21}{appendix*.9}
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{23}{appendix*.10}
 \contentsfinish 
