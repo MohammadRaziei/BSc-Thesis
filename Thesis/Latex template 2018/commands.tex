@@ -186,6 +186,7 @@
 
 
 
+
 %بسته‌ای برای تنظیم فاصله عمودی خط‌های متن
 \usepackage{setspace}
 \usepackage{titletoc}
@@ -201,9 +202,23 @@
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
 
+
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=blue!20,draw,inner sep=2pt] (char) {#1};}}
+
 %با فعال کردن بسته زیر فوت‌نوت‌ها در هر صفحه ریست می‌شوند. حالت پیش‌فرض آن ریست شدن در هر فصل می‌باشد.
 %\usepackage[perpage]{footmisc}
-\usepackage{enumitem}
+\usepackage[inline]{enumitem}
+\newlist{alphinline}{enumerate*}{1}
+\setlist[alphinline]{label=(\alph*)}
+\newlist{enuminline}{enumerate*}{1}
+\setlist[enuminline]{label=(\arabic*)}
+\newlist{circlelist}{enumerate}{1}
+\setlist[circlelist,1]{label=\protect\circled{\arabic*}}
+\newlist{alphabetlist}{enumerate}{1}
+\setlist[alphabetlist]{label=\alph*)}
+
+
 %\usepackage{titlesec}
 % بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
 \usepackage[pagebackref=false,colorlinks,linkcolor=blue,citecolor=red]{hyperref}

@@ -1,26 +1,30 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
-\contentsline {chapter}{فهرست اشکال}{ج}{section*.4}
-\contentsline {chapter}{فهرست جداول}{د}{section*.5}
+\contentsline {chapter}{فهرست اشکال}{د}{section*.4}
+\contentsline {chapter}{فهرست جداول}{ه}{section*.5}
 \par عنوان\hfill صفحه \par 
 \setcounter {tocdepth}{\SavedTocDepth }
-\contentsline {chapter}{\numberline {1}یادگیری تقویتی}{1}{chapter.1}
-\contentsline {section}{\numberline {1-1}تست}{2}{section.1.1}
-\contentsline {chapter}{\numberline {2}جزئیات فنی پروژه}{3}{chapter.2}
-\contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
-\contentsline {section}{\numberline {2-2}دورنمای کلی طرح}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2-2-1}تقسیم بندی وظایف هر بخش}{6}{subsection.2.2.1}
-\contentsline {section}{\numberline {2-3}معرفی نرم افزار پری‌اسکن}{7}{section.2.3}
-\contentsline {subsection}{\numberline {2-3-1}بخش های مختلف نرم افزار پری‌اسکن}{7}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2-3-2}فرمت های فایل های خروجی}{9}{subsection.2.3.2}
-\contentsline {section}{\numberline {2-4}بررسی دقیق‌تر فایل سیمولینک}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2-4-1}معرفی بلوک \lr {Environment} و بررسی جزییات آن }{11}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2-4-2}بررسی ساختار داده های ارسالی و کد آن در سیمولینک}{16}{subsection.2.4.2}
-\contentsline {section}{\numberline {2-5}بررسی جزییات بخش پایتون}{17}{section.2.5}
-\contentsline {subsection}{\numberline {2-5-1}معرفی لایه های کد پایتون}{17}{subsection.2.5.1}
-\contentsline {section}{\numberline {2-6}بررسی دقیق تر برخی چالش های فنی پروژه}{18}{section.2.6}
-\contentsline {chapter}{منابع و مراجع}{19}{appendix*.6}
-\contentsline {chapter}{پیوست}{20}{appendix*.7}
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{21}{appendix*.9}
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{23}{appendix*.10}
+\contentsline {chapter}{\numberline {1}یادگیری تقویتی با استفاده از \lr {gym}}{1}{chapter.1}
+\contentsline {section}{\numberline {1-1}معرفی مفاهیم یادگیری تقویتی}{2}{section.1.1}
+\contentsline {section}{\numberline {1-2}معرفی \lr {OpenAI gym}}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1-2-1}مقدمه}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1-2-2}نصب}{2}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}معرفی یادگیری ماشین}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}جزئیات فنی پروژه}{6}{chapter.3}
+\contentsline {section}{\numberline {3-1}مقدمه}{7}{section.3.1}
+\contentsline {section}{\numberline {3-2}دورنمای کلی طرح}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3-2-1}تقسیم بندی وظایف هر بخش}{9}{subsection.3.2.1}
+\contentsline {section}{\numberline {3-3}معرفی نرم افزار پری‌اسکن}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3-3-1}بخش های مختلف نرم افزار پری‌اسکن}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3-3-2}فرمت های فایل های خروجی}{12}{subsection.3.3.2}
+\contentsline {section}{\numberline {3-4}بررسی دقیق‌تر فایل سیمولینک}{13}{section.3.4}
+\contentsline {subsection}{\numberline {3-4-1}معرفی بلوک \lr {Environment} و بررسی جزییات آن }{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3-4-2}بررسی ساختار داده های ارسالی و کد آن در سیمولینک}{19}{subsection.3.4.2}
+\contentsline {section}{\numberline {3-5}بررسی جزییات بخش پایتون}{20}{section.3.5}
+\contentsline {subsection}{\numberline {3-5-1}معرفی لایه های کد پایتون}{21}{subsection.3.5.1}
+\contentsline {section}{\numberline {3-6}بررسی دقیق تر برخی چالش های فنی پروژه}{22}{section.3.6}
+\contentsline {chapter}{منابع و مراجع}{24}{appendix*.6}
+\contentsline {chapter}{پیوست}{25}{appendix*.7}
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{26}{appendix*.9}
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{28}{appendix*.10}
 \contentsfinish 

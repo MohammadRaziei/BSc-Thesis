@@ -440,9 +440,9 @@
 		\hline\rowcolor{lightgray}
 		نام بلوک & نوع بلوک & \lr{IP} & \lr{Port} & توضیحات
 		\\\hline\hline
-		\lr{UDP Receiver} & گیرنده & \lr{localhost} & &
+		\lr{UDP Receiver} & گیرنده & \lr{localhost} & 8070 &
 		\\\hline
-		\lr{Send Data} & فرستنده & \lr{localhost} & &
+		\lr{Send Data} & فرستنده & \lr{localhost} & 8031 &
 		\\\hline
 	\end{tabular}}
 	\caption{اطلاعات بلوک های فرستندگی گیرندگی در سیمولینک}
@@ -476,11 +476,19 @@
    
    		\item \textbf{بلوک محاسبه تمام شدن و ریست کردن} :
    		این بلوک با دو خروجی مهم می‌دهد. یکی از آن خروجی ها \texttt{done} است که توسط بلوک فرستنده نیز برای پایتون ارسال می‌شود. و مقدار دیگری را که خروجی می‌دهد دستور ریست کردن است. این دستور در لبه مثبت (از صفر به یک برسد) ریست می‌کند. منطق این بلوک یک منطق باینری است که در شکل 
-   		\ref{}
+   		\ref{fig:done-reset-logical}
    		روش محاسبه آن نیز آمده است. 
    		همچنین این بلوک یک مقدار به اسم \texttt{Auto\_reset\_flag} نیز به عنوان ورودی دریافت می‌کند. این مقدار که می‌تواند صفر و یا یک باشد، تصمیم می‌گیرد که در صورتی که \LRE{\texttt{done = 1}} شد آیا ریست کند و یا ریست نکند. اگر یک باشد ریست می‌کند وگرنه منتظر رسیدن دستور از پایتون می‌ماند.
    		
    \end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/done-reset-logical}
+	\caption{منطق محاسبه تمام شدن و دستور ریست کردن}
+	\label{fig:done-reset-logical}
+\end{figure}
+
    
 \subsection{بررسی ساختار داده های ارسالی  و کد آن در سیمولینک}\label{ch:fani|sec:simulink|sub:json}
    
@@ -522,13 +530,13 @@
   		\includegraphics[height=8cm]{Figures/simulink/json-env}
    		\label{subfig:json-env}
   	}
-  	\hspace*{1.5cm} % space between two figures
+%  	\hspace*{1.5cm} % space between two figures
   	\subfigure[جیسون سنسور]{%
   		\includegraphics[height=8cm]{Figures/simulink/json-sensor}
    		\label{subfig:json-sensor}
   	}
 %  	\\ % place in new line
-  	\hspace*{1.5cm} % space between two figures
+%  	\hspace*{1.5cm} % space between two figures
   	\subfigure[شکل ادغام شده ]{%
   		\includegraphics[height=8cm]{Figures/simulink/json-total}
    		\label{subfig:json-total}
@@ -584,7 +592,7 @@
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Figures/python-layers-white}
+	\includegraphics[width=0.8\linewidth]{Figures/python-layers-white}
 	\caption{بلوک دیالگرام لایه های پایتون}
 	\label{fig:python-layers}
 \end{figure}
@@ -592,14 +600,60 @@
 \ref{fig:python-layers}
 ۴ لایه برنامه نویسی شده با ۵ عدد نشان داده شده است. توضیحات زیر متناسب با هر‌یک از این شماره ها در نظر گرفته شده اند:
 
-\begin{enumerate}
-	\item \textbf{\lr{Model}} (مدل) :
-	این بخش 
-	\item \textbf{\lr{Environment}} (محیط) :
+
+
+
+\begin{circlelist}
+	\item \textbf{\lr{Model}} :
+	در این لایه، با استفاده از موتور متلب با متلب و سیمولینک ارتباط برقرار می‌کند و با این ارتباط دو وظیفه بسیار مهم را انجام می‌دهد. 
+	\begin{alphabetlist}
+		\item 
+		ساخت مدل هایی مانند اتومبیل و جاده و دریافت اطلاعات ضروری آن ها در متلب
+		\item 
+		تعریف کلاس \lr{sim} و ارسال دستوراتی مانند شروع کردن، توقف کردن، مکث کردن، ادامه دادن و ... به سیمولینک.
+	\end{alphabetlist}
+این لایه صرفا از اطلاعات استاتیک سیمولینک استفاده می‌کند.
+
+	\item \textbf{\lr{Environment}} :
+	این لایه برای ارتباط با زیرسیستم \lr{Environment} که پیشتر آن‌را در شکل 
+	\ref{fig:simulink-env}
+	مشاهده کردید، ساخته شده است. در این لایه با استفاده از ابزار هایی که لایه 
+	\lr{Model}
+	در اختیار آن قرار می‌دهد، به سادگی آبجکت هایی ماند ماشین و جاده را می‌سازد و با استفاده از اطلاعات شبکه که در جدول 
+	\ref{tab:Reciver-Send}
+	آمده است، با سیمولینک ارتباط برقرار می‌کند و آن اطلاعات پویا را دریافت می‌کند و دستورات کنترلی را برای آن ارسال می‌کند.
+	
+	این لایه از موتور متلب استفاده نمی‌کند بلکه از روش های شبکه ای استفاده می‌کند. 
 	\item \textbf{\lr{Env}} :
+	این لایه یک آبجکت از کلاس 
+	\lr{Environment}
+	را دریافت می‌کند و تمامی نیاز های خود را در مورد هر مسیله‌ای که به ارتباط با محیط متلب و یا سیمولینک به آن واگذار می‌کند و تمرکز آن برروی مفاهیم یادگیری تقویتی مانند 
+	 \begin{enuminline}
+	 	\item فضای مشاهده
+	 	\LTRfootnote{Observation space}
+	 	\item فضای حرکت
+	 	\LTRfootnote{Action space}
+	 	\item  تعریف حرکت
+		\item تعریف حالت 
+		\item تعریف امتیاز
+ 	\end{enuminline} 
+ و ... می‌باشد.
+ 
+	
 	\item \textbf{\lr{gym}} :
-	\item \textbf{\lr{Algorithm}} (الگوریتم) :
-\end{enumerate}
+	در نهایت یک مجموعه داریم که هر یک وظایف مربوط به خود را دارند. در این قسمت کد ما که در لایه \lr{Env} به \lr{gym} نزدیک شده است، با فراخوانی لایه های پیشین به ترتیب از بالا به پایین (از نظر سطح) فراخوانی می‌شود و در هر لایه آبجکت‌هایی از کلاس‌های موجود در لایه پایین تر فراخوانی می‌شود. از این رو جهت پیکان بر عکس است. 
+	
+	در مورد \lr{gym} در فصل 
+	\ref{ch:openai-gym}
+	به صورت مفصل بحث شده‌است.
+	
+	\item \textbf{\lr{Algorithm}} :
+	در لایه های پیشین سینتکس کد \lr{gym} ایجاد شده است و این لایه بر توسعه الگوریتم های یادگیری تقویتی که در فصل 
+	\ref{ch:RL}
+	مورد بررسی مفصل قرار گرفته است، تمرکز دارد.
+	
+	می‌توان گفت این لایه نقش رییس و یا مغز کار را دارد و باقی لایه ها کارگرانی هستند که وظیفه دارند که اطلاعات را به شکلی مناسب این لایه، برای آن منتقل کنند.
+\end{circlelist}	
 
 
 \section{بررسی دقیق تر برخی چالش های فنی پروژه}\label{ch:fani|sec:chalenges}

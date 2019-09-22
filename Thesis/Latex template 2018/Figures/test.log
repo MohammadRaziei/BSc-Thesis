@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.3)  12 SEP 2019 21:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.3)  14 SEP 2019 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,34 +47,26 @@ File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen105
-\captionmargin@=\dimen106
-\captionwidth=\dimen107
-\caption@tempdima=\dimen108
-\caption@indent=\dimen109
-\caption@parindent=\dimen110
-\caption@hangindent=\dimen111
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-\c@ContinuedFloat=\count87
+Package color Info: Driver file: xetex.def on input line 147.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
-\subfigcaptopadj=\dimen112
+\subfigcaptopadj=\dimen105
 \subfigbottomskip=\skip45
-\subfigcapmargin=\dimen113
+\subfigcapmargin=\dimen106
 \subfiglabelskip=\skip46
-\c@subfigure=\count88
-\c@lofdepth=\count89
-\c@subtable=\count90
-\c@lotdepth=\count91
+\c@subfigure=\count87
+\c@lofdepth=\count88
+\c@subtable=\count89
+\c@lotdepth=\count90
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -99,65 +91,16 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfigure package is loaded.
-Package caption Info: End \AtBeginDocument code.
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.15 ^^I\begin{subfigure}[t]{0.49\linewidth}
-                                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.15 ^^I\begin{subfigure}[t]{0.49\linewidth}
-                                            
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.20 ^^I\begin{subfigure}[t]{0.49\linewidth}
-                                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.20 ^^I\begin{subfigure}[t]{0.49\linewidth}
-                                            
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
 [1
 
 ] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 1824 strings out of 493007
- 28922 string characters out of 6136720
- 98535 words of memory out of 5000000
- 5842 multiletter control sequences out of 15000+600000
- 3656 words of font info for 16 fonts, out of 8000000 for 9000
+ 800 strings out of 493007
+ 10155 string characters out of 6136720
+ 70061 words of memory out of 5000000
+ 4824 multiletter control sequences out of 15000+600000
+ 3648 words of font info for 15 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 36i,5n,39p,229b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,5n,24p,181b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on test.pdf (1 page).

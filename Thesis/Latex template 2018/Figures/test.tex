@@ -3,7 +3,7 @@
 \documentclass{article}
 \usepackage{graphicx}
 
-\usepackage{caption}
+\usepackage{color}
 
 %\usepackage{subcaption}
 \usepackage{subfigure}
@@ -11,19 +11,15 @@
 
 \begin{document}
 
-\begin{figure}[h!]
-	\begin{subfigure}[t]{0.49\linewidth}
-		\centering
-		\includegraphics[width=.5\textwidth]{example-image}
-		\caption{aaa bbb ccc ddd eee fff ggg hhh aaa bbb ccc ddd eee fff ggg hhh aaa bbb ccc ddd eee fff ggg hhh }
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.49\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{example-image}
-		\caption{2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
-	\end{subfigure}
-\end{figure}
+\def\bar{hello}
+\let\fooi\bar
+\def\fooii{\bar}
+\fooi +\fooii
 
+\def\bar{goodbye}
+\fooi +\fooii
+\def\red{red}
+\colorbox{\red}{text}
 \end{document}
 
 
