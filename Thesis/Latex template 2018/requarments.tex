@@ -113,5 +113,138 @@
 
 
 
+\section{معرفی دقیق تر اجزای کلی}
+در این قسمت میخواهیم سه نرم‌افزار کلی این پروژه را از نگاهی نزدیک تر  بشناسیم که عبارتند از :
+\begin{enuminline}
+	\item 
+	نرم‌افزار 
+	\glspl{w:prescan}
+	\item 
+	\glspl{w:matlab}
+	\item پایتون
+\end{enuminline}
+
+\subsection{معرفی نرم‌افزار 
+\glspl{w:prescan}
+}
+
+پس از دانلود و نصب نسخه \lr{8.5.0} این نرم‌افزار چهار آیکون مانند شکل 
+\ref{fig:prescan-icons}
+به محیط دسکتاپ اضافه می‌کند.  اصلی ترین آن ها 
+\lr{PreScan Proccess Manager 8.5.0}
+نام دارد.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\linewidth]{Figures/prescan-icons}
+	\caption{آیکون های اضافه شده بر روی محیط دسکتاپ پس از نصب پری‌اسکن}
+	\label{fig:prescan-icons}
+\end{figure}
+
+با انتخاب آن صفحه ای مانند زیر باز می‌شود.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Figures/Prescan-panel}
+	\caption{پنل مدریت نرم‌افزار پری‌اسکن}
+	\label{fig:prescan-panel}
+\end{figure}
+
+این پنجره شامل گزینه های زیر است:
+\begin{multicols}{2}
+	\begin{itemize}
+		\item \lr{GUI}
+		\item \lr{VisServer}
+		\item \lr{Matlab}
+		\item \lr{Shell}
+	\end{itemize}
+\end{multicols}
+
+برای ایجاد یک محیط جدید باید \lr{GUI} را استارت کرد. پس از مدتی صفحه ای مانند شکل 
+\ref{fig:prescan-gui}
+باز می‌شود. 
+
+
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/Prescan-GUI}
+	\caption{صفحه گرافیکی محیط پری‌اسکن}
+	\label{fig:prescan-gui}
+\end{figure}
+
+
+
+پس از ایجاد مدل ها و ذخیره آن، فایل های \texttt{**.pex} و \texttt{**.pb} و \texttt{**\_cs.slx} ساخته می‌شود.
+\RTLfootnote{علامت ** به معنای یک اسم مشترک در این سه فایل استفاده شده است. }
+
+جهت استفاده از فایل سیمولینک باید در شکل 
+\ref{fig:prescan-panel}
+متلب را استارت کنید.
+\begin{remark}
+	برای اجرای فایل های سیمولینک خروجی، لازم است که متلب را فقط و فقط با استفاده از نرم افزار پری‌اسکن و با استفاده از پنل مدیریت نرم افزار معرفی شده در شکل 
+	\ref{fig:prescan-panel}
+	باز شود. در صورتی که به صورت مستقیم این کار انجام شود، به مشکل منتهی می‌شود.
+\end{remark}
+
+
+دو قسمت دیگر نیز در شکل 
+\ref{fig:prescan-panel}
+وجود دارد که نیازی به استارت کردن آن ها نیست و خودشان در صورت لزوم به صورت خودکار فراخوانی می‌شوند.
+
+\subsection{فرمت های فایل های خروجی}
+نرم‌افزار پری‌اسکن پس از ایجاد یک محیط جدید، فایل ها و پوشه های بسیار زیادی را ایجاد می‌کند. اما در خارج آن پوشه ها ۳ فایل وجود دارد که پسوند آن ها \texttt{**.pex} و \texttt{**.pb} و \texttt{**\_cs.slx} می‌باشد. علامت ** همان اسم پروژه‌ای است که ایجاد کرده ایم. هر یک از این فایل ها به یک بلوک از شکل 
+\ref{fig:block-diagram}
+مربوط می‌شود.
+
+\begin{table}[h!]
+	\tableset{
+		%{\setcellgapes{0.5em}\makegapedcells
+		\begin{tabular}{|C{0.15\linewidth}|p{0.8\linewidth}|}
+			\hline\rowcolor{lightgray}
+			فرمت فایل
+			&
+			توضیحات 
+			\\\hline\hline
+			\texttt{**.pex} &	این فایل مربوط به اولین بلوک شکل
+			\ref{fig:block-diagram}
+			است و ارتباط مستقیم با \lr{GUI} دارد. برای تغییر محیط گرافیکی باید این فایل را باز کرد.
+			\\ \hline   
+			\texttt{**.pb} & این فایل برخی از اطلاعات فایل 
+			\texttt{**.pex}
+			را در اختیار دارد و با تغییر آن فایل این فایل نیز عوض می‌شود. این فایل حاوی اطلاعات استاتیک محیط ایجاد شده است و مهم ترین کاربرد آن در بلوک موتور متلب که در شکل 
+			\ref{fig:block-diagram}
+			نشان داده شده است می‌باشد. پایتون از طریق این فایل این اطلاعات را دریافت می‌کند.
+			\\\hline
+			\texttt{**\_cs.slx} &
+			این فایل سیمولینک است که برای کار کردن با آن باید از پنل مدیریت شکل
+			\ref{fig:prescan-panel}
+			استفاده کرد. این فایل پس از ایجاد از فایل 
+			\texttt{**.pex}
+			مستقل می‌شود. این فایل خود قابلیت تغییر دارد و می‌توان بلوک‌های آن‌را در محیط سیمولینک تغییر داد و بلوک های دیگری به آن افزود.  در صورتی که فایل \texttt{**.pex} تغییر کند، این امکان را نیز دارد که از داخل خود سیمولینک با فشردن دکمه ای این تغییرات جدید اعمال شود بدون آن که به تغییرات خود کاربر لطمه ای وارد شود. در این پروژه این فایل، تغییرات بسیاری را تجربه کرد.
+			\\\hline
+	\end{tabular}}
+	\caption{توضیحات فرمت فایل خروجی}
+	\label{tab:prescan-format}
+\end{table}
+
+
+
+جدول
+\ref{tab:prescan-format}
+توضیحات لازم را جهت آشنایی با این خروجی ها آورده است.
+
+همچنین در بخش  
+\ref{ch:fani|sec:simulink}
+در مورد فایل \texttt{**\_cs.slx} توضیحات دقیق‌تری در مورد جزییات آن گفته خواهد شد.
+
+
+
+
+
+\code[matlab]{startup.m}
+
 
 
