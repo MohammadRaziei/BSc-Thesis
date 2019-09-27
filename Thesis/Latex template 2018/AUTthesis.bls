@@ -23,7 +23,15 @@
 \providecommand*\glsXpageXhyperemph[2]{\setentrycounter[#1]{page}\hyperemph{#2}}
 \providecommand*\glsXpageXglsignore[2]{\setentrycounter[#1]{page}\glsignore{#2}}
 \begin{theglossary}\glossaryheader
-\glsgroupheading{ح}\relax\glsresetentrylist
-\glossentry{f-Action}{\glossaryentrynumbers{\relax 
+\glsgroupheading{س}\relax\glsresetentrylist
+\glossentry{f-simulink}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{7}}}\glsgroupskip
+\glsgroupheading{م}\relax\glsresetentrylist
+\glossentry{f-matlab}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{7}}}\relax\glsresetentrylist
+\glossentry{f-matlabengine}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{7}}}\glsgroupskip
+\glsgroupheading{ن}\relax\glsresetentrylist
+\glossentry{f-w:anaconda}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{8}}}%
 \end{theglossary}\glossarypostamble

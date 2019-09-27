@@ -21,5 +21,5 @@
 \contentsline {chapter}{منابع و مراجع}{14}{appendix*.6}
 \contentsline {chapter}{نمایه}{15}{appendix*.6}
 \contentsline {chapter}{واژه نامه انگلیسی به فارسی}{16}{section*.7}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{17}{section*.11}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{17}{section*.13}
 \contentsfinish 

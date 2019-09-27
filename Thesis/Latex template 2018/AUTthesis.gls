@@ -24,6 +24,14 @@
 \providecommand*\glsXpageXglsignore[2]{\setentrycounter[#1]{page}\glsignore{#2}}
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax\glsresetentrylist
-\glossentry{Action}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{8}}}%
+\glossentry{w:anaconda}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{8}}}\glsgroupskip
+\glsgroupheading{M}\relax\glsresetentrylist
+\glossentry{matlab}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{7}}}\relax\glsresetentrylist
+\glossentry{matlabengine}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{7}}}\glsgroupskip
+\glsgroupheading{S}\relax\glsresetentrylist
+\glossentry{simulink}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{7}}}%
 \end{theglossary}\glossarypostamble

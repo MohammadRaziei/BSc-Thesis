@@ -1,53 +1,24 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: AUTthesis.aux
-A level-1 auxiliary file: chapter1.aux
-A level-1 auxiliary file: RL.aux
-A level-1 auxiliary file: requarments.aux
-A level-1 auxiliary file: ALG.aux
-A level-1 auxiliary file: fani.aux
-A level-1 auxiliary file: resaults.aux
-The style file: ieeetr.bst
-A level-1 auxiliary file: appendix1.aux
-Database file #1: references.bib
-You've used 1 entry,
-            1876 wiz_defined-function locations,
-            491 strings with 3672 characters,
-and the built_in function-call counts, 192 in all, are:
-= -- 16
-> -- 8
-< -- 0
-+ -- 3
-- -- 2
-* -- 11
-:= -- 36
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 9
-empty$ -- 21
-format.name$ -- 2
-if$ -- 44
-int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 7
-num.names$ -- 1
-pop$ -- 5
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 2
-stack$ -- 0
-substring$ -- 0
-swap$ -- 1
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 12
+;; This logfile was generated automatically by `xindy'
+;; at 27.09.2019  18:17:59
+;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\fjaqUm6A86", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\zk166rj75o", Output: "AUTthesis.bls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "…œƒ" -> "Ù…"
+Letter-group: "¡Ÿœ¡žš" -> "Ø³"
+Letter-group: "Ÿ…Ÿ …œƒ" -> "Ù…"
+Letter-group: "ž ‚˜Ž‚ €ž‚šŸž‹‚" -> "Ù†"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¡Ÿœ¡žš" -> "Ø³"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "…œƒ" -> "Ù…"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ž ‚˜Ž‚ €ž‚šŸž‹‚" -> "Ù†"

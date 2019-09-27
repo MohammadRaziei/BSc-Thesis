@@ -7,13 +7,14 @@
 
 \begin{itemize}
 	\item 
-	\textbf{نرم افزار پری اسکن}
-	\LTRfootnote{PreScan}
+	\textbf{نرم افزار 
+	\glspl{w:prescan}}
 	، نسخه \lr{$8.5.0$}
 	
 	\item 
-	\textbf{نرم افزار متلب}
-	\LTRfootnote{Matlab}
+	\textbf{نرم افزار 
+	\glspl{w:matlab}	
+}
 	، نسخه \lr{R2017b}
 	\item 
 	\textbf{زبان برنامه نویسی پایتون}
@@ -26,8 +27,7 @@
 
 \begin{itemize}
 	\item 
-	\textbf{سیمولینک}
-	\LTRfootnote{Simulink}
+	\textbf{\glspl{w:simulink}}
 	، جهت اتصال بین متلب و پری اسکن
 	
 	\item 
@@ -37,9 +37,7 @@
 	\LTRfootnote{Dynamic Data}
 	بین پایتون و سیمولینک
 	
-	\item 
-	\textbf{موتور متلب}
-	\LTRfootnote{\matlabengine}
+	\item \textbf{\glspl{w:matlabengine}}
 	، جهت اتصال داده های ساکن
 	\LTRfootnote{Static Data}
 	بین پایتون و سیمولینک
@@ -52,19 +50,53 @@
 
 \section{پیشنیاز های پایتون}
 
-کد پایتون در این پروژه شامل دو قسمت کلی زیر می‌شود.
-\glspl{Action}
+\begin{note}
+
+کد پایتون در این پروژه شامل دو قسمت کلی زیر می‌شود. این دو دسته در شکل
+\ref{fig:python-layers-env-alg}
+مشخص هستند.
+\begin{enumerate}
+	\item 
+	دسته اول مربوط به آن بخش از پروژه است که وظیفه اصلی آن ارتباط پیدا کردن با محیط متلب و پری اسکن و ایجاد یک نوع واسط کاربری است. گرفتن و فرستادن اطلاعات مخصوص این قسمت است.
+	\item 
+	دسته دوم با محیط و نحوه ارتباط آن کاری ندارد و تمرکز خود را بر‌روی الگوریتم خود که در این جا از الگوریتم های یادگیری تقویتی استفاده شده است، قرار داده است.
+\end{enumerate}
+
+\end{note}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Figures/python-layers-env-alg}
+	\caption{تقسیم بندی وظایف اصلی کد پایتون}
+	\label{fig:python-layers-env-alg}
+\end{figure}
 
 
+دسته اول (سمت چپ تصویر
+\ref{fig:python-layers-env-alg}
+)
+به پکیج های زیر احتیاج دارد:
+\begin{multicols}{3}
+\begin{itemize}
+	\item \lr{numpy} \item \lr{socket} \item\lr{time} \item \lr{os}
+	\item \lr{matlab.engine} \item \lr{gym}
+\end{itemize}
+\end{multicols}
+اگر از 
+\glspl{w:anaconda}
+برای پایتون استفاده می‌کنید غیراز دو بسته 
+\lr{gym}
+و 
+\lr{matlab.engine}
+به صورت پیش‌فرض نصب شده اند در صورت عدم نصب آن ها را با استفاده از 
+\lr{pip}\RTLfootnote{مثلا بسته \lr{numpy} را با استفاده از دستور \lr{\texttt{pip install numpy}} نصب می‌توان کرد.}
+می‌توان نصب کرد.
 
-
-
-
-
-
-
-
-
+بسته \lr{gym} که در این فصل به‌تفصیل در مورد آن بحث شده است، به راحتی با همان دستور \texttt{pip} نصب می‌شود.
+\begin{itemize}
+	\item \lr{gym[atary]} یا \lr{gym[all]}
+	\item \lr{stable-baseline}
+\end{itemize}
 
 
 
