@@ -1,0 +1,13 @@
+;; This logfile was generated automatically by `xindy'
+;; at 27.09.2019  15:00:01
+;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\rxZR4wSFxg", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\XtZlyXWRwN", Output: "AUTthesis.gls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¢¤µª°¯" -> "A"

@@ -2,24 +2,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2-1}{\ignorespaces }}{4}{figure.2.1}
-\contentsline {figure}{\numberline {2-2}{\ignorespaces }}{4}{figure.2.2}
-\contentsline {figure}{\numberline {2-3}{\ignorespaces }}{4}{figure.2.3}
+\contentsline {figure}{\numberline {2-2}{\ignorespaces }}{5}{figure.2.2}
+\contentsline {figure}{\numberline {2-3}{\ignorespaces }}{5}{figure.2.3}
 \contentsline {figure}{\numberline {2-4}{\ignorespaces }}{5}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces بلوک دیالگرام لایه های کلی}}{8}{figure.3.1}
-\contentsline {figure}{\numberline {3-2}{\ignorespaces بخشی از توانایی های نرم افزار پری‌اسکن در شبیه سازی}}{10}{figure.3.2}
-\contentsline {figure}{\numberline {3-3}{\ignorespaces آیکون های اضافه شده بر روی محیط دسکتاپ پس از نصب پری‌اسکن}}{11}{figure.3.3}
-\contentsline {figure}{\numberline {3-4}{\ignorespaces پنل مدریت نرم‌افزار پری‌اسکن}}{11}{figure.3.4}
-\contentsline {figure}{\numberline {3-5}{\ignorespaces صفحه گرافیکی محیط پری‌اسکن}}{12}{figure.3.5}
-\contentsline {figure}{\numberline {3-6}{\ignorespaces فایل سیمولینک ایجاد شده توسط نرم افزار پری‌اسکن همراه با تغییرات}}{13}{figure.3.6}
-\contentsline {figure}{\numberline {3-7}{\ignorespaces روش صحیح اعمال تغییرات روی فایل سیمولینک}}{14}{figure.3.7}
-\contentsline {figure}{\numberline {3-8}{\ignorespaces فایل سیمولینک - شبیه سازی اتومبیل}}{15}{figure.3.8}
-\contentsline {figure}{\numberline {3-9}{\ignorespaces نگاهی از نزدیک به بلوک \lr {Environmnet}}}{16}{figure.3.9}
-\contentsline {figure}{\numberline {3-10}{\ignorespaces فایل سیمولینک - داخل بلوک \lr {Environment}}}{17}{figure.3.10}
-\contentsline {figure}{\numberline {3-11}{\ignorespaces منطق محاسبه تمام شدن و دستور ریست کردن}}{19}{figure.3.11}
-\contentsline {figure}{\numberline {3-12}{\ignorespaces ساختار جیسون برای بلوک های سیمولینک}}{19}{figure.3.12}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {اطلاعات خام جیسون کلی}}}{19}{figure.3.12}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {جیسون سنسور}}}{19}{figure.3.12}
-\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {شکل ادغام شده }}}{19}{figure.3.12}
-\contentsline {figure}{\numberline {3-13}{\ignorespaces بلوک دیالگرام لایه های پایتون}}{21}{figure.3.13}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \contentsfinish 
