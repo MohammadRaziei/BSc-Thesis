@@ -78,7 +78,7 @@
 به پکیج های زیر احتیاج دارد:
 \begin{multicols}{3}
 \begin{itemize}
-	\item \lr{numpy} \item \lr{socket} \item\lr{time} \item \lr{os}
+	\item \lr{numpy} \item \lr{socket} \item\lr{time} و \lr{os} \item \lr{pandas}
 	\item \lr{matlab.engine} \item \lr{gym}
 \end{itemize}
 \end{multicols}
@@ -244,7 +244,83 @@
 
 
 
-\code[matlab]{startup.m}
+\subsection{نصب
+\glspl{w:matlabengine}
+}
+برای نصب موتور متلب ابتدا نیاز است که به متلب به طور کامل در سیستم نصب باشد. پس از نصب متلب، محیط \lr{Command prompt (admin)} را باز کنید و با توجه به نسخه و محل نصب متلب خود به آدرس زیر بروید.
 
+\begin{center}
+	\LRE{\verb|<matlabroot>\extern\engines\python|}
+\end{center}
 
+مثلا برای \lr{Matlab R2017b} که در محل پیش‌فرض خود نصب شده باشد این کار با استفاده از دستور زیر انجام می‌شود.
 
+\begin{center}
+	\LRE{\verb|cd C:\Program Files\MATLAB\R2017a\extern\engines\python|}
+\end{center}
+
+در این پوشه یک فایل به نام \lr{setup.py} موجود می‌باشد. این فایل را با استفاده از دستور 
+
+\begin{center}
+	\LRE{\verb|python setup.py install|}
+\end{center}
+
+در همان محیط \lr{cmd} اجرا کنید.
+
+\begin{note}
+	توجه داشته باشید که باید نسخه متلب و پایتون شما باید با یکدیگر سازگار باشند. برای بررسی این موضوع اگر فایل \lr{setup.py} را با اسنفاده از یک ادیتور باز کنید، یک آرایه به نام \texttt{\_supported\_versions} در آن خواهید دید. مقادیر این آرایه، نسخه هایی از پایتون را نشان می‌دهد که توصط نسخه متل شما پشتیبانی میشود مثلا در این مورد، با توجه به خط زیر نسخه های $2.7$ ، $3.4$ ، $3.5$ و $3.6$ پاینون پشتیبانی می‌شود. در غیر این صورت باید نسخه سازگار متلب و یا پایتون را نصب کنید.
+	\begin{center}
+		\LRE{\verb|_supported_versions = ['2.7', '3.4', '3.5', '3.6']|}
+	\end{center}
+\end{note}
+
+\section{معرفی دقیق تر پیشنیاز های پایتون}
+\subsection{بسته‌های کمکی}
+این بسته ها نقش حیاتی ندارند و برای برخی از موارد استفاده شده‌اند. این موارد در جدول
+\ref{table:aux-packages}
+آمده است.
+
+\begin{table}[t!]\tableset{
+	\begin{tabular}{|C{0.13\linewidth}|C{0.52\linewidth}|C{0.25\linewidth}|}
+		\hline\rowcolor{lightgray} نام بسته  &  دلیل استفاده & روش نصب
+		\\\hline
+		\lr{numpy} & ایجاد ماتریس برای \glspl{w:actionspace} و \glspl{w:obsspace} & \LRE{\texttt{pip install numpy}}
+		\\\hline
+		\lr{time} & جهت ایجاد تاخیر و 
+		\glspl{w:timeout}
+		 & \LRE{\texttt{pip install time}}
+		\\\hline
+		\lr{os} & برای بستن پنجره های باز شده پس از اجرا & \LRE{\texttt{pip install os}}
+		\\\hline
+		\lr{pandas} & برای چاپ اطلاعات آماری 
+		\glspl{w:reward}
+		های بدست آمده در پایان هر 
+		\glspl{w:episode}
+		 & \LRE{\texttt{pip install pandas}}
+		\\\hline
+		\lr{socket} & برقراری ارتباط با 
+		\w{matlab}
+		و فرستان و دریافت کردن 
+		\ws{dyndata}
+		 & \LRE{\texttt{pip install socket}}
+		\\\hline
+		\lr{tensorflow} & برای لایه الگوریتم و استفاده از الگوریتم‌های
+		\w{drl}
+		 & \LRE{\texttt{pip install tensorflow}}
+		\\\hline
+	\end{tabular}}
+	\caption{}
+	\label{table:aux-packages}
+\end{table}
+
+\subsection{معرفی بسته \lr{gym}}
+بسته 
+\href{https://github.com/openai/gym}{\lr{gym}}
+ که توسط 
+ \href{https://github.com/openai}{\lr{OpenAI}}
+ توسعه یافته است. این ابزار فوق العاده این امکان را برای محقیقین علوم کامپیوتر فراهم می‌کند که 
+ 
+ OpenAI Gym is an awesome tool which makes it possible for computer scientists, both amateur and professional, to experiment with a range of different reinforcement learning (RL) algorithms, and even, potentially, to develop their own.
+
+\cite{medgyminstall}
+\cite{uclRL}

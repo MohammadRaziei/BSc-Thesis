@@ -1,0 +1,32 @@
+\edef \SavedTocDepth {\the \value {tocdepth}}
+\setcounter {tocdepth}{-10}
+\contentsline {chapter}{فهرست اشکال}{د}{section*.4}
+\contentsline {chapter}{فهرست جداول}{ه}{section*.5}
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
+\contentsline {chapter}{\numberline {1}یادگیری تقویتی با استفاده از \lr {gym}}{1}{chapter.1}
+\contentsline {section}{\numberline {1-1}معرفی مفاهیم یادگیری تقویتی}{2}{section.1.1}
+\contentsline {section}{\numberline {1-2}معرفی \lr {OpenAI gym}}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1-2-1}مقدمه}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1-2-2}نصب}{2}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}معرفی یادگیری ماشین}{3}{chapter.2}
+\contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2-1-1}جایگاه یادگیری تقویتی در یادگیری ماشین}{4}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {3}پیشنیاز های نصب و معرفی قسمت های مختلف}{6}{chapter.3}
+\contentsline {section}{\numberline {3-1}نرم‌افزار‌های کلی}{7}{section.3.1}
+\contentsline {section}{\numberline {3-2}پیشنیاز های پایتون}{8}{section.3.2}
+\contentsline {section}{\numberline {3-3}معرفی دقیق تر اجزای کلی}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3-3-1}معرفی نرم‌افزار \glspl {w:prescan} }{9}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3-3-2}فرمت های فایل های خروجی}{10}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3-3-3}نصب \glspl {w:matlabengine} }{11}{subsection.3.3.3}
+\contentsline {section}{\numberline {3-4}معرفی دقیق تر پیشنیاز های پایتون}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3-4-1}بسته‌های کمکی}{12}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3-4-2}معرفی بسته \lr {gym}}{12}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}راه اندازی و توضیح مختصری بر الگوریتم}{14}{chapter.4}
+\contentsline {chapter}{\numberline {5}فنی}{16}{chapter.5}
+\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{18}{chapter.6}
+\contentsline {chapter}{منابع و مراجع}{19}{appendix*.6}
+\contentsline {chapter}{نمایه}{20}{appendix*.6}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{21}{section*.7}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{22}{section*.13}
+\contentsfinish 
