@@ -5,9 +5,9 @@
 \BOOKMARK [1][-]{section.1.2}{معرفی OpenAI gym}{chapter.1}% 5
 \BOOKMARK [2][-]{subsection.1.2.1}{مقدمه}{section.1.2}% 6
 \BOOKMARK [2][-]{subsection.1.2.2}{نصب}{section.1.2}% 7
-\BOOKMARK [0][-]{chapter.2}{معرفی یادگیری ماشین}{}% 8
+\BOOKMARK [0][-]{chapter.2}{معرفی w:rl}{}% 8
 \BOOKMARK [1][-]{section.2.1}{مقدمه}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.1.1}{جایگاه یادگیری تقویتی در یادگیری ماشین}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{جایگاه w:rl در w:ml}{section.2.1}% 10
 \BOOKMARK [0][-]{chapter.3}{پیشنیاز های نصب و معرفی قسمت های مختلف}{}% 11
 \BOOKMARK [1][-]{section.3.1}{نرم‌افزار‌های کلی}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.2}{پیشنیاز های پایتون}{chapter.3}% 13
@@ -21,7 +21,7 @@
 \BOOKMARK [0][-]{chapter.4}{راه اندازی و توضیح مختصری بر الگوریتم}{}% 21
 \BOOKMARK [0][-]{chapter.5}{فنی}{}% 22
 \BOOKMARK [0][-]{chapter.6}{شبیه سازی و نتایج}{}% 23
-\BOOKMARK [0][-]{appendix*.8}{منابع و مراجع}{}% 24
-\BOOKMARK [0][-]{appendix*.8}{نمایه}{}% 25
+\BOOKMARK [1][-]{section.6.1}{راه‌اندازی}{chapter.6}% 24
+\BOOKMARK [0][-]{appendix*.8}{منابع و مراجع}{}% 25
 \BOOKMARK [0][-]{section*.9}{واژه نامه انگلیسی به فارسی}{}% 26
 \BOOKMARK [0][-]{section*.22}{واژه نامه فارسی به انگلیسی}{}% 27
