@@ -36,3 +36,7 @@
 (indexentry :tkey (("الگوریتم" "\\glossentry{f-w:alg}") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("محیط" "\\glossentry{f-w:env}") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("مخزن (گیت‌هاب)" "\\glossentry{f-w:repo}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("محیط" "\\glossentry{f-w:env}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("ترمینال" "\\glossentry{f-w:terminal}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("یادگیری تقویتی عمیق" "\\glossentry{f-w:drl}") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("نرم‌افزار پری‌اسکن" "\\glossentry{f-w:prescan}") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 

@@ -28,7 +28,7 @@
 \contentsline {chapter}{\numberline {5}فنی}{17}{chapter.5}
 \contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{19}{chapter.6}
 \contentsline {section}{\numberline {6-1}راه‌اندازی}{20}{section.6.1}
-\contentsline {chapter}{منابع و مراجع}{21}{appendix*.8}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{22}{section*.9}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{23}{section*.22}
+\contentsline {chapter}{منابع و مراجع}{22}{appendix*.8}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{23}{section*.9}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{24}{section*.22}
 \contentsfinish 

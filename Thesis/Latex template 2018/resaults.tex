@@ -5,6 +5,97 @@
 \section{راه‌اندازی}
 این کد در گیت هاب در دو 
 \w{repo}
-موجود می‌باشد. پس از نصب پیش‌نیاز ها که در 
+موجود می‌باشد. ابتدا پیش‌نیاز های لازم را که در بخش
 \ref{ch:req}
-توضیح داده شدند.
+توضیح داده شدند، را نصب کنید. پیشنهاد می‌شود که تمامی نسخه‌های لازم توضیح داده شده در بخش \ref{ch:req} را در سیستم‌عامل لینوکس استفاده کنید. 
+
+اگر به توصیه استفاده از لینوکس عمل نکرده باشید، می‌توانید با استفاده شبکه که کد در اختیارتان قرار می‌دهد کد را روی دو کامپیوتر ران کنید به طوری که در یک کامپیوتر ویندوز و نرم افزار های گفته شده نصب باشد و روی دیگری لینوکس و پایتون و پیشنیاز های پایتون که در بخش 
+\ref{ch:req|sec:python-req}
+بررسی شدند نصب باشد. 
+\begin{note}
+بهتراست این دو کامپیوتر در یک شبکه داخلی به یک دیگر متصل شده باشند.
+\end{note}
+
+حال وارد کامپیوتری شوید که ویندوز بر روی آن نصب است. این کامپیوتر قرار است نقش 
+\w{env}
+را برای ما ایجاد کند. 
+\begin{note}
+	کد های پایتون صرفا بر روی کامپیوتری که لینوکس دارد اجرا کنید.
+\end{note}
+ که دستور زیر را در \w{terminal} خود وارد کنید.
+
+\begin{latin}
+\begin{lstlisting}[language=bash]
+git clone https://github.com/MohammadRaziei/gym-Prescan.git
+pip install -e gym-Prescan
+\end{lstlisting}
+\end{latin}
+
+خط دوم این کد، اختیاری می‌باشد و صرفا کار را ساده می‌کند. همچنین می‌توان آن را به صورت زیر نیز نوشت:
+
+\begin{latin}
+\begin{lstlisting}[language=bash]
+pip install git+https://github.com/MohammadRaziei/gym-Prescan
+\end{lstlisting}
+\end{latin}
+
+سپس وارد مسیر زیر شوید.
+\begin{center}
+\begin{latin}
+\begin{verbatim}
+gym-Prescan/gym_prescan/envs/PreScan
+\end{verbatim}
+\end{latin}
+\end{center}
+
+سپس با استفاده از آیکون 
+\raisebox{-0.3\height}{\includegraphics[width=0.6cm]{Figures/PreScan-logo.png}}
+\RTLfootnote{
+این آیکون پس از نصب نرم‌افزار \w{prescan} بر روی دستکتاپ تشکیل می‌شود.
+}
+کلیک کنید. در این صورت برروی نوار \lr{Toolbar} این آیکون نیز ظاهر می‌شود. با فشردن آن،
+ پنجره شکل 
+\ref{fig:prescan-panel}
+باز می‌شود. برروی \lr{Matlab} کلیک کنید تا محیط متلب باز شود. اچرای فایل \texttt{startup.m} برای هنگامی که از کد پایتون بر روی همان سیستم استفاده نمی‌کنید، اختیاری است. 
+
+فایل سیمولینک را باز کرده و ....
+
+
+
+پس حال در سیستم لینکوس خود میتوانید بسته زیر را دانلود کنید.
+
+\begin{latin}
+\begin{lstlisting}[language=bash]
+git clone https://github.com/MohammadRaziei/gym-Prescan-minimal.git
+cd gym-Prescan-minimal
+\end{lstlisting}
+\end{latin}
+
+در این پوشه تعدادی از الگوریتم های معروفی که در حوزه \w{drl} نوشته شده است، قرار دارد.
+در بین این الگوریتم ها دو الگوریتم \gls{a:dqn} و \gls{a:a2c}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

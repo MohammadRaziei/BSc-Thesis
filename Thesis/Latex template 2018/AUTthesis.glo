@@ -36,3 +36,7 @@
 (indexentry :tkey (("\\lr {Algorithm}" "\\glossentry{w:alg}") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Environment}" "\\glossentry{w:env}") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Repository}" "\\glossentry{w:repo}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("\\lr {Environment}" "\\glossentry{w:env}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("\\lr {Terminal}" "\\glossentry{w:terminal}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("\\lr {Deep Reinforcement Learning}" "\\glossentry{w:drl}") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("\\lr {PreScan}" "\\glossentry{w:prescan}") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 
