@@ -21,12 +21,14 @@
 \contentsline {subsection}{\numberline {3-3-3}نصب \glspl {w:matlabengine} }{11}{subsection.3.3.3}
 \contentsline {section}{\numberline {3-4}معرفی دقیق تر پیشنیاز های پایتون}{12}{section.3.4}
 \contentsline {subsection}{\numberline {3-4-1}بسته‌های کمکی}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3-4-2}معرفی بسته \lr {gym}}{12}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {4}راه اندازی و توضیح مختصری بر الگوریتم}{14}{chapter.4}
-\contentsline {chapter}{\numberline {5}فنی}{16}{chapter.5}
-\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{18}{chapter.6}
-\contentsline {chapter}{منابع و مراجع}{19}{appendix*.6}
-\contentsline {chapter}{نمایه}{20}{appendix*.6}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{21}{section*.7}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{22}{section*.13}
+\contentsline {subsection}{\numberline {3-4-2}بسته \lr {gym}}{12}{subsection.3.4.2}
+\contentsline {subsubsection}{معرفی}{12}{section*.6}
+\contentsline {subsubsection}{نصب}{14}{section*.7}
+\contentsline {chapter}{\numberline {4}راه اندازی و توضیح مختصری بر الگوریتم}{15}{chapter.4}
+\contentsline {chapter}{\numberline {5}فنی}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{19}{chapter.6}
+\contentsline {chapter}{منابع و مراجع}{20}{appendix*.8}
+\contentsline {chapter}{نمایه}{21}{appendix*.8}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{22}{section*.9}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{23}{section*.22}
 \contentsfinish 

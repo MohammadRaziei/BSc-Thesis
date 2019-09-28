@@ -1,55 +1,62 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: AUTthesis.aux
-A level-1 auxiliary file: chapter1.aux
-A level-1 auxiliary file: RL.aux
-A level-1 auxiliary file: requarments.aux
-A level-1 auxiliary file: ALG.aux
-A level-1 auxiliary file: fani.aux
-A level-1 auxiliary file: resaults.aux
-The style file: ieeetr.bst
-Database file #1: references.bib
-Warning--entry type for "uclRL" isn't style-file defined
---line 56 of file references.bib
-You've used 3 entries,
-            1876 wiz_defined-function locations,
-            499 strings with 3789 characters,
-and the built_in function-call counts, 434 in all, are:
-= -- 36
-> -- 16
-< -- 0
-+ -- 7
-- -- 4
-* -- 19
-:= -- 70
-add.period$ -- 4
-call.type$ -- 3
-change.case$ -- 3
-chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 17
-empty$ -- 57
-format.name$ -- 4
-if$ -- 106
-int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 3
-pop$ -- 19
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 10
-stack$ -- 0
-substring$ -- 0
-swap$ -- 1
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 3
-width$ -- 4
-write$ -- 26
-(There was 1 warning)
+;; This logfile was generated automatically by `xindy'
+;; at 28.09.2019  19:09:41
+;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\qLowSXLZdY", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\h3cCpJTwwW", Output: "AUTthesis.bls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "ž‚˜Ž‚ „¡‚šž" -> "Ù†"
+Letter-group: "ž‚˜Ž‚ …œƒ" -> "Ù†"
+Letter-group: "¡Ÿœ¡žš" -> "Ø³"
+Letter-group: "Ÿ…Ÿ …œƒ" -> "Ù…"
+Letter-group: "ž‚˜Ž‚ €ž‚šŸž‹‚" -> "Ù†"
+Letter-group: "¡‚‹›¡¡ …™Ÿ¡…¡" -> "ÛŒ"
+Letter-group: "˜“‚¡ ‘‚ ‹ " -> "Ù"
+Letter-group: "˜“‚¡ ‰š…" -> "Ù"
+Letter-group: "™˜ Ž‚ž¡" -> "Ø³"
+Letter-group: "‚…¡‚Ž" -> "Ø§"
+Letter-group: "‚„¡ŽŸ‹" -> "Ø§"
+Letter-group: "‹‚‹  ‚¡ „Ÿ¡‚" -> "Ø¯"
+Letter-group: "¡‚‹›¡¡ …™Ÿ¡…¡ –¡™" -> "ÛŒ"
+Letter-group: "ƒžˆ‚š" -> "Ø¨"
+Letter-group: "‰¡”" -> "Ù…"
+Letter-group: "‚œ›Ÿ¡…" -> "Ø§"
+Letter-group: "–‚œ" -> "Ø¹"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "‚„¡ŽŸ‹" -> "Ø§"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ƒžˆ‚š" -> "Ø¨"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "‹‚‹  ‚¡ „Ÿ¡‚" -> "Ø¯"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "™˜ Ž‚ž¡" -> "Ø³"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "–‚œ" -> "Ø¹"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "˜“‚¡ ‰š…" -> "Ù"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "‰¡”" -> "Ù…"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ž‚˜Ž‚ €ž‚šŸž‹‚" -> "Ù†"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¡‚‹›¡¡ …™Ÿ¡…¡" -> "ÛŒ"

@@ -217,11 +217,21 @@
 \setlist[circlelist,1]{label=\protect\circled{\arabic*}}
 \newlist{alphabetlist}{enumerate}{1}
 \setlist[alphabetlist]{label=\alph*)}
+\newlist{checklist}{itemize}{1}
+\setlist[checklist]{label=$\checkmark$)}
+\newlist{iteminline}{itemize*}{1}
+\setlist[iteminline]{label=$\bullet$}
 
+\newlist{itemic}{itemize}{1}
+\setlist[itemic,1]{label=$\times$}
+\setlist[itemic,2]{label=$\checkmark$}
+\setlist[itemic,3]{label=$\diamond$}
+\setlist[itemic,4]{label=$\bullet$}
 
 %\usepackage{titlesec}
 % بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
 \usepackage[pagebackref=false,colorlinks,linkcolor=blue,citecolor=red]{hyperref}
+\usepackage{url}
 \usepackage[nameinlink]{cleveref}%capitalize,,noabbrev
  \AtBeginDocument{%
     \crefname{equation}{برابری}{equations}%
@@ -470,5 +480,7 @@
 
 \newcommand{\w}[1]{\glspl{w:#1}}
 \newcommand{\ws}[1]{\glspl*{w:#1}}
+
+
 
 %%%%%% ============================================================================================================

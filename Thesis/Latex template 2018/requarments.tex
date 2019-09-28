@@ -313,14 +313,73 @@
 	\label{table:aux-packages}
 \end{table}
 
-\subsection{معرفی بسته \lr{gym}}
+\subsection{بسته \lr{gym}}
+
+\subsubsection{معرفی}
 بسته 
 \href{https://github.com/openai/gym}{\lr{gym}}
  که توسط 
  \href{https://github.com/openai}{\lr{OpenAI}}
- توسعه یافته است. این ابزار فوق العاده این امکان را برای محقیقین علوم کامپیوتر فراهم می‌کند که 
+ توسعه یافته است. این ابزار فوق العاده این امکان را برای محقیقین علوم کامپیوتر حرفه‌ای و یا آماتور فراهم می‌کند که انواع الگوریتم های 
+ \w{rl}
+ (\gls*{a:rl})
+ را بر روی کار خود تست کنند. همچنین پتانسیل این را دارد که محقیقن محیط خود را برروی این بسته توسعه دهند.
  
- OpenAI Gym is an awesome tool which makes it possible for computer scientists, both amateur and professional, to experiment with a range of different reinforcement learning (RL) algorithms, and even, potentially, to develop their own.
+ هدف از ایجاد این بسته، استاندارد سازی 
+\w{env}
+و نوعی 
+\w{benchmark}
+برای پژوهش های 
+\gls*{a:rl}
+محسوب می‌شود.\cite{medgyminstall}
 
-\cite{medgyminstall}
+در حقیقت می‌توان این بسته را در وسط شکل
+\ref{fig:python-layers-env-alg}
+جای‌ داد. جایی که لایه 
+\w{env}
+و لایه 
+\w{alg}
+به‌یک‌دیگر می‌رسند. 
+
+ این بسته محیط هایی از پیش ساخته شده دارد. نام این بسته ها در لیست زیر
+ آمده است. 
+ \RTLfootnote{جدول کامل در سایت 
+ 	\url{https://github.com/openai/gym/wiki/Table-of-environments}
+قرار دارد. 
+}
+ اکثر این محیط ها نوعی بازی هستند که 
+ \w{agent}
+ سعی در یادگیری آن محیط ها دارد.
+
+ 
+\begin{multicols}{2}\scriptsize\setstretch{0.5}
+\begin{itemize}
+\item \lr{CartPole-v0}
+\item \lr{Pendulum-v0}
+\item \lr{MountainCar-v0}
+\item \lr{MountainCarContinuous-v0}
+\item \lr{BipedalWalker-v2}
+\item \lr{Humanoid-V1}
+\item \lr{Riverraid-v0}
+\item \lr{Breakout-v0}
+\item \lr{Pong-v0}
+\item \lr{MsPacman-v0}
+\item \lr{SpaceInvaders-v0}
+\item \lr{Seaquest-v0}
+\item \lr{LunarLanderV2}
+\item \lr{Reacher-v2}
+\item \lr{FrozenLake-v0}
+\end{itemize}
+\end{multicols}
+
+
+% OpenAI Gym is an awesome tool which makes it possible for computer scientists, both amateur and professional, to experiment with a range of different reinforcement learning (RL) algorithms, and even, potentially, to develop their own.
+
+%Built with the aim of becoming a standardized environment and benchmark for RL research, OpenAI Gym is a Python package comprising a selection of RL environments, ranging from simple “toy” environments, to more challenging environments, including simulated robotics environments and Atari video game environments.
+\subsubsection{نصب}
+ برای نصب نسخه کمینه این نرم افزار با همان روش \lr{pip} به راحتی می‌توان نرم‌افزار مورد نظر را نصب کرد.
+ \cite{git/gym}
+ این نسخه کمینه برای لایه 
+ \w{env}
+ کافی می‌باشد. اما اگر بخواهیم بخش \w{alg} را با استفاده از کتابخانه های دیگری مانند \lr{stable-baseline} نوشت.
 \cite{uclRL}
