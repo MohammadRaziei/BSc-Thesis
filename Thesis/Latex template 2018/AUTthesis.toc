@@ -12,25 +12,28 @@
 \contentsline {chapter}{\numberline {2}معرفی \glspl *{w:rl}}{3}{chapter.2}
 \contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2-1-1}جایگاه \glspl *{w:rl} در \glspl *{w:ml}}{4}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2-1-2}وجه تمایز \glspl *{w:rl} از دیگر الگو‌های \glspl *{w:ml} }{4}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {3}پیشنیاز های نصب و معرفی قسمت های مختلف}{6}{chapter.3}
-\contentsline {section}{\numberline {3-1}نرم‌افزار‌های کلی}{7}{section.3.1}
-\contentsline {section}{\numberline {3-2}پیشنیاز های پایتون}{8}{section.3.2}
-\contentsline {section}{\numberline {3-3}معرفی دقیق تر اجزای کلی}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3-3-1}معرفی نرم‌افزار \glspl {w:prescan} }{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3-3-2}فرمت های فایل های خروجی}{10}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3-3-3}نصب \glspl {w:matlabengine} }{11}{subsection.3.3.3}
-\contentsline {section}{\numberline {3-4}معرفی دقیق تر پیشنیاز های پایتون}{12}{section.3.4}
-\contentsline {subsection}{\numberline {3-4-1}بسته‌های کمکی}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3-4-2}بسته \lr {gym}}{12}{subsection.3.4.2}
-\contentsline {subsubsection}{معرفی}{12}{section*.6}
-\contentsline {subsubsection}{نصب}{14}{section*.7}
-\contentsline {chapter}{\numberline {4}راه اندازی و توضیح مختصری بر الگوریتم}{15}{chapter.4}
-\contentsline {chapter}{\numberline {5}فنی}{17}{chapter.5}
-\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{19}{chapter.6}
-\contentsline {section}{\numberline {6-1}راه‌اندازی}{20}{section.6.1}
-\contentsline {chapter}{منابع و مراجع}{22}{appendix*.8}
-\contentsline {chapter}{فهرست اختصارات}{23}{section*.9}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{24}{section*.14}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{25}{section*.27}
+\contentsline {subsection}{\numberline {2-1-2}وجه تمایز \glspl *{w:rl} از دیگر الگو‌های \glspl *{w:ml} }{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2-1-3} \glspl *{w:agent} و \glspl *{w:env} }{5}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2-1-4}\glspl *{w:state}}{6}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2-1-5}\glspl {w:observ}}{8}{subsection.2.1.5}
+\contentsline {chapter}{\numberline {3}پیشنیاز های نصب و معرفی قسمت های مختلف}{9}{chapter.3}
+\contentsline {section}{\numberline {3-1}نرم‌افزار‌های کلی}{10}{section.3.1}
+\contentsline {section}{\numberline {3-2}پیشنیاز های پایتون}{11}{section.3.2}
+\contentsline {section}{\numberline {3-3}معرفی دقیق تر اجزای کلی}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3-3-1}معرفی نرم‌افزار \glspl {w:prescan} }{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3-3-2}فرمت های فایل های خروجی}{13}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3-3-3}نصب \glspl {w:matlabengine} }{14}{subsection.3.3.3}
+\contentsline {section}{\numberline {3-4}معرفی دقیق تر پیشنیاز های پایتون}{15}{section.3.4}
+\contentsline {subsection}{\numberline {3-4-1}بسته‌های کمکی}{15}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3-4-2}بسته \lr {gym}}{15}{subsection.3.4.2}
+\contentsline {subsubsection}{معرفی}{15}{section*.6}
+\contentsline {subsubsection}{نصب}{16}{section*.7}
+\contentsline {chapter}{\numberline {4}راه اندازی و توضیح مختصری بر الگوریتم}{18}{chapter.4}
+\contentsline {chapter}{\numberline {5}فنی}{20}{chapter.5}
+\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{22}{chapter.6}
+\contentsline {section}{\numberline {6-1}راه‌اندازی}{23}{section.6.1}
+\contentsline {chapter}{منابع و مراجع}{25}{appendix*.8}
+\contentsline {chapter}{فهرست اختصارات}{26}{section*.9}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{27}{section*.15}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{29}{section*.32}
 \contentsfinish 

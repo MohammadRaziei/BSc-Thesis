@@ -50,21 +50,153 @@
 متمایز می‌کند؟
 }
 
-\begin{figure}
+این سوال از آن جهت حایز اهمیت است که بیان می‌کند چرا ما به سراغ الگوی 
+\w{rl}
+رفته‌ایم. پاسخ ملاحظات زیر است.
+
+\begin{alphabetlist}
+\item هیچ 
+\w{sup}
+وجود ندارد و صرفا \w{reward}ها وجود دارند.
+\item 
+\w{feedback}
+همراه با تاخیر است وبه صورت همزمان رخ نمی‌دهد.
+\RTLfootnote{در مورد علت تاخیر در ادامه توضیح داده خواهد شد.}
+\item 
+مفهوم زمان واقعا مطرح است و یک ترتیب خاص از داده ها داریم.
+شکل \ref{fig:markov-chain-sarsa} این توالی زمانی را نشان می‌دهد.
+\end{alphabetlist}
+
+\w{rl}(\gls{a:rl})
+بر اساس \w{rewardhypo} پایه‌گذاری می‌شود.
+\begin{definition}[\w{rewardhypo}]
+	همه اهداف می‌توانند براساس بیشینه کردن مقدار میانگین تجمعی امتیازها توصیف کرد.
+\end{definition}
+
+ممکن است این عبارت کمی عجیب بنظر برسد اما در بسیاری از مسایل که به صورت برد و باخت و به نوعی دو حالت مطلوب و نامطلوب دارند، می‌توان در ساده ترین حالت مقدار $+1$ را برای برد و $-1$ را برای باخت در نظر گرفت.
+
+\subsection{
+\ws{agent} و \ws{env}
+}
+ 
+ این مفهوم بسیار مفهوم مهمی می‌باشد و بارها از آن در این پروژه یاد شده است.
+ 
+ در مسایل \w{rl} یک 
+ \textbf{\w{agent}}
+ وحود دارد که در یک \textbf{\w{env}} درحال تعامل است. \w{env} می‌تواند محیط اطراف \w{agent} باشد و یا هرچیزی که \w{agent} با آن در تعامل است.
+  \cite{uclRL}
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/RL/Enviroment-brain-as-agent}
 	\caption{}
 	\label{fig:enviroment-brain-as-agent}
 \end{figure}
-\begin{figure}
+
+این تعامل به این صورت است که \w{agent} که در ابتدا یک \w{state} اولیه دارد، یک \w{action} بر روی \w{env} در زمان $t$ انجام می‌دهد. 
+\w{env} مقدار \w{action} در زمان $t$ را دریافت می‌کند و 
+سپس \w{env} در زمان $t+1$ دو اطلاعات مهم را بر می‌گرداند. 
+\begin{alphinline}
+	\item \w{obs}
+	\item \w{reward}
+\end{alphinline}
+
+شکل 
+\ref{fig:enviroment-brain-as-agent}
+و \ref{fig:markov-chain-sarsa}
+این تعامل را نشان می‌دهد. لازم به ذکر است که در پایان هر \w{step} مقدار $t$ یک واحد افزایش می‌یابد.
+
+\subsection{\ws{state}}
+در بخش قبل تعریف مناسبی از \w{state} ارایه نشد. برای این تعریف ابتدا مفهوم \w{history} ارایه می‌شود و از روی آن \w{state} تعریف خواهد شد.
+
+\begin{definition}[\w{history}]
+	به سری شامل \w{obs}، \w{action} و \w{reward} می‌باشد:
+	\[
+	H_t = O_1 ,R_1, A_1, \dots, A_{t-1}, O_{t-1}, R_t
+	\]
+\end{definition}
+
+
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/RL/Markov-vhain-SARSA}
 	\caption{}
-	\label{fig:markov-vhain-sarsa}
+	\label{fig:markov-chain-sarsa}
 \end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Figures/RL/RL-cartpole}
-	\caption{}
-	\label{fig:rl-cartpole}
-\end{figure}
+
+با این تعریف \w{state} را می‌توان به شکل زیر تعریف کرد.
+
+\begin{definition}\label{def:state}
+	\textbf{\w{state}}
+	اطلاعاتی است که در محاسبات برای آن‌که در بعد چه اتفاقی بیافتد، استفاده می‌شود. به عبارت دیگر \w{state} تابعی از \w{history} می‌باشد.
+	\[
+	S_t = f(H_t)
+	\]
+\end{definition}
+
+دو نوع \w{state} وجود دارد.
+\begin{alphabetlist}
+	\item \textbf{\w{env state}} که با علامت $S_t^e$ نشان داده می‌شود.
+	اطلاعات نهان \w{env} را نشان می‌دهد و معمولا برای \w{agent} به‌طور کامل دیده نمی‌شود. حتی اگر برای \w{agent} مشاهده‌پذیر نیز باشد، ممکن است اطلاعات کاملا بی‌ربطی را همراه داشته باشد.
+	\item \textbf{\w{agent state}} که با علامت $S_t^a$ نشان داده می‌شود.
+	که برابر است با هر اطلاعاتی که \w{agent} برای رسیدن به \w{action} بعدی با استفاده از الگوریتم های \gls{a:rl} استفاده می‌کند. 
+\end{alphabetlist}
+
+بنابراین در نعریف \ref{def:state} مناسب‌تر است بجای واژه \w{state} از \w{agent state} استفاده شود. بنابراین:
+	\[
+	S_t^a = f(H_t)
+	\]
+	
+\begin{note}
+	از این پس در سراسر این پایان‌نامه هرجا صحبت از \w{state} شد منظور همان \w{agent state} است.
+\end{note}
+	
+\begin{definition}
+	یک 
+	\w{state}
+	$S_t$
+	\w{markov}
+	است اگر و تنها اگر:
+	$$
+		\mathbb{P}\left[S_{t+1} | S_{t}\right]=\mathbb{P}\left[S_{t+1} | S_{1}, \ldots, S_{t}\right]
+	$$
+\end{definition}
+در یک \w{markov state} آینده از گذشته مستقل است و فقط به زمان حال وابسته است.
+و این به این معناست که \w{state} از لحاظ آماری برای توصیف آینده کافی است.
+
+\begin{remark}
+	\w{env state} $S_t^e$  \w{markov} است.
+	همچنین 
+	\w{history} نیز \w{markov} است.
+\end{remark}
+
+
+\subsection{\w{observ}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{Figures/RL/RL-cartpole}
+%	\caption{}
+%	\label{fig:rl-cartpole}
+%\end{figure}
