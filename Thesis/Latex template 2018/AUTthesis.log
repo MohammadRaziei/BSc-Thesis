@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.16)  29 SEP 2019 01:23
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.16)  29 SEP 2019 13:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2138,25 +2138,25 @@ LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
 LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' will be
 (Font)              scaled to size 13.20007pt on input line 7.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 12.
+(Font)              scaled to size 9.59998pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 12.
+(Font)              scaled to size 11.00006pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/m/n' will be
-(Font)              scaled to size 7.70004pt on input line 12.
+(Font)              scaled to size 7.70004pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/m/n' will be
-(Font)              scaled to size 5.50003pt on input line 12.
+(Font)              scaled to size 5.50003pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/bx/n' will be
-(Font)              scaled to size 11.00006pt on input line 12.
+(Font)              scaled to size 11.00006pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/bx/n' will be
-(Font)              scaled to size 7.70004pt on input line 12.
+(Font)              scaled to size 7.70004pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/bx/n' will be
-(Font)              scaled to size 5.50003pt on input line 12.
+(Font)              scaled to size 5.50003pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/m/it' will be
-(Font)              scaled to size 11.00006pt on input line 12.
+(Font)              scaled to size 11.00006pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/m/it' will be
-(Font)              scaled to size 7.70004pt on input line 12.
+(Font)              scaled to size 7.70004pt on input line 20.
 LaTeX Font Info:    Font shape `TU/Yas(1)/m/it' will be
-(Font)              scaled to size 5.50003pt on input line 12.
+(Font)              scaled to size 5.50003pt on input line 20.
  [2
 
 ])
@@ -2226,7 +2226,7 @@ on input line 7.
 فصل 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 1.
+(hyperref)                removing `\glspl' on input line 2.
 
 [3
 
@@ -2235,11 +2235,29 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 3.
+(hyperref)                removing `\glspl' on input line 4.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 3.
+(hyperref)                removing `\glspl' on input line 4.
+
+File: Figures/RL/RL-machinelearning-chart.png Graphic file (type bmp)
+<Figures/RL/RL-machinelearning-chart.png>
+File: Figures/RL/RL-chart.png Graphic file (type bmp)
+<Figures/RL/RL-chart.png>
+
+Overfull \hbox (4.66736pt too wide) in paragraph at lines 51--51
+[][]\TU/BNazanin(0)/bx/n/14.4 چه چیزی []یادگیری تقویتی[] را با دیگر الگوهای []ی
+ادگیری ماشین[] متمایز[]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glspl' on input line 51.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glspl' on input line 51.
 
 File: Figures/RL/Enviroment-brain-as-agent.png Graphic file (type bmp)
 <Figures/RL/Enviroment-brain-as-agent.png>
@@ -2247,8 +2265,6 @@ File: Figures/RL/Markov-vhain-SARSA.png Graphic file (type bmp)
 <Figures/RL/Markov-vhain-SARSA.png>
 File: Figures/RL/RL-cartpole.png Graphic file (type bmp)
 <Figures/RL/RL-cartpole.png>
-File: Figures/RL/RL-chart.png Graphic file (type bmp)
-<Figures/RL/RL-chart.png>
 ) [4] [5]
 \openout2 = `requarments.aux'.
 
@@ -2318,22 +2334,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [11]
 
-LaTeX Warning: Reference `footdir@33' on page 12 undefined on input line 306.
+LaTeX Warning: Reference `footdir@42' on page 12 undefined on input line 306.
 
 
-LaTeX Warning: Reference `footdir@35' on page 12 undefined on input line 306.
+LaTeX Warning: Reference `footdir@44' on page 12 undefined on input line 306.
 
 
-LaTeX Warning: Reference `footdir@37' on page 12 undefined on input line 306.
+LaTeX Warning: Reference `footdir@46' on page 12 undefined on input line 306.
 
 
-LaTeX Warning: Reference `footdir@39' on page 12 undefined on input line 306.
+LaTeX Warning: Reference `footdir@48' on page 12 undefined on input line 306.
 
 
-LaTeX Warning: Reference `footdir@41' on page 12 undefined on input line 306.
+LaTeX Warning: Reference `footdir@50' on page 12 undefined on input line 306.
 
 
-LaTeX Warning: Reference `footdir@43' on page 12 undefined on input line 306.
+LaTeX Warning: Reference `footdir@52' on page 12 undefined on input line 306.
 
 [12]
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
@@ -2375,45 +2391,53 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [20]
 File: Figures/PreScan-logo.png Graphic file (type bmp)
 <Figures/PreScan-logo.png>
-) [21]
-(./AUTthesis.bbl
+
+
+LaTeX Warning: Reference `' on page 21 undefined on input line 76.
+
+) [21] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 1.
 ) [22
 
 
-] (./AUTthesis.gls) [23
+] (./AUTthesis.acr) [23
 
 
 
+] (./AUTthesis.gls) [24
 
-] (./AUTthesis.bls) [24
+
 
 
 
 ]
-(./en_title.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
- (./AUTthesis.aux (./chapter1.aux) (./RL.aux)
-(./requarments.aux) (./ALG.aux) (./fani.aux) (./resaults.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+(./AUTthesis.bls) [25
+
+
+
+] (./en_title.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+ (./AUTthesis.aux (./chapter1.aux)
+(./RL.aux) (./requarments.aux) (./ALG.aux) (./fani.aux) (./resaults.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `AUTthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6CAFA839A9344004E7CAB26E893C4F49.
+(rerunfilecheck)             Checksum: 5653229AC21E2980EF89A8AEB3CD5110.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 41395 strings out of 492970
- 794595 string characters out of 6137298
- 979610 words of memory out of 5000000
- 44543 multiletter control sequences out of 15000+600000
- 539749 words of font info for 145 fonts, out of 8000000 for 9000
+ 41663 strings out of 492970
+ 801589 string characters out of 6137298
+ 982237 words of memory out of 5000000
+ 44806 multiletter control sequences out of 15000+600000
+ 539757 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,21n,95p,10458b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AUTthesis.pdf (36 pages).
+Output written on AUTthesis.pdf (37 pages).

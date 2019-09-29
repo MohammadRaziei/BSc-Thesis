@@ -9,9 +9,10 @@
 \contentsline {section}{\numberline {1-2}معرفی \lr {OpenAI gym}}{2}{section.1.2}
 \contentsline {subsection}{\numberline {1-2-1}مقدمه}{2}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1-2-2}نصب}{2}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}معرفی \glspl {w:rl}}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}معرفی \glspl *{w:rl}}{3}{chapter.2}
 \contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2-1-1}جایگاه \glspl {w:rl} در \glspl {w:ml}}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2-1-1}جایگاه \glspl *{w:rl} در \glspl *{w:ml}}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2-1-2}وجه تمایز \glspl *{w:rl} از دیگر الگو‌های \glspl *{w:ml} }{4}{subsection.2.1.2}
 \contentsline {chapter}{\numberline {3}پیشنیاز های نصب و معرفی قسمت های مختلف}{6}{chapter.3}
 \contentsline {section}{\numberline {3-1}نرم‌افزار‌های کلی}{7}{section.3.1}
 \contentsline {section}{\numberline {3-2}پیشنیاز های پایتون}{8}{section.3.2}
@@ -29,6 +30,7 @@
 \contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{19}{chapter.6}
 \contentsline {section}{\numberline {6-1}راه‌اندازی}{20}{section.6.1}
 \contentsline {chapter}{منابع و مراجع}{22}{appendix*.8}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{23}{section*.9}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{24}{section*.22}
+\contentsline {chapter}{فهرست اختصارات}{23}{section*.9}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{24}{section*.14}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{25}{section*.27}
 \contentsfinish 
