@@ -444,7 +444,7 @@
 }
 \fancypagestyle{style9}{%
   \fancyhf{}%
-  \fancyhead[R]{واژه‌نامه‌ی فارسی به انگلیسی}
+  \fancyhead[R]{واژه‌نامه‌}
   \fancyfoot[C]{\thepage}%
   \renewcommand{\headrulewidth}{1.2pt}%
 }
@@ -479,7 +479,10 @@
 \input{glassory}
 \input{words}
 
-\newcommand{\w}[1]{\glspl{w:#1}}
+
+
+\newcommand{\INDEX}[1]{\expandafter\index\expandafter{#1@\textsf{\textsl{#1}}}}
+\newcommand{\w}[1]{\glspl{w:#1}\index{\glspl*{w:#1}}}
 \newcommand{\ws}[1]{\glspl*{w:#1}}
 
 

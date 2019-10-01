@@ -1,11 +1,16 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 29.09.2019  22:16:56
-;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\YSkGE5gO5_", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\matwDGyyGQ", Output: "AUTthesis.bls"
+;; at 01.10.2019  18:36:51
+;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\MihHyKY0_a", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\O9pZGsFOx2", Output: "AUTthesis.bls"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -55,6 +60,7 @@ Letter-group: "‚…¡‚Ž" -> "Ø§"
 Letter-group: "ž‚•" -> "Ù†"
 Letter-group: "ƒ‚ŽŠŸ‹" -> "Ø¨"
 Letter-group: "˜“¡  ‚…¡‚Ž ‚" -> "Ù"
+Letter-group: " Ž¡ž " -> "Ù‡"
 Letter-group: "‰¡”" -> "Ù…"
 Letter-group: "–‚œ" -> "Ø¹"
 Letter-group: "‰š…" -> "Ø­"
@@ -64,9 +70,12 @@ Letter-group: "‰œ " -> "Ù…"
 Letter-group: "…‚¡Šˆ " -> "Øª"
 Letter-group: "‰‚œ… ‰¡”" -> "Ø­"
 Letter-group: "‰‚œ… –‚œ" -> "Ø­"
-Letter-group: "‚šŸ" -> "Ù…"
-Letter-group: "‰‚œ… ‚šŸ" -> "Ø­"
+Letter-group: "‚šŸ˜" -> "Ù…"
+Letter-group: "‰‚œ… ‚šŸ˜" -> "Ø­"
 Letter-group: "‘‚ ‹ „Œ¡¡" -> "Ù…"
+Letter-group: "‘‚ ‹ „Œ¡¡ š‚œ" -> "Ù…"
+Letter-group: "‰‚œ… ‚”œ‚–‚…¡" -> "Ø­"
+Letter-group: "‘‚ ‹ „Œ¡¡ ‡¡¡" -> "Ù…"
 Letter-group: "ž‚˜Ž‚ „¡‚šž" -> "Ù†"
 Letter-group: "ž‚˜Ž‚ …œƒ" -> "Ù†"
 Letter-group: "¡Ÿœ¡žš" -> "Ø³"
@@ -80,6 +89,7 @@ Letter-group: "™˜ Ž‚ž¡" -> "Ø³"
 Letter-group: "‚„¡ŽŸ‹" -> "Ø§"
 Letter-group: "‹‚‹  ‚¡ „Ÿ¡‚" -> "Ø¯"
 Letter-group: "¡‚‹›¡¡ …™Ÿ¡…¡ –¡™" -> "ÛŒ"
+Letter-group: "‚‘¡ž ŠŸ‹‚ž" -> "Ù…"
 Letter-group: "ŠŽž (›¡… ‚ƒ)" -> "Ù…"
 Letter-group: "…¡ž‚œ" -> "Øª"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -101,8 +111,10 @@ Letter-group: "–‚œ" -> "Ø¹"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "˜“¡  ‚…¡‚Ž ‚" -> "Ù"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "‚šŸ" -> "Ù…"
+Letter-group: "‚šŸ˜" -> "Ù…"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "ž‚•" -> "Ù†"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: " Ž¡ž " -> "Ù‡"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "¡‚‹›¡¡ ƒ‚ ž‚•" -> "ÛŒ"

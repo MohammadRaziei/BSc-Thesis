@@ -5,7 +5,38 @@
       \nopagebreak
   }
 
-  \lettergroup{س}
-  \item سلام, \hyperpage{7}
+  \lettergroupDefault{default}
+  \item \glspl *{w:action}, \hyperpage{6}\hyperpage{8}
+  \item \glspl *{w:agent}, \hyperpage{6}\hyperpage{9}, \hyperpage{17}, \hyperpage{20}
+  \item \glspl *{w:agent state}, \hyperpage{8}, \hyperpage{20}
+  \item \glspl *{w:alg}, \hyperpage{16}, \hyperpage{17}
+  \item \glspl *{w:autocar}, \hyperpage{20}
+  \item \glspl *{w:benchmark}, \hyperpage{16}
+  \item \glspl *{w:clustering}, \hyperpage{4}
+  \item \glspl *{w:cost}, \hyperpage{5}
+  \item \glspl *{w:drl}, \hyperpage{17}, \hyperpage{26}
+  \item \glspl *{w:env}, \hyperpage{6}, \hyperpage{7}, \hyperpage{9}, \hyperpage{16}, \hyperpage{17}, \hyperpage{20}, \hyperpage{25}
+  \item \glspl *{w:env state}, \hyperpage{7}, \hyperpage{8}, \hyperpage{20}
+  \item \glspl *{w:feedback}, \hyperpage{5}
+  \item \glspl *{w:history}, \hyperpage{7}, \hyperpage{8}
+  \item \glspl *{w:info state}, \hyperpage{9}
+  \item \glspl *{w:markov}, \hyperpage{8}
+  \item \glspl *{w:markov state}, \hyperpage{8}, \hyperpage{9}
+  \item \glspl *{w:matlab}, \hyperpage{17}
+  \item \glspl *{w:ml}, \hyperpage{4}
+  \item \glspl *{w:obs}, \hyperpage{6}, \hyperpage{7}
+  \item \glspl *{w:observ}, \hyperpage{8}, \hyperpage{20}
+  \item \glspl *{w:prescan}, \hyperpage{26}
+  \item \glspl *{w:repo}, \hyperpage{25}
+  \item \glspl *{w:reward}, \hyperpage{5}\hyperpage{7}, \hyperpage{20}
+  \item \glspl *{w:rewardhypo}, \hyperpage{5}
+  \item \glspl *{w:rl}, \hyperpage{4}\hyperpage{6}, \hyperpage{16}, \hyperpage{20}
+  \item \glspl *{w:semisupLearning}, \hyperpage{4}
+  \item \glspl *{w:state}, \hyperpage{6}\hyperpage{8}, \hyperpage{20}
+  \item \glspl *{w:step}, \hyperpage{6}
+  \item \glspl *{w:sup}, \hyperpage{5}
+  \item \glspl *{w:supLearning}, \hyperpage{4}
+  \item \glspl *{w:terminal}, \hyperpage{25}
+  \item \glspl *{w:unsupLearning}, \hyperpage{4}
 
 \end{theindex}

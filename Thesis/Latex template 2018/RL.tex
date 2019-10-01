@@ -1,5 +1,4 @@
-
-\chapter{معرفی \ws{rl}}
+\chapter{معرفی \ws{rl}}\label{ch:rl}
 \section{مقدمه}
 \subsection{جایگاه \ws{rl} در \ws{ml}}
 بسیاری از صاحب نظران \w{ml} را به سه دسته تقسیم می‌کنند :
@@ -74,6 +73,14 @@
 \end{definition}
 
 ممکن است این عبارت کمی عجیب بنظر برسد اما در بسیاری از مسایل که به صورت برد و باخت و به نوعی دو حالت مطلوب و نامطلوب دارند، می‌توان در ساده ترین حالت مقدار $+1$ را برای برد و $-1$ را برای باخت در نظر گرفت.
+
+\begin{remark}
+	در برخی منابع بجای \w{reward} از مفهوم \w{cost} استفاده می‌کنند و هدف الگوریتم آن می‌شود که به سمتی حرکت کند که کمترین \w{cost} را داشته باشد. برای یک‌پارچه‌سازی این مفاهیم معمولا یک علامت منفی برای این دو در نظر میگیرند یعنی :
+	\[	\text{\rl{\w{reward}}} = -\text{\rl{\w{cost}}}
+		\quad \colon \quad
+		r = -c
+		\]
+\end{remark}
 
 \subsection{
 \ws{agent} و \ws{env}
@@ -160,7 +167,7 @@
 		\mathbb{P}\left[S_{t+1} | S_{t}\right]=\mathbb{P}\left[S_{t+1} | S_{1}, \ldots, S_{t}\right]
 	$$
 \end{definition}
-در یک \w{markov state} آینده از گذشته مستقل است و فقط به زمان حال وابسته است.
+در یک \w{markov state}، آینده از گذشته مستقل است و فقط به زمان حال وابسته است.
 و این به این معناست که \w{state} از لحاظ آماری برای توصیف آینده کافی است.
 
 \begin{remark}
@@ -172,13 +179,31 @@
 
 \subsection{\w{observ}}
 
+\subsubsection{\ws{fullobs}}
 
+\w{agent}
+به‌طور مستقیم \w{env state} را مشاهده می‌کند. بنابراین در این حالت داریم:
+	\[
+		O_t = S_t^a = S_t^e
+	\]
+بنابراین در این حالت عبارت های زیر با یک‌دیگر برابر هستند.
+	\[
+	\text{\rl{\w{agent state}}} = \text{\rl{\w{env state}}} = \text{\rl{\ws{info state}}}
+	\]\RTLfootnote{\w{info state}
+	مفهومی مانند \w{markov state} دارد.
+}
+به صورت رسمی، این فرایند یک \Glspl{w:mdp}(\gls*{a:mdp}) می‌باشد.
+\cite{Sutton1998}
+	
 
-
-
-
-
-
+\subsubsection{\ws{partialobs}}
+\w{agent} به‌طور غیر مستقیم \w{env} را مشاهده می‌کند.
+\begin{example}
+			یک ربات با دید دوربین نمی‌تواند موقعیت مطلق را اعلام کند.		
+\end{example}
+\begin{example}
+	یک اتومبیل با سنسور تشخیص فاصله نمی‌تواند اطلاعاتی مانند نوع ماشین و قیمت آن را تشخیص دهد.
+\end{example}
 
 
 

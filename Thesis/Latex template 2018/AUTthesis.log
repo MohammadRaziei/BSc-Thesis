@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.16)  30 SEP 2019 01:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.16)  2 OCT 2019 00:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1951,24 +1951,24 @@ LaTeX Warning: Unused global option(s):
 (./fani.aux) (./resaults.aux))
 \openout1 = `AUTthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2007,7 +2007,7 @@ LaTeX Font Info:    ... okay on input line 38.
 \c@lstlisting=\count409
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 40.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2017,9 +2017,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count410
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./AUTthesis.out) (./AUTthesis.out)
 \@outlinefile=\write10
@@ -2226,7 +2226,7 @@ on input line 7.
 فصل 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 2.
+(hyperref)                removing `\glspl' on input line 1.
 
 [3
 
@@ -2235,78 +2235,81 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 4.
+(hyperref)                removing `\glspl' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 4.
+(hyperref)                removing `\glspl' on input line 3.
 
 File: Figures/RL/RL-machinelearning-chart.png Graphic file (type bmp)
 <Figures/RL/RL-machinelearning-chart.png>
 File: Figures/RL/RL-chart.png Graphic file (type bmp)
 <Figures/RL/RL-chart.png>
 
-Overfull \hbox (4.66736pt too wide) in paragraph at lines 51--51
+Overfull \hbox (4.66736pt too wide) in paragraph at lines 50--50
 [][]\TU/BNazanin(0)/bx/n/14.4 چه چیزی []یادگیری تقویتی[] را با دیگر الگوهای []ی
 ادگیری ماشین[] متمایز[]
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 51.
+(hyperref)                removing `\glspl' on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 51.
+(hyperref)                removing `\glspl' on input line 50.
 
 [4]
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 64.
+(Font)              scaled to size 8.39998pt on input line 63.
 LaTeX Font Info:    Font shape `TU/Yas(0)/m/n' will be
-(Font)              scaled to size 7.70004pt on input line 64.
+(Font)              scaled to size 7.70004pt on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 80.
+(hyperref)                removing `\glspl' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 80.
+(hyperref)                removing `\glspl' on input line 87.
 
+[5]
 File: Figures/RL/Enviroment-brain-as-agent.png Graphic file (type bmp)
 <Figures/RL/Enviroment-brain-as-agent.png>
-[5]
+ [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 108.
+(hyperref)                removing `\glspl' on input line 115.
 
-[6]
 File: Figures/RL/Markov-vhain-SARSA.png Graphic file (type bmp)
 <Figures/RL/Markov-vhain-SARSA.png>
- [7]
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glspl' on input line 173.
+(hyperref)                removing `\glspl' on input line 180.
 
-) [8]
+
+LaTeX Warning: Reference `footdir@64' on page 8 undefined on input line 194.
+
+[8]) [9]
 \openout2 = `requarments.aux'.
 
  (./requarments.tex
 فصل 3.
-[9
+[10
 
 
 
-] [10]
+] [11]
 File: Figures/python-layers-env-alg.png Graphic file (type bmp)
 <Figures/python-layers-env-alg.png>
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [11]
+ [12]
 
-LaTeX Warning: Reference `ch:alg' on page 12 undefined on input line 110.
+LaTeX Warning: Reference `ch:alg' on page 13 undefined on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2316,7 +2319,7 @@ File: Figures/prescan-icons.png Graphic file (type bmp)
 <Figures/prescan-icons.png>
 File: Figures/Prescan-panel.png Graphic file (type bmp)
 <Figures/Prescan-panel.png>
-[12]
+[13]
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
@@ -2325,15 +2328,15 @@ File: Figures/Prescan-GUI.png Graphic file (type bmp)
 <Figures/Prescan-GUI.png>
 
 
-LaTeX Warning: Reference `fig:block-diagram' on page 13 undefined on input line
+LaTeX Warning: Reference `fig:block-diagram' on page 14 undefined on input line
  194.
 
 
-LaTeX Warning: Reference `fig:block-diagram' on page 13 undefined on input line
+LaTeX Warning: Reference `fig:block-diagram' on page 14 undefined on input line
  223.
 
 
-LaTeX Warning: Reference `fig:block-diagram' on page 13 undefined on input line
+LaTeX Warning: Reference `fig:block-diagram' on page 14 undefined on input line
  223.
 
 
@@ -2341,60 +2344,88 @@ Overfull \hbox (3.14774pt too wide) in paragraph at lines 223--224
  [][][][] 
  []
 
-[13]
+[14]
 
-LaTeX Warning: Reference `ch:fani|sec:simulink' on page 14 undefined on input l
+LaTeX Warning: Reference `ch:fani|sec:simulink' on page 15 undefined on input l
 ine 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glspl' on input line 244.
 
-[14]
-
-LaTeX Warning: Reference `footdir@82' on page 15 undefined on input line 306.
-
-
-LaTeX Warning: Reference `footdir@84' on page 15 undefined on input line 306.
-
-
-LaTeX Warning: Reference `footdir@86' on page 15 undefined on input line 306.
-
-
-LaTeX Warning: Reference `footdir@88' on page 15 undefined on input line 306.
-
-
-LaTeX Warning: Reference `footdir@90' on page 15 undefined on input line 306.
-
 [15]
+
+LaTeX Warning: Reference `footdir@91' on page 16 undefined on input line 306.
+
+
+LaTeX Warning: Reference `footdir@93' on page 16 undefined on input line 306.
+
+
+LaTeX Warning: Reference `footdir@95' on page 16 undefined on input line 306.
+
+
+LaTeX Warning: Reference `footdir@97' on page 16 undefined on input line 306.
+
+
+LaTeX Warning: Reference `footdir@99' on page 16 undefined on input line 306.
+
+[16]
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [16]) [17]
+ [17]) [18]
 \openout2 = `ALG.aux'.
 
  (./ALG.tex
 فصل 4.
-[18
+[19
 
 
 
-]) [19]
+]
+Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
+;mapping=parsidigits;!
+Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
+;mapping=parsidigits;!
+
+
+LaTeX Warning: Reference `ch:fani' on page 20 undefined on input line 13.
+
+
+LaTeX Warning: Reference `ch:fani' on page 20 undefined on input line 19.
+
+File: Figures/OBS/1.png Graphic file (type bmp)
+<Figures/OBS/1.png>
+File: Figures/rzbinary/agent.png Graphic file (type bmp)
+<Figures/rzbinary/agent.png>
+File: Figures/rzbinary/road.png Graphic file (type bmp)
+<Figures/rzbinary/road.png>
+[20]
+File: Figures/rzbinary/road-car-wh.png Graphic file (type bmp)
+<Figures/rzbinary/road-car-wh.png>
+File: Figures/rzbinary/road-car-redbox+-w.png Graphic file (type bmp)
+<Figures/rzbinary/road-car-redbox+-w.png>
+ (./code/dqn-train.py [21])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glspl' on input line 92.
+
+) [22]
 \openout2 = `fani.aux'.
 
  (./fani.tex
 فصل 5.
-[20
+[23
 
 
 
-]) [21]
+]) [24]
 \openout2 = `resaults.aux'.
 
  (./resaults.tex
 فصل 6.
-[22
+[25
 
 
 
@@ -2403,61 +2434,60 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [23]
+) [26]
 File: Figures/PreScan-logo.png Graphic file (type bmp)
 <Figures/PreScan-logo.png>
 
 
-LaTeX Warning: Reference `' on page 24 undefined on input line 76.
+LaTeX Warning: Reference `' on page 27 undefined on input line 74.
 
-) [24] (./AUTthesis.bbl
+) [27] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 1.
-) [25
+) (./AUTthesis.ind [28
 
 
-] (./AUTthesis.acr) [26
+] [29
 
-
-
-] (./AUTthesis.gls [27
-
+]) (./AUTthesis.acr) [30
 
 
 
 
-])
-[28
-
-] (./AUTthesis.bls [29
+]
+(./AUTthesis.gls [31
 
 
 
-]) [30
 
-] (./en_title.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
- (./AUTthesis.aux
-(./chapter1.aux) (./RL.aux) (./requarments.aux) (./ALG.aux) (./fani.aux)
-(./resaults.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+
+]) [32] (./AUTthesis.bls [33
+
+
+
+]) [34] (./en_title.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+
+(./AUTthesis.aux (./chapter1.aux) (./RL.aux) (./requarments.aux) (./ALG.aux)
+(./fani.aux) (./resaults.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `AUTthesis.out' has not changed.
-(rerunfilecheck)             Checksum: C88CB3797315F9ABC141CAF39351C456.
+(rerunfilecheck)             Checksum: DE471168ACF5FDD787B4FED75767C45E.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 42575 strings out of 492970
- 820555 string characters out of 6137298
- 988459 words of memory out of 5000000
- 45719 multiletter control sequences out of 15000+600000
+ 43028 strings out of 492970
+ 828411 string characters out of 6137298
+ 992954 words of memory out of 5000000
+ 46157 multiletter control sequences out of 15000+600000
  539757 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,21n,95p,10458b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,21n,95p,10458b,2051s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AUTthesis.pdf (42 pages).
+Output written on AUTthesis.pdf (46 pages).

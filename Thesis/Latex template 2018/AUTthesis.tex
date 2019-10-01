@@ -32,6 +32,8 @@
 %       و دیگر بسته‌ها و ... در این فایل قرار دارد و بهتر است که با نحوه استفاده از آنها آشنا شوید. توجه شود برای نسخه نهایی پایان‌نامه حتماً hyperref را 
 %        غیرفعال کنید.
 
+\newcommand{\hi}{سلام}
+
 
 \input{commands}
 
@@ -89,10 +91,11 @@
 %--------------------------------------------------------------------------index(نمایه)
 %اگر مایل به داشتن صفحه نمایه نیستید، خط زیر را غیر فعال کنید.
 \pagestyle{style7}
-%\printindex
+\printindex
+\pagestyle{style9}
 \printacronyms
 \printglossary
-\pagestyle{style7}
+
 %\include{en-abstract}
 \input{en_title}
 \end{document}
