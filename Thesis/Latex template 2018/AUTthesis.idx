@@ -117,8 +117,9 @@
 \indexentry{\glspl *{w:action}|hyperpage}{25}
 \indexentry{\glspl *{w:agent}|hyperpage}{25}
 \indexentry{\glspl *{w:reward}|hyperpage}{25}
-\indexentry{\glspl *{w:repo}|hyperpage}{29}
-\indexentry{\glspl *{w:env}|hyperpage}{29}
-\indexentry{\glspl *{w:terminal}|hyperpage}{29}
-\indexentry{\glspl *{w:drl}|hyperpage}{30}
-\indexentry{\glspl *{w:prescan}|hyperpage}{30}
+\indexentry{\glspl *{w:alg}|hyperpage}{25}
+\indexentry{\glspl *{w:repo}|hyperpage}{30}
+\indexentry{\glspl *{w:env}|hyperpage}{30}
+\indexentry{\glspl *{w:terminal}|hyperpage}{30}
+\indexentry{\glspl *{w:drl}|hyperpage}{31}
+\indexentry{\glspl *{w:prescan}|hyperpage}{31}
