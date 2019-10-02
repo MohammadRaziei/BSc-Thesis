@@ -124,7 +124,7 @@
 \begin{tabular}{|C{0.25\linewidth}|p{0.7\linewidth}|}
 	\hline\rowcolor{lightgray}
 	متغیر & توضیحات
-	\\\hline
+	\\\hline\hline
 	\texttt{id} & در این پروژه این متغیر دو حالت بیشتر ندارد که هردو از جنس رشته هستند. اگر این کد با استفاده از \w{matlabengine} استفاده شود، \lr{\texttt{'prescan-v0'}} 
 	خواهد بود و اگر از \w{matlabengine} استفاده نشده باشد مقدار آن 
 	\lr{\texttt{'prescan-without-matlabengine-v0'}} 
@@ -215,7 +215,7 @@ def step(self, action):
 \begin{tabular}{|C{0.2\linewidth}|p{0.75\linewidth}|}
 	\hline\rowcolor{lightgray}
 	نام تابع & توضیحات
-	\\\hline
+	\\\hline\hline
 	\texttt{\_\_init\_\_} &  این تابع علاوه بر تنظیم کردن برخی پارامترهای مرتبط به کلاس، اتصال کد پایتون به نرم افزار متلب را نیز برعهده دارد.  
 	همچنین تعیین \w{obsspace} و  \w{actionspace} نیز بر‌عهده این بخش می‌باشد.
 	\\\hline
@@ -235,8 +235,45 @@ def step(self, action):
 
 
 \begin{table}\tableset{
-\begin{tabular}{|C{0.2\linewidth}|p{0.75\linewidth}|}
+\begin{tabular}{|C{0.25\linewidth}|C{0.16\linewidth}|p{0.54\linewidth}|}
 \hline\rowcolor{lightgray}
+نام تابع
+&
+محل استفاده
+&
+توضیحات
+\\\hline\hline
+\texttt{make}
+&
+\texttt{\_\_init\_\_}
+&
+\\\hline
+\texttt{render\_}
+&
+\texttt{render} و 
+\texttt{step} و 
+\texttt{reset}
+&
+\\\hline
+\texttt{send}
+&
+\texttt{step}
+&
+\\\hline
+\texttt{calc\_reward}
+&
+\texttt{step}
+&
+\\\hline
+\texttt{\_next\_observation}
+&
+\texttt{reset} و
+\texttt{step}
+&
+\\\hline
+\texttt{action\_translate}
+&
+\texttt{send}
 &
 \\\hline
 \end{tabular}}
@@ -246,27 +283,132 @@ def step(self, action):
 
 
 
+\subsection{معرفی برخی توابع \ws{api}}
 
 
 
+\begin{table}\tableset{
+\begin{tabular}{|c|c|C{0.35\linewidth}|c|}
+	\hline\rowcolor{lightgray}
+	نام متغیر& مفهوم& جنس متغیر& توضیحات\\\hline
+	\hline
+	\texttt{action\_space} & \w{actionspace} & \lr{\texttt{spaces.Discrete(6)}} & عدد صحیح 6\\\hline
+	\texttt{observation\_space} & \w{obsspace} & \lr{\texttt{spaces.Box(shape=(1,38), dtype=np.float16)}} & ماتریس 
+	$1\!\times\!38$تایی \\\hline
+\end{tabular}}
+\caption{تعریف \w{obsspace} و  \w{actionspace} در پروژه}
+\label{tab:spaces-alg}
+\end{table}
 
 
+\subsubsection{\textbf{\texttt{action\_translation}:}}
+این کد دقیقا پیاده سازی یک \w{joystick} می‌باشد. شکل \ref{fig:minipage-joystick} اطلاعات کامل این موضوع به همراه تفسیر آن ها دارد. 
 
-
+از آنجایی که در این پروژه \w{actionspace} طبق جدول \ref{tab:spaces-alg} مقدار عدد صحیح 6 را دارد و این به آن معناست که 6 حالت گسسته بین صفر تا 5 برای \w{action} وجود دارد همچنین نشان می‌دهد که جنس \texttt{action} عدد صحیح \texttt{int} است. بنابراین، می‌بایست که آن را تفسیر کرد. وظیف اصلی این تابع نیز تفسیر مقدار مختلفی است که \texttt{action} می‌تواند بگیرد، می‌باشد.
+ 
+%self.action_space = spaces.Discrete(6)
+%self.observation_space = spaces.Box(low=0, high=255, shape= (1, 38), dtype=np.float16)
 
 
 
 
 
 \newlinef
+\begin{figure}
 \begin{minipage}{4.8cm}
+\centering
 \includegraphics[width=4.8cm]{Figures/joystick}
 \label{fig:joystick}
+\newline
+\tableset[1.5]{\begin{tabular}{c||c}
+	شماره & وظیفه
+	\\\hline\hline
+	0 & رفتن به لاین \texttt{-w}\\
+	1 & رفتن به لاین \texttt{0}\\
+	2 & رفتن به لاین \texttt{+w}\\
+	3 & زیاد کردن سرعت \\
+	4 & کم کردن سرعت \\
+	5 & یدون تغییر \\
+\end{tabular}}
 \end{minipage}
 \hspace*{0.5cm}
 \begin{minipage}{10cm}
 \code[python,label={code:joystick}]{action-translation.py}
 \end{minipage}
+\caption{بررسی تابع \texttt{action\_translate}}
+\label{fig:minipage-joystick}
+\end{figure}
+
+\begin{note}
+	دستور کنترلی اصلی یک بردار دوتایی است (خط  18 کد شکل \ref{fig:minipage-joystick}) که مقدار اولی آن لاین را نشان می‌دهد و مقدار دوم آن سرعتی می‌باشد که انتظار داریم که \w{agent}، سرعت خود را به آن برساند. 
+\end{note}
+\begin{note}
+	اگر دقت کنید در کد مذکور دو مقدار کنونی و قدیمی تر \texttt{action} نگه‌داری شده است.
+\end{note}
+\begin{note}
+	همچنین دقت شود که در این کد، مقدار سرعت، همان مقدار حقیقی سرعت است که از محیط شبیه‌سازی می‌آید. و مقداری که در بردار \texttt{\_\_action\_\_} قرار می‌گیرد مقدار کنترلی سرعت است که با یک‌دیگر تفاوت دارند.
+\end{note}
+
+
+%\begin{latin}
+%\begin{lstlisting}
+%def action_velocity(vel,increase):
+%	if increase:
+%		return vel+5
+%	else:
+%		if vel < 5:
+%			return vel/2
+%		else:
+%			return vel - 2
+%\end{lstlisting}
+%\end{latin}
+
+نکته دیگری که حایز اهمیت است این است که هنگامی که گزینه 3 و یا 4 انتخاب می‌شوند، سیاستی برای افزایش و کاهش سرعت اتخاذ شده است. این سیاست در قالب یک تابع در تصاویر شکل \ref{fig:action-velocity-total} ظاهر شده است. همانطور که کد \ref{subfig:action-velocity-code} و نمودار متناظر آن در شکل \ref{subfig:action-velocity-double} نشان می‌دهد، سیاست های مختلفی برای زیاد کردن و کم کردن سرعت اتخاظ شده است. 
+
+برای زیاد کردن سرعت، سرعت واقعی که از محیط شبیه سازی دریافت شده است با 5 واحد جمع می‌شود. بنابراین انتظار داریم سرعت پس از سه بار افزایش به 15 برسد (شکل \ref{subfig:action-velocity-inc}، نمودار قرمز) اما این اتفاق نمی‌افتد. زیرا این افزایش سرعت، کار زمان‌بری است و 
+نیاز به حوصله دارد که اگر حوصله و تحمل و به عبارت دیگر تاخیر را از یه حدی بالاتر ببریم عملا در کنترل \w{agent} به مشکل خواهیم رسید. 
+
+همچنین مورد مشابه آن چه که گفته شد، در شکل \ref{subfig:action-velocity-dec} نیز برقرار است. نقاطی که رنگشان قرمز است نمودار ایدآلی مفروض خواهند بود که معادل تاخیر کم سیستم جهت اعمال سرعت نهایی است. و نمودار دیگر معادل رخدادی است که $30\%$ به آن عمل شده است و $70\%$ تحت تاثیر مقدار قبلی خواهد بود و به این صورت یک میانگین وزن‌دار گرفته شده‌است.
+
+\begin{figure}
+\centering
+\subfigure[کد اصلی روند افزایشی و یا کاهشی سرعت]{%
+\includegraphics[height=3.7cm]{Figures/code/action-velocity-code2}
+\label{subfig:action-velocity-code}
+}
+\hspace*{0.5cm} % space between two figures
+\subfigure[شکل کلی نمودار افزایش سرعت]{%
+\includegraphics[height=4cm]{Figures/code/action-velocity-double}
+\label{subfig:action-velocity-double}
+}
+%	\hspace*{0.5cm} % space between two figures
+\subfigure[حرکت در جهت افزایش سرعت با شروع از صفر]{%
+\includegraphics[height=5cm]{Figures/code/action-velocity-inc}
+\label{subfig:action-velocity-inc}
+}
+\subfigure[حرکت در جهت کاهش سرعت با شروع از 10]{%
+\includegraphics[height=5cm]{Figures/code/action-velocity-dec}
+\label{subfig:action-velocity-dec}
+}
+%	\hspace*{0.5cm} % space between two figures
+\caption[]{%
+}
+\label{fig:action-velocity-total}
+\end{figure}
+
+مشاهده می‌شود که مسیری که به واقعیت نزدیک‌تر است آرامتر از مسیر مدنظر است. همچنین تفاوت تغییر روند کاهشی سرعت های کمتر از 5 واحد، این است که هیچ گاه منفی نشود ولی به صورت نمایی کاهش یابد و نزدیک صفر شود.
+
+ تفاوت دیگر آن است که به هنگام افزایش مقدار 5 واحد به سرعت افزوده می‌شود و در هنگام کاهش مقدار دو واحد (برای سرعت های بالای 5 واحد) از آن کسر می‌شود. این تفاوت در مقایسه فاصله نقاط بین دو نمودار شکل‌های \ref{subfig:action-velocity-inc} و  \ref{subfig:action-velocity-dec} نیز ظاهر شده است. علت اصلی این تفاوت در بررسی \texttt{calc\_reward} خود را نشان می‌دهد. اما پیشتر در نظر داشته باشید که یک سیاست چهت‌دار و تشویقی جهت قرار گرفتن سریع‌تر در مسیر درست می‌باشد.
+ 
+ \subsubsection{\textbf{\texttt{step}:}}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/code/reward-velocity}
+	\caption{نمودار تابع محاسبه \w{reward} سرعت نرمال شده}
+	\label{fig:reward-velocity}
+\end{figure}
 
 
 

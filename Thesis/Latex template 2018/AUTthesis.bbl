@@ -4,6 +4,10 @@
 D.~Silver, ``{UCL} course on {RL}.''
   \url{http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html}, 2015.
 
+\bibitem{Sutton1998}
+R.~S. Sutton and A.~G. Barto, {\em Reinforcement Learning: An Introduction}.
+\newblock The MIT Press, second~ed., 2018.
+
 \bibitem{medgyminstall}
 G.~Hayes, ``How to install openai gym in a windows environment.''
   \url{https://medium.com/p/338969e24d30}, 2018.
@@ -11,10 +15,6 @@ G.~Hayes, ``How to install openai gym in a windows environment.''
 \bibitem{git/gym}
 G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and
   W.~Zaremba, ``Openai gym,'' 2016.
-
-\bibitem{Sutton1998}
-R.~S. Sutton and A.~G. Barto, {\em Reinforcement Learning: An Introduction}.
-\newblock The MIT Press, second~ed., 2018.
 
 \bibitem{stable-baselines}
 A.~Hill, A.~Raffin, M.~Ernestus, A.~Gleave, A.~Kanervisto, R.~Traore,
