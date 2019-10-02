@@ -32,13 +32,13 @@
 \contentsline {subsubsection}{نصب}{17}{section*.9}
 \contentsline {chapter}{\numberline {4}توضیح مختصری بر الگوریتم}{19}{chapter.4}
 \contentsline {section}{\numberline {4-1}معرفی محیط شبیه سازی}{20}{section.4.1}
-\contentsline {section}{\numberline {4-2}تعریف کردن پارامتر های \glspl *{w:rl}}{22}{section.4.2}
-\contentsline {chapter}{\numberline {5}فنی}{25}{chapter.5}
-\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{27}{chapter.6}
-\contentsline {section}{\numberline {6-1}راه‌اندازی}{28}{section.6.1}
-\contentsline {chapter}{منابع و مراجع}{30}{appendix*.10}
-\contentsline {chapter}{نمایه}{31}{appendix*.10}
-\contentsline {chapter}{فهرست اختصارات}{32}{section*.11}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{33}{section*.17}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{35}{section*.35}
+\contentsline {section}{\numberline {4-2}معرفی \glspl *{w:api} و \glspl *{w:alg}}{22}{section.4.2}
+\contentsline {chapter}{\numberline {5}فنی}{26}{chapter.5}
+\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{28}{chapter.6}
+\contentsline {section}{\numberline {6-1}راه‌اندازی}{29}{section.6.1}
+\contentsline {chapter}{منابع و مراجع}{31}{appendix*.10}
+\contentsline {chapter}{نمایه}{32}{appendix*.10}
+\contentsline {chapter}{فهرست اختصارات}{33}{section*.11}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{34}{section*.17}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{36}{section*.35}
 \contentsfinish 
