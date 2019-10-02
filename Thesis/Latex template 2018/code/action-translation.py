@@ -4,7 +4,6 @@ def action_translate(self,action):
 	vel = self.agent['data']['Velocity']
 	offset = self.__action__[0]
 
-
 	if action == 0 :
 		offset = -lanewidth
 	if action == 1 :
