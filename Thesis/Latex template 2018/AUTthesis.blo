@@ -157,6 +157,8 @@
 (indexentry :tkey (("مرحله" "\\glossentry{f-w:step}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("اپیزود" "\\glossentry{f-w:episode}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("امتیاز" "\\glossentry{f-w:reward}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("امتیاز" "\\glossentry{f-w:reward}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("مشاهده" "\\glossentry{f-w:obs}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("مخزن (گیت‌هاب)" "\\glossentry{f-w:repo}") ) :locref "{}{28}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("محیط" "\\glossentry{f-w:env}") ) :locref "{}{28}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("ترمینال" "\\glossentry{f-w:terminal}") ) :locref "{}{28}" :attr "pageglsnumberformat" ) 

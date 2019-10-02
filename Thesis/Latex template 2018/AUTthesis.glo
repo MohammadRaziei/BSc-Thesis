@@ -158,6 +158,8 @@
 (indexentry :tkey (("\\lr {Step}" "\\glossentry{w:step}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Episode}" "\\glossentry{w:episode}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Reward}" "\\glossentry{w:reward}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("\\lr {Reward}" "\\glossentry{w:reward}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("\\lr {Observation}" "\\glossentry{w:obs}") ) :locref "{}{24}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Repository}" "\\glossentry{w:repo}") ) :locref "{}{28}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Environment}" "\\glossentry{w:env}") ) :locref "{}{28}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("\\lr {Terminal}" "\\glossentry{w:terminal}") ) :locref "{}{28}" :attr "pageglsnumberformat" ) 
