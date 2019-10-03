@@ -34,15 +34,15 @@
 \contentsline {section}{\numberline {4-1}معرفی محیط شبیه سازی}{20}{section.4.1}
 \contentsline {section}{\numberline {4-2}معرفی \glspl *{w:api} و \glspl *{w:alg}}{22}{section.4.2}
 \contentsline {section}{\numberline {4-3}تعریف کردن پارامتر های \glspl *{w:rl}}{26}{section.4.3}
-\contentsline {subsection}{\numberline {4-3-1}معرفی برخی توابع \glspl *{w:api}}{27}{subsection.4.3.1}
-\contentsline {subsubsection}{\textbf {\texttt {action\_translation}:}}{27}{section*.10}
-\contentsline {subsubsection}{\textbf {\texttt {step}:}}{30}{section*.11}
-\contentsline {chapter}{\numberline {5}فنی}{32}{chapter.5}
-\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{34}{chapter.6}
-\contentsline {section}{\numberline {6-1}راه‌اندازی}{35}{section.6.1}
-\contentsline {chapter}{منابع و مراجع}{37}{appendix*.12}
-\contentsline {chapter}{نمایه}{38}{appendix*.12}
-\contentsline {chapter}{فهرست اختصارات}{39}{section*.13}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{40}{section*.19}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{42}{section*.37}
+\contentsline {subsection}{\numberline {4-3-1}معرفی برخی توابع \glspl *{w:api}}{28}{subsection.4.3.1}
+\contentsline {subsubsection}{بررسی تابع \textbf {\texttt {action\_translation}:}}{28}{section*.10}
+\contentsline {subsubsection}{بررسی تابع \textbf {\texttt {step}:}}{30}{section*.11}
+\contentsline {chapter}{\numberline {5}فنی}{33}{chapter.5}
+\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{35}{chapter.6}
+\contentsline {section}{\numberline {6-1}راه‌اندازی}{36}{section.6.1}
+\contentsline {chapter}{منابع و مراجع}{38}{appendix*.12}
+\contentsline {chapter}{نمایه}{39}{appendix*.12}
+\contentsline {chapter}{فهرست اختصارات}{40}{section*.13}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{41}{section*.19}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{43}{section*.37}
 \contentsfinish 

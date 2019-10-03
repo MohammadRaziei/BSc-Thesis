@@ -153,14 +153,14 @@
 \begin{lstlisting}
 def step(self, action):	
 	self.send(action)
-	# -------- BEGIN --------
+	# -------- BEGIN DELAY --------
 	if self.delay > 0 :
 		sleep(self.delay)
 	for _ in range(self.nget):
 		self.render_()
 		if self.done:
 			break
-	# --------- END -‌--------
+	# --------- END DELAY -‌--------
 	observation = self._next_observation()
 	reward = self.calc_reward()
 	done = self.done
@@ -230,7 +230,12 @@ def step(self, action):
 \end{table}
 
 
-جدول \ref{tab:gym-alg-env}، توابع اصلی را نشان می‌دهد و جدول \ref{tab:aux-alg-env} نیز توابع کمکی را نشان می‌دهد.
+جدول \ref{tab:gym-alg-env}، توابع اصلی را نشان می‌دهد و جدول \ref{tab:aux-alg-env} نیز توابع کمکی را نشان می‌دهد. همچنین لازم به ذکر است که 
+\hyperref[code:standard-test]{کد تست استاندارد}
+ این پروژه در به صورت زیر است:
+
+\code[python,label={code:standard-test}]{standard-test.py}
+
 
 
 
@@ -281,7 +286,9 @@ def step(self, action):
 \label{tab:aux-alg-env}
 \end{table}
 
-
+\begin{note}
+	این کد صرفا صحت عملکرد و نحوه استفاده از \w{api} را نشان می‌دهد و شامل هیچ گونه الگوریتمی نمی‌باشد.
+\end{note}
 
 \subsection{معرفی برخی توابع \ws{api}}
 
@@ -301,7 +308,8 @@ def step(self, action):
 \end{table}
 
 
-\subsubsection{\textbf{\texttt{action\_translation}:}}
+
+\subsubsection{بررسی تابع \textbf{\texttt{action\_translation}:}}
 این کد دقیقا پیاده سازی یک \w{joystick} می‌باشد. شکل \ref{fig:minipage-joystick} اطلاعات کامل این موضوع به همراه تفسیر آن ها دارد. 
 
 از آنجایی که در این پروژه \w{actionspace} طبق جدول \ref{tab:spaces-alg} مقدار عدد صحیح 6 را دارد و این به آن معناست که 6 حالت گسسته بین صفر تا 5 برای \w{action} وجود دارد همچنین نشان می‌دهد که جنس \texttt{action} عدد صحیح \texttt{int} است. بنابراین، می‌بایست که آن را تفسیر کرد. وظیف اصلی این تابع نیز تفسیر مقدار مختلفی است که \texttt{action} می‌تواند بگیرد، می‌باشد.
@@ -400,7 +408,48 @@ def step(self, action):
 
  تفاوت دیگر آن است که به هنگام افزایش مقدار 5 واحد به سرعت افزوده می‌شود و در هنگام کاهش مقدار دو واحد (برای سرعت های بالای 5 واحد) از آن کسر می‌شود. این تفاوت در مقایسه فاصله نقاط بین دو نمودار شکل‌های \ref{subfig:action-velocity-inc} و  \ref{subfig:action-velocity-dec} نیز ظاهر شده است. علت اصلی این تفاوت در بررسی \texttt{calc\_reward} خود را نشان می‌دهد. اما پیشتر در نظر داشته باشید که یک سیاست چهت‌دار و تشویقی جهت قرار گرفتن سریع‌تر در مسیر درست می‌باشد.
  
- \subsubsection{\textbf{\texttt{step}:}}
+\subsubsection{بررسی تابع \textbf{\texttt{step}:}}
+
+کد این تابع را پیش تر بررسی شد. جایگاه این تابع داخل 
+\hyperref[code:standard-test]{کد تست استاندارد}
+در داخل یک حلقه است هنگامی که حلقه تمام شود به اصلاح یک \w{episode} تمام شده‌است. دلیل تمام شدن حلقه یا رسیدن به سقف تعداد \w{step} در هر \w{episode} است و یا یک شدن مقدار \texttt{done}. این مقدار یکی از خروجی هایی است که این متغیر می‌تواند اختیار کند.
+ 
+این تابع مقدار \w{action} را می‌گیرد. سپس آن را برای محیط شبیه سازی می‌فرستد. در کد زیر این کار توسط تابع \texttt{send} انجام می‌پذیرد. در تابع \texttt{send} ابتدا با استفاده از تابع \texttt{action\_translate} به صورت دستور کنترلی در خواهد آمد و پس از این تبدیل برای محیط شبیه سازی ارسال می‌شود.
+
+پس از مقداری تاخیر،
+
+
+
+
+\begin{latin}
+\begin{lstlisting}
+def step(self, action):	
+	self.send(action)
+	# -------- BEGIN DELAY --------
+	if self.delay > 0 :
+		sleep(self.delay)
+	for _ in range(self.nget):
+		self.render_()
+		if self.done:
+			break
+	# --------- END DELAY -‌--------
+	observation = self._next_observation()
+	reward = self.calc_reward()
+	done = self.done
+	info = {'Collision':self.collision ,'Position':self.agent['data']['Position']}
+\end{lstlisting}
+\end{latin}
+
+
+
+
+
+
+
+
+
+
+
 
 
 \begin{figure}
