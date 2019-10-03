@@ -1,11 +1,15 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 01.10.2019  18:36:47
-;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\KJuYWsbne9", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\ZfKvKF7TBB", Output: "AUTthesis.gls"
+;; at 03.10.2019  19:01:34
+;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\cAFgt7H3q5", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\MWa0YlhX5Y", Output: "AUTthesis.gls"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -92,6 +96,10 @@ Letter-group: "¦±ª´°¥¦" -> "E"
 Letter-group: "¥º¯¢®ª¤ ¥¢µ¢" -> "D"
 Letter-group: "¥¦¦± ³¦ª¯§°³¤¦®¦¯µ ­¦¢³¯ª¯¨" -> "D"
 Letter-group: "¢¶µ°¯°®°¶´ ·¦©ª¤­¦" -> "A"
+Letter-group: "¢±ª" -> "A"
+Letter-group: "µ¦´µ" -> "T"
+Letter-group: "µ³¢ª¯" -> "T"
+Letter-group: "«°º´µª¤¬" -> "J"
 Letter-group: "³¦±°´ªµ°³º" -> "R"
 Letter-group: "µ¦³®ª¯¢­" -> "T"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -110,6 +118,8 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "©ª´µ°³º" -> "H"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "ª¯§°³®¢µª°¯ ´µ¢µ¦" -> "I"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "«°º´µª¤¬" -> "J"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "®¢¤©ª¯¦ ­¦¢³¯ª¯¨" -> "M"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

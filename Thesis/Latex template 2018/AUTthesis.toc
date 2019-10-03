@@ -36,13 +36,15 @@
 \contentsline {section}{\numberline {4-3}تعریف کردن پارامتر های \glspl *{w:rl}}{26}{section.4.3}
 \contentsline {subsection}{\numberline {4-3-1}معرفی برخی توابع \glspl *{w:api}}{28}{subsection.4.3.1}
 \contentsline {subsubsection}{بررسی تابع \textbf {\texttt {action\_translation}:}}{28}{section*.10}
-\contentsline {subsubsection}{بررسی تابع \textbf {\texttt {step}:}}{30}{section*.11}
-\contentsline {chapter}{\numberline {5}فنی}{33}{chapter.5}
-\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{35}{chapter.6}
-\contentsline {section}{\numberline {6-1}راه‌اندازی}{36}{section.6.1}
-\contentsline {chapter}{منابع و مراجع}{38}{appendix*.12}
-\contentsline {chapter}{نمایه}{39}{appendix*.12}
-\contentsline {chapter}{فهرست اختصارات}{40}{section*.13}
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{41}{section*.19}
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{43}{section*.37}
+\contentsline {subsubsection}{بررسی تابع \textbf {\texttt {step} :}}{30}{section*.11}
+\contentsline {subsection}{\numberline {4-3-2}بررسی تابع \textbf {\texttt {\_next\_observation} :}}{33}{subsection.4.3.2}
+\contentsline {subsubsection}{بررسی تابع \textbf {\texttt {calc\_reward} :}}{34}{section*.12}
+\contentsline {chapter}{\numberline {5}فنی}{38}{chapter.5}
+\contentsline {chapter}{\numberline {6}شبیه سازی و نتایج}{40}{chapter.6}
+\contentsline {section}{\numberline {6-1}راه‌اندازی}{41}{section.6.1}
+\contentsline {chapter}{منابع و مراجع}{43}{appendix*.13}
+\contentsline {chapter}{نمایه}{44}{appendix*.13}
+\contentsline {chapter}{فهرست اختصارات}{45}{section*.14}
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{46}{section*.20}
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{48}{section*.39}
 \contentsfinish 

@@ -6,5 +6,5 @@
 (indexentry :tkey (("DQN" "\\glossentry{a:dqn}") ) :locref "{}{22}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("DQN" "\\glossentry{a:dqn}") ) :locref "{}{23}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("DQN" "\\glossentry{a:dqn}") ) :locref "{}{25}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("A2C" "\\glossentry{a:a2c}") ) :locref "{}{37}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("DQN" "\\glossentry{a:dqn}") ) :locref "{}{37}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("A2C" "\\glossentry{a:a2c}") ) :locref "{}{42}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("DQN" "\\glossentry{a:dqn}") ) :locref "{}{42}" :attr "pageglsnumberformat" ) 

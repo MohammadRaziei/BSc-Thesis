@@ -11,8 +11,7 @@ def reward_velocity(x,a,normal=True):
         return 4 * R / a
     return R
         
-def nearby_reward_linear(x,R,W):
-    return -R/W * x + R if (x > 0 and x < W) else 0
+
 a = 20
 t = np.arange(-3.0,a+3.0,0.1)
 y = np.array([reward_velocity(x,a) for x in t])
@@ -38,6 +37,9 @@ plt.text(20, 1.1, r'$y = \frac{x}{\dfrac{3}{4}a}$ : $a='+str(a)+r'$',
         multialignment='center')
 # plt.grid(True)
 plt.show()
+
+'''
+
 
 '''
 def action_velocity(vel,increase):
@@ -86,3 +88,24 @@ ax = plt.figure().gca()
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 plt.plot(np.arange(0,len(y2_ss),1),y2_ss,'ro',np.arange(0,len(y2_s),1),y2_s,'b^')
 plt.show()
+
+'''
+
+
+def nearby_reward_linear(x,R,W):
+    return -R/W * x + R if (x > 0 and x < W) else 0
+
+param = (-2.5,1.5)
+t = np.arange(-0.1,2.0,0.05)
+y = np.array([nearby_reward_linear(x,*param) for x in t])
+plt.plot(t,y)
+txt = '$y = -\\dfrac{R}{W} x + R  \\ :\\  x \\in [0,W]$\n\n$R = -2.5,\\ W = 1.5$'
+# title_obj = plt.title()
+# plt.setp(title_obj, color='b')   
+plt.text(1.2, -1.5, txt,
+        color='darkblue',
+        horizontalalignment='center',
+        verticalalignment='top',
+        multialignment='center')
+plt.show()
+

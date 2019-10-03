@@ -25,7 +25,12 @@
 \contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شکل کلی نمودار افزایش سرعت}}}{31}{figure.4.5}
 \contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {حرکت در جهت افزایش سرعت با شروع از صفر}}}{31}{figure.4.5}
 \contentsline {subfigure}{\numberline {(د)}{\ignorespaces {حرکت در جهت کاهش سرعت با شروع از 10}}}{31}{figure.4.5}
-\contentsline {figure}{\numberline {4-6}{\ignorespaces نمودار تابع محاسبه \glspl {w:reward} سرعت نرمال شده}}{32}{figure.4.6}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces منطق محاسبه \texttt {done} در محیط شبیه‌سازی}}{32}{figure.4.6}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces نحوه تعریف \glspl {w:obs}}}{33}{figure.4.7}
+\contentsline {figure}{\numberline {4-8}{\ignorespaces }}{34}{figure.4.8}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{34}{figure.4.8}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{34}{figure.4.8}
+\contentsline {figure}{\numberline {4-9}{\ignorespaces نمودار تابع محاسبه \glspl {w:reward} سرعت نرمال شده}}{36}{figure.4.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

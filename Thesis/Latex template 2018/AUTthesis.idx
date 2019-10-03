@@ -49,8 +49,8 @@
 \indexentry{\glspl *{w:env state}|hyperpage}{7}
 \indexentry{\glspl *{w:agent}|hyperpage}{7}
 \indexentry{\glspl *{w:agent}|hyperpage}{7}
-\indexentry{\glspl *{w:agent}|hyperpage}{8}
-\indexentry{\glspl *{w:agent state}|hyperpage}{8}
+\indexentry{\glspl *{w:agent}|hyperpage}{7}
+\indexentry{\glspl *{w:agent state}|hyperpage}{7}
 \indexentry{\glspl *{w:action}|hyperpage}{8}
 \indexentry{\glspl *{w:agent state}|hyperpage}{8}
 \indexentry{\glspl *{w:state}|hyperpage}{8}
@@ -142,9 +142,40 @@
 \indexentry{\glspl *{w:episode}|hyperpage}{30}
 \indexentry{\glspl *{w:step}|hyperpage}{30}
 \indexentry{\glspl *{w:action}|hyperpage}{31}
+\indexentry{\glspl *{w:reward}|hyperpage}{31}
+\indexentry{\glspl *{w:obs}|hyperpage}{31}
+\indexentry{\glspl *{w:episode}|hyperpage}{31}
+\indexentry{\glspl *{w:agent}|hyperpage}{31}
+\indexentry{\glspl *{w:episode}|hyperpage}{31}
+\indexentry{\glspl *{w:obs}|hyperpage}{32}
 \indexentry{\glspl *{w:reward}|hyperpage}{32}
-\indexentry{\glspl *{w:repo}|hyperpage}{36}
-\indexentry{\glspl *{w:env}|hyperpage}{36}
-\indexentry{\glspl *{w:terminal}|hyperpage}{36}
-\indexentry{\glspl *{w:drl}|hyperpage}{37}
-\indexentry{\glspl *{w:prescan}|hyperpage}{37}
+\indexentry{\glspl *{w:obs}|hyperpage}{33}
+\indexentry{\glspl *{w:obs}|hyperpage}{33}
+\indexentry{\glspl *{w:obs}|hyperpage}{33}
+\indexentry{\glspl *{w:obs}|hyperpage}{33}
+\indexentry{\glspl *{w:api}|hyperpage}{34}
+\indexentry{\glspl *{w:reward}|hyperpage}{34}
+\indexentry{\glspl *{w:reward}|hyperpage}{35}
+\indexentry{\glspl *{w:reward}|hyperpage}{35}
+\indexentry{\glspl *{w:reward}|hyperpage}{35}
+\indexentry{\glspl *{w:reward}|hyperpage}{35}
+\indexentry{\glspl *{w:episode}|hyperpage}{35}
+\indexentry{\glspl *{w:agent}|hyperpage}{35}
+\indexentry{\glspl *{w:reward}|hyperpage}{35}
+\indexentry{\glspl *{w:reward}|hyperpage}{36}
+\indexentry{\glspl *{w:agent}|hyperpage}{36}
+\indexentry{\glspl *{w:reward}|hyperpage}{36}
+\indexentry{\glspl *{w:agent}|hyperpage}{37}
+\indexentry{\glspl *{w:reward}|hyperpage}{37}
+\indexentry{\glspl *{w:step}|hyperpage}{37}
+\indexentry{\glspl *{w:reward}|hyperpage}{37}
+\indexentry{\glspl *{w:reward}|hyperpage}{37}
+\indexentry{\glspl *{w:agent}|hyperpage}{37}
+\indexentry{\glspl *{w:agent}|hyperpage}{37}
+\indexentry{\glspl *{w:reward}|hyperpage}{37}
+\indexentry{\glspl *{w:agent}|hyperpage}{37}
+\indexentry{\glspl *{w:repo}|hyperpage}{41}
+\indexentry{\glspl *{w:env}|hyperpage}{41}
+\indexentry{\glspl *{w:terminal}|hyperpage}{41}
+\indexentry{\glspl *{w:drl}|hyperpage}{42}
+\indexentry{\glspl *{w:prescan}|hyperpage}{42}
