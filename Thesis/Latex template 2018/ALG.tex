@@ -239,7 +239,7 @@ def step(self, action):
 
 
 
-\begin{table}\tableset{
+\begin{table}[h!]\tableset{
 \begin{tabular}{|C{0.25\linewidth}|C{0.16\linewidth}|p{0.54\linewidth}|}
 \hline\rowcolor{lightgray}
 نام تابع
@@ -252,6 +252,7 @@ def step(self, action):
 &
 \texttt{\_\_init\_\_}
 &
+این تابع لایه ای را ایجاد می‌کند که هرگونه ارتباط با محیط شبیه‌سازی به آن لایه مرتبط می‌شود.
 \\\hline
 \texttt{render\_}
 &
@@ -259,27 +260,32 @@ def step(self, action):
 \texttt{step} و 
 \texttt{reset}
 &
+این تابع وظیفه دریافت اطلاعات از محیط شبیه سازی و استخراج داده‌های مفید از آن است.
 \\\hline
 \texttt{send}
 &
 \texttt{step}
 &
+این تابع برای فرستادن \w{action} به محیط شبیه سازی استفاده می‌شود.
 \\\hline
 \texttt{calc\_reward}
 &
 \texttt{step}
 &
+این تابع \w{reward} را محاسبه می‌کند.
 \\\hline
 \texttt{\_next\_observation}
 &
 \texttt{reset} و
 \texttt{step}
 &
+این تابع \w{state} بعدی \w{agent} را محاسبه می‌کند.
 \\\hline
 \texttt{action\_translate}
 &
 \texttt{send}
 &
+این تابع مانند یک \ws{joystick} در تابع \texttt{send} \w{action} را تفسیر می‌کند و دستورات کنترلی قابل اجرا برای محیط شبیه‌سازی ایجاد می‌کند.
 \\\hline
 \end{tabular}}
 \caption{راهنمای توابع کمکی \ws{api}}
@@ -292,7 +298,17 @@ def step(self, action):
 
 \subsection{معرفی برخی توابع \ws{api}}
 
-
+\subsubsection{بررسی تابع \textbf{\texttt{\_\_init\_\_} :}}
+این تابع سه وظیفه مهم دارد. 
+\begin{alphabetlist}
+	\item 
+	بخشی از وظایف آن، وظایف مشخص آن در کد پایتون است.
+	\item 
+	ست کردن برخی پارامتر های مهم که در جدول \ref{tab:env-dict} نیز آمده‌اند.
+	\item 
+	این تابع  \w{obsspace} و \w{actionspace} را مشخص می‌کند.
+\end{alphabetlist}
+اطلاعات \w{obsspace} و \w{actionspace} در جدول \ref{tab:spaces-alg} آمده‌است.
 
 \begin{table}\tableset{
 \begin{tabular}{|c|c|C{0.35\linewidth}|c|}
@@ -309,7 +325,7 @@ def step(self, action):
 
 
 
-\subsubsection{بررسی تابع \textbf{\texttt{action\_translation}:}}
+\subsubsection{بررسی تابع \textbf{\texttt{action\_translation} :}}
 این کد دقیقا پیاده سازی یک \w{joystick} می‌باشد. شکل \ref{fig:minipage-joystick} اطلاعات کامل این موضوع به همراه تفسیر آن ها دارد. 
 
 از آنجایی که در این پروژه \w{actionspace} طبق جدول \ref{tab:spaces-alg} مقدار عدد صحیح 6 را دارد و این به آن معناست که 6 حالت گسسته بین صفر تا 5 برای \w{action} وجود دارد همچنین نشان می‌دهد که جنس \texttt{action} عدد صحیح \texttt{int} است. بنابراین، می‌بایست که آن را تفسیر کرد. وظیف اصلی این تابع نیز تفسیر مقدار مختلفی است که \texttt{action} می‌تواند بگیرد، می‌باشد.
@@ -546,7 +562,7 @@ $\mathcal{R}_{\mathrm{Longitudinal}}$
 \[
 	\left.F^{\mathcal{R}_v}\right|_a =
 	\left\{
-		\begin{array}{lll}
+		\begin{array}{lcc}
 		-a + x + \sqrt{a^2 - ax} &:& x \in	[0,a]	\\
 %		0 &:& \mathrm{Otherwise}
 		-0.01 &:& \text{\rl{سایر نقاط}}
@@ -559,7 +575,7 @@ $\mathcal{R}_{\mathrm{Longitudinal}}$
 	\left.F_{n}^{\mathcal{R}_v}\right|_a =
 	\cfrac{\left.F^{\mathcal{R}_v}\right|_a}{\max\{\left.F^{\mathcal{R}_v}\right|_a\}} =
 	\left\{
-	\begin{array}{lll}
+	\begin{array}{lcc}
 	\dfrac4a\left(-a + x + \sqrt{a^2 - ax}\right) &:& x \in	[0,a]	\\
 	%		0 &:& \mathrm{Otherwise}
 	-0.01 &:& \text{\rl{سایر نقاط}}
@@ -609,15 +625,37 @@ V = 0.8 V_{\mathrm{sim}} + 0.2 V_{\mathrm{cmd}}
 درصورتی که \w{agent} 
 تصمیم بگیرد که سرعت خود را کم کند، بابت این تصمیم که نامطلوب است جریمه می‌شود. مقدار این جریمه کمتر از مقدار تشویق است. این موضوع در نزدیکی های سرعت بیشینه کمک کننده خواهد بود. زیرا بالا بردن سرعت در آن حوالی مطلوب نیست بنابراین در صورتی که نیت کند که سرعت زیاد شود، این تصمیم \w{agent} همراه با افت \w{reward} بیشتری (نسبت به حالتی که نیت در نظر گرفته نشده است) خواهد بود. بنابراین این تفاوت ها مطلوب و سازنده خواهد بود. 
 
+آخرین \w{reward}، $\mathcal{R}_{\mathrm{Nearby}}$ می‌باشد. بخاطر مشکلات شبیه‌سازی در اثر تغییر لاین، این تغییر به تمامی اعمال نمی‌شود و ممکن است \w{agent} در فاصله بسیار نزدیک از یک ماشین دیگر رانندگی کند به گونه‌ای که تصادف رخ ندهد. هدف از ایجاد این \w{reward} نیز ایجاد یک حس خطر است. مسلماً باید علامت آن منفی باشد. 
+
+برای این منظور به نوعی دو سنسور مجازی در کناره های \w{agent} کار گذاشته شد.
+درصورتی که ماشین دیگر در فاصله $1.5$متری از \w{agent} در جهت های داده شده در شکل \ref{subfig:agent-nearby-reward} قرار داشته‌باشد، مقدار آن صفر ‌خواهد بود و در صورتی که فاصله از این مقدار کمتر شود به صورت خطی تا $-2.5$ \w{reward} منفی دریافت می‌کند.
+
+نمودار تابع در شکل \ref{subfig:agent-nearby-reward} آمده است و ضابطه آن به صورت زیر می‌باشد:
+\[
+\left.F^{\mathcal{R}_{\mathrm{Nearby}}}\right|_{R,W} = \left\{
+\begin{array}{lcc}
+-\dfrac{R}{W} x + R &:& x \in [0,W] \\
+0 &:& \text{\rl{سایر نقاط}}
+\end{array}
+\right.
+\]
 
 
 
-
-
-
-
-
-
+\begin{figure}
+%	\def\localheight{5cm}
+	\centering
+	\subfigure[تابع \ws{reward} در زمان نزدیکی]{
+		\includegraphics[height=5cm]{Figures/code/nearby-reward}
+		\label{subfig:nearby-reward}
+	}
+	\subfigure[محل قرار گیری سنسور‌های مجازی بر روی \ws{agent}]{
+		\includegraphics[height=5cm]{Figures/rzbinary/agent-nearby-reward}
+		\label{subfig:agent-nearby-reward}
+	}
+\caption{تابع \ws{reward} نزدیکی و محل قرار گیری این تابع در فضای \w{obs}}
+\label{fig:agent-nearby}
+\end{figure}
 
 
 

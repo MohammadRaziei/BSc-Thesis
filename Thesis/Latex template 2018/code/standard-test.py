@@ -7,7 +7,6 @@ env_dict = {
     'nget':     152
 }
 env = gym.make(**env_dict)
-
 for i_episode in range(20):
     observation = env.reset()
     for t in range(100):
