@@ -5,7 +5,30 @@
 \section{راه‌اندازی}\label{ch:resault|sec:launch}
 این کد در گیت هاب در دو 
 \w{repo}
-موجود می‌باشد. ابتدا پیش‌نیاز های لازم را که در بخش
+قرار دارد.
+جدول 
+\ref{tab:github-myrepos}
+اطلاعات این \w{repo}ها
+\RTLfootnote{غیر از این دو \w{repo}، \w{repo} دیگری به آدرس زیر وجود دارد که تاریخچه و روند رسیدن به این نتیجه نهایی را نشان می‌دهد.}
+ را نشان می‌دهد.
+\RTLfootnote{
+آدرس این \ws{repo} به این شکل بدست می‌آید : \LRE{\texttt{https://github.com/mohammadraziei/<REPOSITORY-NAME>}} 
+}
+ 
+\begin{table}\tableset{
+\begin{tabular}{|c|p{0.46\linewidth}|c|}
+	\hline\rowcolor{lightgray}
+	نام \w{repo} & توضیحات & نیاز به \w{matlabengine} \\\hline\hline
+\texttt{gym-Prescan} &  
+پروژه کامل در این \ws{repo} قرار دارد. در آن بر بخش الگوریتم از کتابخانه هایی استفاده شده است که بر روی سیستم عامل لینوکس قابل اجرا هستند بنابراین در صورتی که از لایه الگوریتمی که این پروژه از آن استفاده می‌کند استفاده نشود، در هر سیستم عاملی می‌توان از آن استفاده کرد.
+  & \cmark \xmark \\\hline
+\texttt{gym-Prescan-minimal} &  در این جا بخش فایل های \w{prescan} به همراه فایل هایی که به \w{matlabengine} نیاز  دارد حذف شده است.  & \xmark \\\hline
+\end{tabular}}
+\caption{اطلاعات \ws{repo}های پروژه در گیت‌هاب}
+\label{tab:github-myrepos}
+\end{table}
+
+ ابتدا پیش‌نیاز های لازم را که در بخش
 \ref{ch:req}
 توضیح داده شدند، را نصب کنید. پیشنهاد می‌شود که تمامی نسخه‌های لازم توضیح داده شده در بخش \ref{ch:req} را در سیستم‌عامل لینوکس استفاده کنید. 
 
@@ -56,11 +79,28 @@ gym-Prescan/gym\_prescan/envs/PreScan
 \ref{fig:prescan-panel}
 باز می‌شود. برروی \lr{Matlab} کلیک کنید تا محیط متلب باز شود. اچرای فایل \texttt{startup.m} برای هنگامی که از کد پایتون بر روی همان سیستم استفاده نمی‌کنید، اختیاری است. 
 
-فایل سیمولینک را باز کرده و ....
+فایل سیمولینک را باز کنید و به صورت دستی \lr{IP} بلوک فرستنده را به \lr{IP} مورد نظر تغییر دهید و یا با استفاده از کد زیر در کامندلاین متلب تغییرات لازم را انجام دهید.
 
+\begin{latin}
+\begin{lstlisting}[language=matlab]
+ExperimentName = 'PreScan_Vissim_Python_0';
+send_ip = 'localhost';
+sys = load_system([ExperimentName '_cs']);
+set_param([ExperimentName '_cs/Environment/Send Data'], 'remoteURL',['"' send_ip '"']);
+save_system(sys);
+\end{lstlisting}
+\end{latin}
 
+در این کد کافیست مقدار \texttt{send\_ip} را مطابق با \lr{IP} کامپیوتر دیگر تنظیم کنید. پس از تنظیمات فایل سیمولینک را اجرا کنید برای این کار می‌توانید آن را باز کرده و اجرا کنید و یا با استفاده از دستور زیر در کامندلاین متلب آن را انجام دهید.
+\begin{latin}
+\begin{lstlisting}[language=matlab]
+ExperimentName = 'PreScan_Vissim_Python_0';
+sys = load_system([ExperimentName '_cs']);
+set_param(bdroot, 'SimulationCommand', 'start');
+\end{lstlisting}
+\end{latin}
 
-پس حال در سیستم لینکوس خود میتوانید بسته زیر را دانلود کنید.
+حال در سیستم لینکوس خود میتوانید بسته زیر را دانلود کنید.
 
 \begin{latin}
 \begin{lstlisting}[language=bash]
@@ -69,16 +109,51 @@ cd gym-Prescan-minimal
 \end{lstlisting}
 \end{latin}
 
-در این پوشه تعدادی از الگوریتم های معروفی که در حوزه \w{drl} نوشته شده است، قرار دارد.
+در این پوشه تعدادی از الگوریتم های معروفی که در حوزه \w{drl}(\gls{a:drl}) نوشته شده است، قرار دارد.
 در بین این الگوریتم ها دو الگوریتم \gls{a:dqn} و \gls{a:a2c} نسبت به بقیه بهتر جواب داده اند. این الگوریتم ها در بخش 
-\ref{}
+\ref{ch:rl}
 و در 
 \cite{stable-baselines}
 توضیح کامل داده شده‌اند.
 
+برای اجرای الگوریتم \gls{a:dqn} باید ابتدا \lr{IP} کامپیوتر ویندوزی را در قسمت مشخص در متغیر \texttt{env\_dict} که در جدول \ref{tab:env-dict} به‌طور کامل بررسی شده است، بنویسید و سپس دستور \LRE{\texttt{python dqn.py}} را در \w{terminal} لینوکس وارد کنید. بدین صورت محیط شبیه‌سازی روی هر دو کامپیوتر شروع به کار می‌کند.
 
 
 
+\section{نتایج شبیه‌سازی}
+
+الگوریتم استفاده شده در این پروژه \gls{a:dqn} می‌باشد. مقدار $\gamma$ در این الگوریتم $0.8$ انتخاب شده است. یا توجه به \w{state} و  \w{reward} های تعریف شده در فصل \ref{ch:alg} پس از 200 بار تلاش به \w{optpol} می‌رسد.
+اما برای بالا رفتن دقت ، 2500 بار \w{agent} مسیر را طی کرده است. دلیل آن بالا رفتن تعداد \w{episode}ها می‌باشد. با این کار مقدار $\epsilon$ کاهش یافته و احتمال جست و جوی \w{pol} جدید آن کاهش می‌یابد.
+
+
+
+\begin{figure}
+	\centering
+	\href{https://youtu.be/chgpBWU9XCA}{\includegraphics[width=0.7\linewidth]{Figures/OBS/resault}}
+	\caption[تصویر شبیه‌سازی نهایی]{
+		شبیه سازی نهایی، شکلی مانند این دارد. از این رو فیلمی از این محیط درحال اجرا تهیه شده است که در آدرس
+		\lr{\url{https://youtu.be/chgpBWU9XCA}}
+		بارگذاری شده است.		
+	}	
+	\label{fig:resault}
+\end{figure}
+
+در کل پس یافتن \w{optpol}، تعداد \w{step}ها به 73 رسید. سرعت \w{agent} حول 21 در حال نوسان است و میانگین بدون وزن \w{reward}ها برابر $1.33821$ می‌باشد.
+
+از آن‌جایی که نتایج این پروژه به صورت تصویر قابل بیان نیستند و نمی‌توان حتی چندین تصویر مختلف از وضعیت های مختلف آن گرفت و به عنوان نتیجه منتشر کرد، 
+از نتایح این پروژه، فیلمی تهیه شده است که در آدرس زیر بارگذاری شده‌است.
+\begin{center}
+	\lr{\url{https://youtu.be/chgpBWU9XCA}}
+\end{center}
+
+
+\TheEnd
+
+%\begin{figure}%[2]
+%	\centering
+%	\href{http://www.google.de}{\includegraphics{image}}
+%	\caption{Non linked caption.}
+%\end{figure}
 
 
 

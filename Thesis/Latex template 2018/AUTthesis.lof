@@ -12,28 +12,29 @@
 \contentsline {figure}{\numberline {3-3}{\ignorespaces پنل مدریت نرم‌افزار پری‌اسکن}}{13}{figure.3.3}
 \contentsline {figure}{\numberline {3-4}{\ignorespaces صفحه گرافیکی محیط پری‌اسکن}}{14}{figure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces محیط شبیه سازی}}{20}{figure.4.1}
-\contentsline {figure}{\numberline {4-2}{\ignorespaces }}{21}{figure.4.2}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{21}{figure.4.2}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{21}{figure.4.2}
-\contentsline {figure}{\numberline {4-3}{\ignorespaces }}{21}{figure.4.3}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{21}{figure.4.3}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{21}{figure.4.3}
-\contentsline {figure}{\numberline {4-4}{\ignorespaces بررسی تابع \texttt {action\_translate}}}{29}{figure.4.4}
-\contentsline {figure}{\numberline {4-5}{\ignorespaces }}{30}{figure.4.5}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {کد اصلی روند افزایشی و یا کاهشی سرعت}}}{30}{figure.4.5}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شکل کلی نمودار افزایش سرعت}}}{30}{figure.4.5}
-\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {حرکت در جهت افزایش سرعت با شروع از صفر}}}{30}{figure.4.5}
-\contentsline {subfigure}{\numberline {(د)}{\ignorespaces {حرکت در جهت کاهش سرعت با شروع از 10}}}{30}{figure.4.5}
-\contentsline {figure}{\numberline {4-6}{\ignorespaces منطق محاسبه \texttt {done} در محیط شبیه‌سازی}}{32}{figure.4.6}
-\contentsline {figure}{\numberline {4-7}{\ignorespaces نحوه تعریف \glspl {w:obs}}}{33}{figure.4.7}
-\contentsline {figure}{\numberline {4-8}{\ignorespaces }}{34}{figure.4.8}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{34}{figure.4.8}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{34}{figure.4.8}
-\contentsline {figure}{\numberline {4-9}{\ignorespaces نمودار تابع محاسبه \glspl {w:reward} سرعت نرمال شده}}{36}{figure.4.9}
-\contentsline {figure}{\numberline {4-10}{\ignorespaces تابع \glspl *{w:reward} نزدیکی و محل قرار گیری این تابع در فضای \glspl {w:obs}}}{38}{figure.4.10}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {تابع \glspl *{w:reward} در زمان نزدیکی}}}{38}{figure.4.10}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {محل قرار گیری سنسور‌های مجازی بر روی \glspl *{w:agent}}}}{38}{figure.4.10}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5-1}{\ignorespaces محیط شبیه سازی}}{22}{figure.5.1}
+\contentsline {figure}{\numberline {5-2}{\ignorespaces }}{23}{figure.5.2}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{23}{figure.5.2}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{23}{figure.5.2}
+\contentsline {figure}{\numberline {5-3}{\ignorespaces }}{23}{figure.5.3}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{23}{figure.5.3}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{23}{figure.5.3}
+\contentsline {figure}{\numberline {5-4}{\ignorespaces بررسی تابع \texttt {action\_translate}}}{31}{figure.5.4}
+\contentsline {figure}{\numberline {5-5}{\ignorespaces }}{32}{figure.5.5}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {کد اصلی روند افزایشی و یا کاهشی سرعت}}}{32}{figure.5.5}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شکل کلی نمودار افزایش سرعت}}}{32}{figure.5.5}
+\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {حرکت در جهت افزایش سرعت با شروع از صفر}}}{32}{figure.5.5}
+\contentsline {subfigure}{\numberline {(د)}{\ignorespaces {حرکت در جهت کاهش سرعت با شروع از 10}}}{32}{figure.5.5}
+\contentsline {figure}{\numberline {5-6}{\ignorespaces منطق محاسبه \texttt {done} در محیط شبیه‌سازی}}{34}{figure.5.6}
+\contentsline {figure}{\numberline {5-7}{\ignorespaces نحوه تعریف \glspl {w:obs}}}{35}{figure.5.7}
+\contentsline {figure}{\numberline {5-8}{\ignorespaces }}{36}{figure.5.8}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{36}{figure.5.8}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{36}{figure.5.8}
+\contentsline {figure}{\numberline {5-9}{\ignorespaces نمودار تابع محاسبه \glspl {w:reward} سرعت نرمال شده}}{38}{figure.5.9}
+\contentsline {figure}{\numberline {5-10}{\ignorespaces تابع \glspl *{w:reward} نزدیکی و محل قرار گیری این تابع در فضای \glspl {w:obs}}}{40}{figure.5.10}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {تابع \glspl *{w:reward} در زمان نزدیکی}}}{40}{figure.5.10}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {محل قرار گیری سنسور‌های مجازی بر روی \glspl *{w:agent}}}}{40}{figure.5.10}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6-1}{\ignorespaces تصویر شبیه‌سازی نهایی}}{45}{figure.6.1}
 \contentsfinish 
