@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.16)  4 OCT 2019 16:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.16)  4 OCT 2019 22:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1947,8 +1947,8 @@ Package glossaries Info: Writing glossary file AUTthesis.blo on input line 65.
 LaTeX Warning: Unused global option(s):
     [oneside,12pt].
 
-(./AUTthesis.aux (./chapter1.aux) (./RL.aux) (./requarments.aux) (./fani.aux)
-(./ALG.aux) (./resaults.aux))
+(./AUTthesis.aux (./chapter1.aux) (./RL.aux) (./requarments.aux) (./ALG.aux)
+(./resaults.aux))
 \openout1 = `AUTthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -2106,9 +2106,9 @@ LaTeX Font Info:    Font shape `TU/Yas(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
 (Font)              scaled to size 24.0pt on input line 5.
 
-Overfull \hbox (17.95883pt too wide) in paragraph at lines 7--8
-[][]\TU/IranNastaliq(0)/m/n/12 نويسنده پايان‌نامه، درصورت تمايل ميتواند برای سپ
-اسگزاری پايان‌نامه خود را به شخص[]
+Overfull \hbox (1.68149pt too wide) in paragraph at lines 7--8
+[][]\TU/IranNastaliq(0)/m/n/12 این پایان نامه را به پدر، مادر و برادرم که کمک ک
+ردند تا این پروژه به اتمام برسد تقدیم[]
  []
 
 [5]) (./acknowledgement.tex
@@ -2117,9 +2117,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--8
  []
 
 LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 25.
+(Font)              scaled to size 16.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/Yas(0)/m/n' will be
-(Font)              scaled to size 8.80005pt on input line 25.
+(Font)              scaled to size 8.80005pt on input line 24.
 [6]) (./TOC-TOF-LOT.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2369,21 +2369,17 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [17]) [18]
-\openout2 = `fani.aux'.
-
- (./fani.tex
-فصل 4.
-[19
-
-
-
-]) [20]
+ [17]
+Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
+;mapping=parsidigits;!
+Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
+;mapping=parsidigits;!
+) [18]
 \openout2 = `ALG.aux'.
 
  (./ALG.tex
-فصل 5.
-[21
+فصل 4.
+[19
 
 
 
@@ -2392,13 +2388,20 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
+
+
+LaTeX Warning: Reference `ch:fani' on page 20 undefined on input line 13.
+
+
+LaTeX Warning: Reference `ch:fani' on page 20 undefined on input line 19.
+
 File: Figures/OBS/1.png Graphic file (type bmp)
 <Figures/OBS/1.png>
 File: Figures/rzbinary/agent.png Graphic file (type bmp)
 <Figures/rzbinary/agent.png>
 File: Figures/rzbinary/road.png Graphic file (type bmp)
 <Figures/rzbinary/road.png>
- [22]
+[20]
 File: Figures/rzbinary/road-car-wh.png Graphic file (type bmp)
 <Figures/rzbinary/road-car-wh.png>
 File: Figures/rzbinary/road-car-redbox+-w.png Graphic file (type bmp)
@@ -2412,23 +2415,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glspl' on input line 95.
 
-[23] (./code/dqn-train.py) [24] (./code/alg-test.py)
+[21] (./code/dqn-train.py) [22] (./code/alg-test.py)
 Overfull \hbox (3.14774pt too wide) in paragraph at lines 145--146
  [][][][] 
  []
 
 Missing character: There is no ‌ in font [lmmono10-regular]:!
-[25] [26]
+[23] [24]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glspl' on input line 196.
 
-[27]
+[25]
 Overfull \hbox (3.14774pt too wide) in paragraph at lines 227--228
  [][][][] 
  []
 
-(./code/standard-test.py [28])
+(./code/standard-test.py [26])
 Overfull \hbox (15.54771pt too wide) in paragraph at lines 290--291
  [][][][] 
  []
@@ -2445,10 +2448,10 @@ Overfull \hbox (16.8643pt too wide) in paragraph at lines 321--322
  [][][][] 
  []
 
-[29]
+[27]
 File: Figures/joystick.png Graphic file (type bmp)
 <Figures/joystick.png>
- (./code/action-translation.py) [30] [31]
+ (./code/action-translation.py) [28] [29]
 File: Figures/code/action-velocity-code2.png Graphic file (type bmp)
 <Figures/code/action-velocity-code2.png>
 File: Figures/code/action-velocity-double.png Graphic file (type bmp)
@@ -2459,13 +2462,13 @@ File: Figures/code/action-velocity-dec.png Graphic file (type bmp)
 <Figures/code/action-velocity-dec.png>
 LaTeX Font Info:    Font shape `TU/Yas(0)/m/n' will be
 (Font)              scaled to size 11.00006pt on input line 416.
- [32] [33]
+ [30] [31]
 File: Figures/done-reset-logical.png Graphic file (type bmp)
 <Figures/done-reset-logical.png>
 Missing character: There is no ‌ in font [lmmono10-regular]:!
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 480.
- [34]
+ [32]
 File: Figures/rzbinary/observation-reward2-note.png Graphic file (type bmp)
 <Figures/rzbinary/observation-reward2-note.png>
 
@@ -2474,9 +2477,9 @@ File: Figures/rzbinary/agent-degree.png Graphic file (type bmp)
 <Figures/rzbinary/agent-degree.png>
 File: Figures/rzbinary/circle-number.png Graphic file (type bmp)
 <Figures/rzbinary/circle-number.png>
- [35] (./code/calc-reward.py) [36]
+ [33] (./code/calc-reward.py) [34]
 Overfull \hbox (4.4843pt too wide) in paragraph at lines 546--547
-[][][][]\TU/BNazanin(0)/bx/n/12 یادداشت \TU/Yas(0)/bx/n/12 ۵\TU/BNazanin(0)/bx/
+[][][][]\TU/BNazanin(0)/bx/n/12 یادداشت \TU/Yas(0)/bx/n/12 ۴\TU/BNazanin(0)/bx/
 n/12 -‏\TU/Yas(0)/bx/n/12 ۳\TU/BNazanin(0)/bx/n/12 -‏\TU/Yas(0)/bx/n/12 ۹\TU/BN
 azanin(0)/bx/n/12 . [][][]\TU/BNazanin(0)/m/n/12 اندازه مقدار $\OMS/cmsy/m/n/12
  R[]$ \TU/BNazanin(0)/m/n/12 به ازای یک واحد تغییر لاین، نصف مقدار بیشینه $\OMS
@@ -2485,17 +2488,17 @@ azanin(0)/bx/n/12 . [][][]\TU/BNazanin(0)/m/n/12 اندازه مقدار $\OMS/c
 
 File: Figures/code/reward-velocity.png Graphic file (type bmp)
 <Figures/code/reward-velocity.png>
-[37] [38]
+[35] [36]
 File: Figures/code/nearby-reward.png Graphic file (type bmp)
 <Figures/code/nearby-reward.png>
 File: Figures/rzbinary/agent-nearby-reward.png Graphic file (type bmp)
 <Figures/rzbinary/agent-nearby-reward.png>
-) [39] [40]
+) [37] [38]
 \openout2 = `resaults.aux'.
 
  (./resaults.tex
-فصل 6.
-[41
+فصل 5.
+[39
 
 
 
@@ -2505,7 +2508,7 @@ Overfull \hbox (8.8807pt too wide) in paragraph at lines 16--16
 U/lmtt/m/n/10 https://github.com/mohammadraziei/<REPOSITORY-NAME>[][]
  []
 
-[42] (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+[40] (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2516,7 +2519,7 @@ File: Figures/PreScan-logo.png Graphic file (type bmp)
 
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [43]
+) [41]
 Overfull \hbox (0.78407pt too wide) in paragraph at lines 119--120
 [][]\TU/BNazanin(0)/m/n/12 برای اجرای الگوریتم [][]\TU/TimesNewRoman(0)/m/n/12 
 DQN[] \TU/BNazanin(0)/m/n/12 باید ابتدا []\TU/TimesNewRoman(0)/m/n/12 IP[] \TU/
@@ -2526,43 +2529,43 @@ v_dict[]
 
 File: Figures/OBS/resault.png Graphic file (type bmp)
 <Figures/OBS/resault.png>
-[44]
+[42]
 LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
 (Font)              scaled to size 49.76001pt on input line 150.
-) [45] (./AUTthesis.bbl
+) [43] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 1.
-) (./AUTthesis.ind [46
+) (./AUTthesis.ind [44
 
 
-] [47
+] [45
 
 ]) (./AUTthesis.acr)
-[48
+[46
 
 
 
 
-] (./AUTthesis.gls [49
+] (./AUTthesis.gls [47
 
 
 
 
 
-]) [50] (./AUTthesis.bls [51
+]) [48] (./AUTthesis.bls [49
 
 
 
-]) [52] (./en_title.tex)
+]) [50] (./en_title.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
 
-(./AUTthesis.aux (./chapter1.aux) (./RL.aux) (./requarments.aux) (./fani.aux)
-(./ALG.aux) (./resaults.aux))
+(./AUTthesis.aux (./chapter1.aux) (./RL.aux) (./requarments.aux) (./ALG.aux)
+(./resaults.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `AUTthesis.out' has not changed.
-(rerunfilecheck)             Checksum: CAB8092879838B97221663A6E39EB6E2.
+(rerunfilecheck)             Checksum: 69182667C851C6D1ECBAD9C998A58605.
 
 
 LaTeX Warning: There were undefined references.
@@ -2570,12 +2573,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 44180 strings out of 492970
- 846840 string characters out of 6137298
+ 44172 strings out of 492970
+ 846785 string characters out of 6137298
  1014616 words of memory out of 5000000
- 47267 multiletter control sequences out of 15000+600000
+ 47266 multiletter control sequences out of 15000+600000
  541644 words of font info for 156 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,21n,95p,10458b,1930s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AUTthesis.pdf (64 pages).
+Output written on AUTthesis.pdf (62 pages).

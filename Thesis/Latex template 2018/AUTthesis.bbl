@@ -16,6 +16,15 @@ G.~Hayes, ``How to install openai gym in a windows environment.''
 G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and
   W.~Zaremba, ``Openai gym,'' 2016.
 
+\bibitem{stable-baselines-doc}
+A.~Hill, ``Stable baselines: a fork of openai baselines — reinforcement
+  learning made easy.''
+  \url{https://stable-baselines.readthedocs.io/en/master/}.
+
+\bibitem{stable-baselines-med}
+A.~Hill, ``Stable baselines: a fork of openai baselines — reinforcement
+  learning made easy.'' \url{https://medium.com/p/df87c4b2fc82/}.
+
 \bibitem{stable-baselines}
 A.~Hill, A.~Raffin, M.~Ernestus, A.~Gleave, A.~Kanervisto, R.~Traore,
   P.~Dhariwal, C.~Hesse, O.~Klimov, A.~Nichol, M.~Plappert, A.~Radford,
