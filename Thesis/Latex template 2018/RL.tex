@@ -27,11 +27,12 @@
 		\label{fig:rl-machinelearning-chart}
 	}
 	%  	\hspace*{1.5cm} % space between two figures
-	\subfigure[]{%
+	\subfigure[جایگاه \lr{RL} در علوم مختلف]{%
 		\includegraphics[height=\localheigth]{Figures/RL/RL-chart}
 		\label{fig:rl-chart}
 	}
-	\caption[]{%
+	\caption{%
+		جایگاه \ws{rl}
 	}
 	\label{fig:Rl-circle-total}
 \end{figure}
@@ -118,7 +119,7 @@
 \begin{definition}[\w{history}]
 	به سری شامل \w{obs}، \w{action} و \w{reward} می‌باشد:
 	\[
-	H_t = O_1 ,R_1, A_1, \dots, A_{t-1}, O_{t-1}, R_t
+	\mathcal{H}_t = \mathcal{O}_1 ,\mathcal{R}_1, \mathcal{A}_1, \dots, \mathcal{A}_{t-1}, \mathcal{O}_{t-1}, \mathcal{R}_t
 	\]
 \end{definition}
 
@@ -126,7 +127,7 @@
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/RL/Markov-vhain-SARSA}
-	\caption{}
+	\caption{شماتیک تعامل محیط با عامل}
 	\label{fig:markov-chain-sarsa}
 \end{figure}
 
@@ -136,7 +137,7 @@
 	\textbf{\w{state}}
 	اطلاعاتی است که در محاسبات برای آن‌که در بعد چه اتفاقی بیافتد، استفاده می‌شود. به عبارت دیگر \w{state} تابعی از \w{history} می‌باشد.
 	\[
-	S_t = f(H_t)
+	\mathcal{S}_t = f(\mathcal{H}_t)
 	\]
 \end{definition}
 
@@ -150,7 +151,7 @@
 
 بنابراین در نعریف \ref{def:state} مناسب‌تر است بجای واژه \w{state} از \w{agent state} استفاده شود. بنابراین:
 	\[
-	S_t^a = f(H_t)
+	\mathcal{S}_t^a = f(\mathcal{H}_t)
 	\]
 	
 \begin{note}
@@ -160,11 +161,11 @@
 \begin{definition}
 	یک 
 	\w{state}
-	$S_t$
+	$\mathcal{S}_t$
 	\w{markov}
 	است اگر و تنها اگر:
 	$$
-		\mathbb{P}\left[S_{t+1} | S_{t}\right]=\mathbb{P}\left[S_{t+1} | S_{1}, \ldots, S_{t}\right]
+		\mathbb{P}\left[\mathcal{S}_{t+1} | \mathcal{S}_{t}\right]=\mathbb{P}\left[\mathcal{S}_{t+1} | \mathcal{S}_{1}, \ldots, \mathcal{S}_{t}\right]
 	$$
 \end{definition}
 در یک \w{markov state}، آینده از گذشته مستقل است و فقط به زمان حال وابسته است.
@@ -177,14 +178,14 @@
 \end{remark}
 
 
-\subsection{\w{observ}}
+\subsection{\ws{observ}}
 
 \subsubsection{\ws{fullobs}}
 
 \w{agent}
 به‌طور مستقیم \w{env state} را مشاهده می‌کند. بنابراین در این حالت داریم:
 	\[
-		O_t = S_t^a = S_t^e
+		\mathcal{O}_t = \mathcal{S}_t^a = \mathcal{S}_t^e
 	\]
 بنابراین در این حالت عبارت های زیر با یک‌دیگر برابر هستند.
 	\[
@@ -205,15 +206,29 @@
 	یک اتومبیل با سنسور تشخیص فاصله نمی‌تواند اطلاعاتی مانند نوع ماشین و قیمت آن را تشخیص دهد.
 \end{example}
 
+\subsection{\ws{pol}}
+\w{pol}
+در حقیقت تابعی احتمالی و یا معین است که تصمیم می‌گیرد که در \w{state} کنونی چه تصمیمی باید گرفت. در واقع رفتار \w{agent} توسط این تابع، بررسی و نشان داده می‌شود.
+
+\begin{definition}
+	اگر تابع معین باشد این تابع به صورت زیر تعریف می‌شود.
+$$
+a = \pi(s)
+$$
+و اگر تابع احتمالاتی باشد به صورا زیر تعریف می‌شود.
+$$
+\pi(a | s)=\mathbb{P}\left[A_{t}=a | S_{t}=s\right]
+$$
+\end{definition}
 
 
 
 
 
 
-
-
-
+%$$
+%\tilde{v}_{\pi}(s)=\mathbb{E}_{\pi}\left[\sum_{k=1}^{\infty}\left(R_{t+k}-\rho^{\pi}\right) | S_{t}=s\right]
+%$$
 
 
 

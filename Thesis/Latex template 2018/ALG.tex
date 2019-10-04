@@ -68,16 +68,17 @@
 \begin{figure}[b!]
 	\centering
 %	\def\localdata{}
-	\subfigure[]{%
+	\subfigure[مشخصات جاده]{%
 		\includegraphics[width=0.7\linewidth]{Figures/rzbinary/road-car-wh}
 		\label{subfig:road-car-wh}
 	}
 	%  	\hspace*{1.5cm} % space between two figures
-	\subfigure[]{%
+	\subfigure[محدوده جاده]{%
 		\includegraphics[width=0.7\linewidth]{Figures/rzbinary/road-car-redbox+-w}
 		\label{subfig:road-car-redbox-w}
 	}
-	\caption[]{%
+	\caption{
+		بررسی دقیق محدوده و مشخصات جاده
 	}
 	\label{fig:road-car-total}
 \end{figure}
@@ -319,7 +320,7 @@ def step(self, action):
 	\texttt{observation\_space} & \w{obsspace} & \lr{\texttt{spaces.Box(shape=(1,38), dtype=np.float16)}} & ماتریس 
 	$1\!\times\!38$تایی \\\hline
 \end{tabular}}
-\caption{تعریف \w{obsspace} و  \w{actionspace} در پروژه}
+\caption{تعریف \ws{obsspace} و  \ws{actionspace} در پروژه}
 \label{tab:spaces-alg}
 \end{table}
 
@@ -337,13 +338,13 @@ def step(self, action):
 
 
 
-\newlinef
+%\newlinef
 \begin{figure}
 \begin{minipage}{4.8cm}
 \centering
 \includegraphics[width=4.8cm]{Figures/joystick}
 \label{fig:joystick}
-\newline
+\\[2em]
 \tableset[1.5]{\begin{tabular}{c||c}
 	شماره & وظیفه
 	\\\hline\hline
@@ -352,7 +353,7 @@ def step(self, action):
 	2 & رفتن به لاین \texttt{+w}\\
 	3 & زیاد کردن سرعت \\
 	4 & کم کردن سرعت \\
-	5 & یدون تغییر \\
+	5 & بدون تغییر \\
 \end{tabular}}
 \end{minipage}
 \hspace*{0.5cm}
@@ -415,7 +416,8 @@ def step(self, action):
 \label{subfig:action-velocity-dec}
 }
 %	\hspace*{0.5cm} % space between two figures
-\caption[]{%
+\caption{%
+	بررسی دقیق تابع افزایش دهنده و کاهنده سرعت ماشین
 }
 \label{fig:action-velocity-total}
 \end{figure}
@@ -490,7 +492,7 @@ def step(self, action):
 \begin{minipage}{0.7\linewidth}
 \code{-next-observation.py}
 \end{minipage}
-\caption{نحوه تعریف \w{obs}}
+\caption{نحوه تعریف \ws{obs}}
 \label{fig:minipage-next-obs}
 \end{figure}
 
@@ -510,7 +512,7 @@ def step(self, action):
 		\includegraphics[width=0.39\linewidth]{Figures/rzbinary/circle-number}
 		\label{subfig:circle-number}
 	}
-	\caption{}
+	\caption[افراز محیط اطراف ماشین برحسب زاویه]{افراز محیط اطراف ماشین برحسب زاویه و تعریف نحوه قرار دادن آن در ماتریس مشاهده }
 	\label{fig:agent-degree-total}
 \end{figure}
 
@@ -594,7 +596,7 @@ $\left.F^{\mathcal{R}_v}\right|_a$
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/code/reward-velocity}
-	\caption{نمودار تابع محاسبه \w{reward} سرعت نرمال شده}
+	\caption{نمودار تابع محاسبه \ws{reward} سرعت نرمال شده}
 	\label{fig:reward-velocity}
 \end{figure}
 
@@ -640,6 +642,8 @@ V = 0.8 V_{\mathrm{sim}} + 0.2 V_{\mathrm{cmd}}
 \right.
 \]
 
+که در رابطه فوق، مقدار $W$ طول سنسور مجازی و اندازه $R$ بیش‌ترین امتیاز (اما در جهت منفی) که در این نمودار اتفاق می‌افتد.
+
 
 
 \begin{figure}
@@ -656,6 +660,15 @@ V = 0.8 V_{\mathrm{sim}} + 0.2 V_{\mathrm{cmd}}
 \caption{تابع \ws{reward} نزدیکی و محل قرار گیری این تابع در فضای \w{obs}}
 \label{fig:agent-nearby}
 \end{figure}
+
+
+
+\subsection{بررسی مقدار $\gamma$}
+
+مقدار $\gamma$ در لایه الگوریتم مطرح می‌شود. در الگوریتم \gls{a:dqn} این پارامتر، مقدار دید روبه جلو را نشان ‌می‌دهد.
+
+
+
 
 
 
