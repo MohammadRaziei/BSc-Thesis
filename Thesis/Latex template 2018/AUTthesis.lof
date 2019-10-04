@@ -11,41 +11,42 @@
 \contentsline {figure}{\numberline {2-3}{\ignorespaces پنل مدریت نرم‌افزار پری‌اسکن}}{11}{figure.2.3}
 \contentsline {figure}{\numberline {2-4}{\ignorespaces صفحه گرافیکی محیط پری‌اسکن}}{12}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces محیط شبیه سازی}}{18}{figure.3.1}
-\contentsline {figure}{\numberline {3-2}{\ignorespaces }}{19}{figure.3.2}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{19}{figure.3.2}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{19}{figure.3.2}
-\contentsline {figure}{\numberline {3-3}{\ignorespaces بررسی دقیق محدوده و مشخصات جاده }}{19}{figure.3.3}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {مشخصات جاده}}}{19}{figure.3.3}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {محدوده جاده}}}{19}{figure.3.3}
-\contentsline {figure}{\numberline {3-4}{\ignorespaces بررسی تابع \texttt {action\_translate}}}{27}{figure.3.4}
-\contentsline {figure}{\numberline {3-5}{\ignorespaces بررسی دقیق تابع افزایش دهنده و کاهنده سرعت ماشین }}{29}{figure.3.5}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {کد اصلی روند افزایشی و یا کاهشی سرعت}}}{29}{figure.3.5}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شکل کلی نمودار افزایش سرعت}}}{29}{figure.3.5}
-\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {حرکت در جهت افزایش سرعت با شروع از صفر}}}{29}{figure.3.5}
-\contentsline {subfigure}{\numberline {(د)}{\ignorespaces {حرکت در جهت کاهش سرعت با شروع از 10}}}{29}{figure.3.5}
-\contentsline {figure}{\numberline {3-6}{\ignorespaces منطق محاسبه \texttt {done} در محیط شبیه‌سازی}}{30}{figure.3.6}
-\contentsline {figure}{\numberline {3-7}{\ignorespaces نحوه تعریف \glspl *{w:obs}}}{31}{figure.3.7}
-\contentsline {figure}{\numberline {3-8}{\ignorespaces افراز محیط اطراف ماشین برحسب زاویه}}{32}{figure.3.8}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{32}{figure.3.8}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{32}{figure.3.8}
-\contentsline {figure}{\numberline {3-9}{\ignorespaces نمودار تابع محاسبه \glspl *{w:reward} سرعت نرمال شده}}{34}{figure.3.9}
-\contentsline {figure}{\numberline {3-10}{\ignorespaces تابع \glspl *{w:reward} نزدیکی و محل قرار گیری این تابع در فضای \glspl {w:obs}}}{36}{figure.3.10}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {تابع \glspl *{w:reward} در زمان نزدیکی}}}{36}{figure.3.10}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {محل قرار گیری سنسور‌های مجازی بر روی \glspl *{w:agent}}}}{36}{figure.3.10}
+\contentsline {figure}{\numberline {3-1}{\ignorespaces محیط شبیه سازی}}{19}{figure.3.1}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces }}{20}{figure.3.2}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{20}{figure.3.2}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{20}{figure.3.2}
+\contentsline {figure}{\numberline {3-3}{\ignorespaces بررسی دقیق محدوده و مشخصات جاده }}{20}{figure.3.3}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {مشخصات جاده}}}{20}{figure.3.3}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {محدوده جاده}}}{20}{figure.3.3}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces بررسی تابع \texttt {action\_translate}}}{28}{figure.3.4}
+\contentsline {figure}{\numberline {3-5}{\ignorespaces بررسی دقیق تابع افزایش دهنده و کاهنده سرعت ماشین }}{30}{figure.3.5}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {کد اصلی روند افزایشی و یا کاهشی سرعت}}}{30}{figure.3.5}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شکل کلی نمودار افزایش سرعت}}}{30}{figure.3.5}
+\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {حرکت در جهت افزایش سرعت با شروع از صفر}}}{30}{figure.3.5}
+\contentsline {subfigure}{\numberline {(د)}{\ignorespaces {حرکت در جهت کاهش سرعت با شروع از 10}}}{30}{figure.3.5}
+\contentsline {figure}{\numberline {3-6}{\ignorespaces منطق محاسبه \texttt {done} در محیط شبیه‌سازی}}{31}{figure.3.6}
+\contentsline {figure}{\numberline {3-7}{\ignorespaces نحوه تعریف \glspl *{w:obs}}}{33}{figure.3.7}
+\contentsline {figure}{\numberline {3-8}{\ignorespaces افراز محیط اطراف ماشین برحسب زاویه}}{33}{figure.3.8}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {}}}{33}{figure.3.8}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {}}}{33}{figure.3.8}
+\contentsline {figure}{\numberline {3-9}{\ignorespaces نمودار تابع محاسبه \glspl *{w:reward} سرعت نرمال شده}}{35}{figure.3.9}
+\contentsline {figure}{\numberline {3-10}{\ignorespaces }}{37}{figure.3.10}
+\contentsline {figure}{\numberline {3-11}{\ignorespaces تابع \glspl *{w:reward} نزدیکی و محل قرار گیری این تابع در فضای \glspl {w:obs}}}{37}{figure.3.11}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {تابع \glspl *{w:reward} در زمان نزدیکی}}}{37}{figure.3.11}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {محل قرار گیری سنسور‌های مجازی بر روی \glspl *{w:agent}}}}{37}{figure.3.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces بلوک دیالگرام لایه های کلی}}{38}{figure.4.1}
-\contentsline {figure}{\numberline {4-2}{\ignorespaces فایل سیمولینک ایجاد شده توسط نرم افزار پری‌اسکن همراه با تغییرات}}{40}{figure.4.2}
-\contentsline {figure}{\numberline {4-3}{\ignorespaces روش صحیح اعمال تغییرات روی فایل سیمولینک}}{41}{figure.4.3}
-\contentsline {figure}{\numberline {4-4}{\ignorespaces فایل سیمولینک - شبیه سازی اتومبیل}}{41}{figure.4.4}
-\contentsline {figure}{\numberline {4-5}{\ignorespaces نگاهی از نزدیک به بلوک \lr {Environmnet}}}{43}{figure.4.5}
-\contentsline {figure}{\numberline {4-6}{\ignorespaces فایل سیمولینک - داخل بلوک \lr {Environment}}}{43}{figure.4.6}
-\contentsline {figure}{\numberline {4-7}{\ignorespaces منطق محاسبه تمام شدن و دستور ریست کردن}}{45}{figure.4.7}
-\contentsline {figure}{\numberline {4-8}{\ignorespaces ساختار جیسون برای بلوک های سیمولینک}}{46}{figure.4.8}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {اطلاعات خام جیسون کلی}}}{46}{figure.4.8}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {جیسون سنسور}}}{46}{figure.4.8}
-\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {شکل ادغام شده }}}{46}{figure.4.8}
-\contentsline {figure}{\numberline {4-9}{\ignorespaces بلوک دیالگرام لایه های پایتون}}{48}{figure.4.9}
+\contentsline {figure}{\numberline {4-1}{\ignorespaces بلوک دیالگرام لایه های کلی}}{40}{figure.4.1}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces فایل سیمولینک ایجاد شده توسط نرم افزار پری‌اسکن همراه با تغییرات}}{42}{figure.4.2}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces روش صحیح اعمال تغییرات روی فایل سیمولینک}}{43}{figure.4.3}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces فایل سیمولینک - شبیه سازی اتومبیل}}{43}{figure.4.4}
+\contentsline {figure}{\numberline {4-5}{\ignorespaces نگاهی از نزدیک به بلوک \lr {Environmnet}}}{45}{figure.4.5}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces فایل سیمولینک - داخل بلوک \lr {Environment}}}{45}{figure.4.6}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces منطق محاسبه تمام شدن و دستور ریست کردن}}{47}{figure.4.7}
+\contentsline {figure}{\numberline {4-8}{\ignorespaces ساختار جیسون برای بلوک های سیمولینک}}{48}{figure.4.8}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {اطلاعات خام جیسون کلی}}}{48}{figure.4.8}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {جیسون سنسور}}}{48}{figure.4.8}
+\contentsline {subfigure}{\numberline {(ج)}{\ignorespaces {شکل ادغام شده }}}{48}{figure.4.8}
+\contentsline {figure}{\numberline {4-9}{\ignorespaces بلوک دیالگرام لایه های پایتون}}{50}{figure.4.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5-1}{\ignorespaces تصویر شبیه‌سازی نهایی}}{55}{figure.5.1}
+\contentsline {figure}{\numberline {5-1}{\ignorespaces تصویر شبیه‌سازی نهایی}}{57}{figure.5.1}
 \contentsfinish 

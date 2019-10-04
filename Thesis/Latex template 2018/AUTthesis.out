@@ -8,38 +8,39 @@
 \BOOKMARK [2][-]{subsection.1.1.4}{*w:state}{section.1.1}% 8
 \BOOKMARK [2][-]{subsection.1.1.5}{*w:observ}{section.1.1}% 9
 \BOOKMARK [2][-]{subsection.1.1.6}{*w:pol}{section.1.1}% 10
-\BOOKMARK [0][-]{chapter.2}{پیشنیاز های نصب و معرفی قسمت های مختلف}{}% 11
-\BOOKMARK [1][-]{section.2.1}{نرم‌افزار‌های کلی}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.2}{پیشنیاز های پایتون}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.3}{معرفی دقیق تر اجزای کلی}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.3.1}{معرفی نرم‌افزار *w:prescan }{section.2.3}% 15
-\BOOKMARK [2][-]{subsection.2.3.2}{فرمت های فایل های خروجی}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.3}{نصب *w:matlabengine }{section.2.3}% 17
-\BOOKMARK [1][-]{section.2.4}{معرفی دقیق تر پیشنیاز های پایتون}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.4.1}{بسته‌های کمکی}{section.2.4}% 19
-\BOOKMARK [2][-]{subsection.2.4.2}{بسته gym}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.3}{بسته stable-baseline}{section.2.4}% 21
-\BOOKMARK [0][-]{chapter.3}{توضیح مختصری بر الگوریتم}{}% 22
-\BOOKMARK [1][-]{section.3.1}{معرفی محیط شبیه سازی}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{معرفی *w:api و *w:alg}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.3}{تعریف کردن پارامتر های *w:rl}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.1}{معرفی برخی توابع *w:api}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.2}{بررسی تابع _next_observation :}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.3}{بررسی مقدار }{section.3.3}% 28
-\BOOKMARK [0][-]{chapter.4}{بررسی جزئیات فنی پروژه}{}% 29
-\BOOKMARK [1][-]{section.4.1}{مقدمه}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{دورنمای کلی طرح}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{بررسی دقیق‌تر فایل سیمولینک}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.3.1}{معرفی بلوک Environment و بررسی جزییات آن }{section.4.3}% 33
-\BOOKMARK [2][-]{subsection.4.3.2}{بررسی ساختار داده های ارسالی و کد آن در سیمولینک}{section.4.3}% 34
-\BOOKMARK [1][-]{section.4.4}{بررسی جزییات بخش پایتون}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.4.1}{معرفی لایه های کد پایتون}{section.4.4}% 36
-\BOOKMARK [1][-]{section.4.5}{بررسی دقیق تر برخی چالش های فنی پروژه}{chapter.4}% 37
-\BOOKMARK [0][-]{chapter.5}{شبیه سازی و نتایج}{}% 38
-\BOOKMARK [1][-]{section.5.1}{راه‌اندازی}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.2}{نتایج شبیه‌سازی}{chapter.5}% 40
-\BOOKMARK [0][-]{appendix*.14}{منابع و مراجع}{}% 41
-\BOOKMARK [0][-]{appendix*.14}{نمایه}{}% 42
-\BOOKMARK [0][-]{section*.15}{فهرست اختصارات}{}% 43
-\BOOKMARK [0][-]{section*.21}{واژه نامه انگلیسی به فارسی}{}% 44
-\BOOKMARK [0][-]{section*.40}{واژه نامه فارسی به انگلیسی}{}% 45
+\BOOKMARK [1][-]{section.1.2}{مطالعه بیشتر}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{پیشنیاز های نصب و معرفی قسمت های مختلف}{}% 12
+\BOOKMARK [1][-]{section.2.1}{نرم‌افزار‌های کلی}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{پیشنیاز های پایتون}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{معرفی دقیق تر اجزای کلی}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{معرفی نرم‌افزار *w:prescan }{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{فرمت های فایل های خروجی}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{نصب *w:matlabengine }{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{معرفی دقیق تر پیشنیاز های پایتون}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.4.1}{بسته‌های کمکی}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.2}{بسته gym}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.3}{بسته stable-baseline}{section.2.4}% 22
+\BOOKMARK [0][-]{chapter.3}{توضیح مختصری بر الگوریتم}{}% 23
+\BOOKMARK [1][-]{section.3.1}{معرفی محیط شبیه سازی}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{معرفی *w:api و *w:alg}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{تعریف کردن پارامتر های *w:rl}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{معرفی برخی توابع *w:api}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{بررسی تابع _next_observation :}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.3}{بررسی مقدار }{section.3.3}% 29
+\BOOKMARK [0][-]{chapter.4}{بررسی جزئیات فنی پروژه}{}% 30
+\BOOKMARK [1][-]{section.4.1}{مقدمه}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{دورنمای کلی طرح}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{بررسی دقیق‌تر فایل سیمولینک}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.3.1}{معرفی بلوک Environment و بررسی جزییات آن }{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.2}{بررسی ساختار داده های ارسالی و کد آن در سیمولینک}{section.4.3}% 35
+\BOOKMARK [1][-]{section.4.4}{بررسی جزییات بخش پایتون}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.1}{معرفی لایه های کد پایتون}{section.4.4}% 37
+\BOOKMARK [1][-]{section.4.5}{بررسی دقیق تر برخی چالش های فنی پروژه}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{شبیه سازی و نتایج}{}% 39
+\BOOKMARK [1][-]{section.5.1}{راه‌اندازی}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{نتایج شبیه‌سازی}{chapter.5}% 41
+\BOOKMARK [0][-]{appendix*.14}{منابع و مراجع}{}% 42
+\BOOKMARK [0][-]{appendix*.14}{نمایه}{}% 43
+\BOOKMARK [0][-]{section*.15}{فهرست اختصارات}{}% 44
+\BOOKMARK [0][-]{section*.21}{واژه نامه انگلیسی به فارسی}{}% 45
+\BOOKMARK [0][-]{section*.40}{واژه نامه فارسی به انگلیسی}{}% 46
