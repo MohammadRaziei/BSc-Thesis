@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 05.10.2019  02:12:18
-;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\bVFq5Xw8cG", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\byLGPqILp7", Output: "AUTthesis.gls"
+;; at 07.10.2019  19:21:03
+;; Indexstyle: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\4hChA_KMWI", Rawindex: "F:\\Mohammad\\BSc Thesis\\myThesis\\Thesis\\Latex template 2018\\ZfZIRMRlcw", Output: "AUTthesis.gls"
 
 
 Building indexentry-tree:
@@ -57,6 +57,7 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
+Letter-group: "¢±ª" -> "A"
 Letter-group: "³¦ª¯§°³¤¦®¦¯µ ­¦¢³¯ª¯¨" -> "R"
 Letter-group: "®¢¤©ª¯¦ ­¦¢³¯ª¯¨" -> "M"
 Letter-group: "´¶±¦³·ª´¦¥ ­¦¢³¯ª¯¨" -> "S"
@@ -90,16 +91,15 @@ Letter-group: "®¢µ­¢£" -> "M"
 Letter-group: "´ª®¶­ª¯¬" -> "S"
 Letter-group: "®¢µ­¢£ ¦¯¨ª¯¦" -> "M"
 Letter-group: "¢¯¢¤°¯¥¢" -> "A"
-Letter-group: "£¦¤©®¢³¬" -> "B"
-Letter-group: "¢­¨°³ªµ©®" -> "A"
 Letter-group: "°£´¦³·¢µª°¯ ´±¢¤¦" -> "O"
 Letter-group: "¢¤µª°¯ ´±¢¤¦" -> "A"
 Letter-group: "µª®¦°¶µ" -> "T"
 Letter-group: "¦±ª´°¥¦" -> "E"
 Letter-group: "¥º¯¢®ª¤ ¥¢µ¢" -> "D"
 Letter-group: "¥¦¦± ³¦ª¯§°³¤¦®¦¯µ ­¦¢³¯ª¯¨" -> "D"
+Letter-group: "£¦¤©®¢³¬" -> "B"
+Letter-group: "¢­¨°³ªµ©®" -> "A"
 Letter-group: "¢¶µ°¯°®°¶´ ·¦©ª¤­¦" -> "A"
-Letter-group: "¢±ª" -> "A"
 Letter-group: "µ¦´µ" -> "T"
 Letter-group: "µ³¢ª¯" -> "T"
 Letter-group: "«°º´µª¤¬" -> "J"

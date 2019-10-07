@@ -9,7 +9,9 @@
 جدول 
 \ref{tab:github-myrepos}
 اطلاعات این \w{repo}ها
-\RTLfootnote{غیر از این دو \w{repo}، \w{repo} دیگری به آدرس زیر وجود دارد که تاریخچه و روند رسیدن به این نتیجه نهایی را نشان می‌دهد.}
+\RTLfootnote{غیر از این دو \w{repo}، \w{repo} دیگری به آدرس زیر وجود دارد که تاریخچه و روند رسیدن به این نتیجه نهایی را نشان می‌دهد.
+\url{https://github.com/MohammadRaziei/Prescan_test}
+}
  را نشان می‌دهد.
 \RTLfootnote{
 آدرس این \ws{repo} به این شکل بدست می‌آید : \LRE{\texttt{https://github.com/mohammadraziei/<REPOSITORY-NAME>}} 
@@ -122,21 +124,25 @@ cd gym-Prescan-minimal
 
 \section{نتایج شبیه‌سازی}
 
-الگوریتم استفاده شده در این پروژه \gls{a:dqn} می‌باشد. مقدار $\gamma$ در این الگوریتم $0.8$ انتخاب شده است. یا توجه به \w{state} و  \w{reward} های تعریف شده در فصل \ref{ch:alg} پس از 200 بار تلاش به \w{optpol} می‌رسد.
-اما برای بالا رفتن دقت ، 2500 بار \w{agent} مسیر را طی کرده است. دلیل آن بالا رفتن تعداد \w{episode}ها می‌باشد. با این کار مقدار $\epsilon$ کاهش یافته و احتمال جست و جوی \w{pol} جدید آن کاهش می‌یابد.
-
-
+الگوریتم استفاده شده در این پروژه \gls{a:dqn} می‌باشد. مقدار $\gamma$ در این الگوریتم $0.8$ انتخاب شده است. یا توجه به \w{state} و  \w{reward} های تعریف شده در فصل \ref{ch:alg} پس از 400 بار تلاش به \w{optpol} می‌رسد.
+اما برای بالا رفتن دقت ، 25000 بار \w{agent} مسیر را طی کرده است. دلیل آن بالا رفتن تعداد \w{episode}ها می‌باشد. با این کار مقدار $\epsilon$ کاهش یافته و احتمال جست و جوی \w{pol} جدید آن کاهش می‌یابد.
 
 \begin{figure}
 	\centering
-	\href{https://youtu.be/chgpBWU9XCA}{\includegraphics[width=0.7\linewidth]{Figures/OBS/resault}}
-	\caption[تصویر شبیه‌سازی نهایی]{
-		شبیه سازی نهایی، شکلی مانند این دارد. از این رو فیلمی از این محیط درحال اجرا تهیه شده است که در آدرس
-		\lr{\url{https://youtu.be/chgpBWU9XCA}}
-		بارگذاری شده است.		
-	}	
-	\label{fig:resault}
+	\subfigure[]{	\includegraphics[width=0.4\linewidth]{Figures/code/step-episode-4}
+		\label{subfig:step-episode}
+	}
+	\subfigure[]{
+		\includegraphics[width=0.4\linewidth]{Figures/code/reward-episode-4}
+		\label{subfig:reward-episode}
+	}
+	\caption{نمودار توصیف رفتار \ws{agent} در هر \w{episode}}
+	\label{fig:episode-chart}
 \end{figure}
+
+نمودار شکل \ref{subfig:reward-episode}، میانگین بدون وزن \w{reward} در پایان هر \w{episode} می‌باشد. در حوالی تا قبل از حدود 200 میانگین \w{reward} ها منفی است. زیرا تا قبل از آن، تصادف رخ می‌داد و در کل منفی بودش. شیب تقریبا صعودی آن در این مرحله بخاطر افزایش \w{step}ها می‌باشد که تاثیر منفی تصادف را کاهش داده است. در کل مشاهده می‌شود که روندی صعودی تا رسیدن به مقدار بیشینه \w{reward} دارد.
+
+نمودار \ref{subfig:step-episode}، تعداد مراحل را در هر \w{episode} نشان می‌دهد. انتظار آن است که در ابتدا به دلیل تصادف کم باشد و در انتها روی مقدار مشخصی ثابت شود. حال ممکن است در این بین اتفاقاتی نیز افتاده باشد. یکی از اتفاقات جالب کاهش مقدار قله در شکل \ref{subfig:step-episode} می‌باشد. این مقدار با تنظیم مناسب پارامتر $\gamma$ کنترل شده است و مشاهده می‌شود که یک قله بیشتر ندارد و این یعنی آن \w{pol} را ادامه نداده است.
 
 در کل پس یافتن \w{optpol}، تعداد \w{step}ها به 73 رسید. سرعت \w{agent} حول 21 در حال نوسان است و میانگین بدون وزن \w{reward}ها برابر $1.33821$ می‌باشد.
 
@@ -147,7 +153,7 @@ cd gym-Prescan-minimal
 \end{center}
 
 
-\TheEnd
+
 
 %\begin{figure}%[2]
 %	\centering
@@ -160,6 +166,25 @@ cd gym-Prescan-minimal
 
 
 
+
+\begin{figure}
+	\centering
+	\subfigure[]{
+		\href{https://youtu.be/chgpBWU9XCA}{\includegraphics[width=0.7\linewidth]{Figures/OBS/resault}}
+		\label{subfig:resault1}
+	}
+	\subfigure[]{
+		\href{https://youtu.be/chgpBWU9XCA}{\includegraphics[width=0.7\linewidth]{Figures/OBS/resault2}}
+		\label{subfig:resault2}
+	}
+	\caption[تصویر شبیه‌سازی نهایی]{
+		شبیه سازی نهایی، شکلی مانند این دارد. از این رو فیلمی از این محیط درحال اجرا تهیه شده است که در آدرس
+		\lr{\url{https://youtu.be/chgpBWU9XCA}}
+		بارگذاری شده است.		
+	}	
+	\label{fig:resault}
+	
+\end{figure}
 
 
 
