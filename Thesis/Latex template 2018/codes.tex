@@ -9,131 +9,134 @@
 %\usepackage{subfigure}
 %\usepackage{subcaption}
 
-\usepackage{color}
-\usepackage[table]{xcolor}
-
-%%%% Page color
-\definecolor{cream}{rgb}{1.0, 0.99, 0.82}
-\definecolor{floralwhite}{rgb}{1.0, 0.98, 0.94}
-\definecolor{ghostwhite}{rgb}{0.97, 0.97, 1.0}
-\definecolor{honeydew}{rgb}{0.94, 1.0, 0.94}
-\definecolor{isabelline}{rgb}{0.96, 0.94, 0.93}
-\definecolor{magnolia}{rgb}{0.97, 0.96, 1.0}
-\definecolor{mintcream}{rgb}{0.96, 1.0, 0.98}
-\definecolor{oldlace}{rgb}{0.99, 0.96, 0.9}
-\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
-\definecolor{whitegray}{rgb}{0.98, 0.98, 0.98}
-\definecolor{LightCyan}{rgb}{0.88,1,1}
-
-\usepackage{listings}
-
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{lightgray}{rgb}{0.8,0.8,0.8}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
-
-\lstset{frame=tBLr,
-	%	frameround=fttt,
-	language=python,
-	aboveskip=3mm,
-	belowskip=3mm,
-	showstringspaces=false,
-	columns=flexible,
-	basicstyle={\small\ttfamily},
-	lineskip=0.5em,
-	xleftmargin=23pt,
-	xrightmargin=9pt,
-	framexleftmargin=17pt,
-	framexrightmargin=5pt,
-	framexbottommargin=2pt,
-	numbers=left,
-	firstnumber=1,
-	numberstyle=\tiny\color{gray},
-	keywordstyle=\color{blue},
-	commentstyle=\color{dkgreen},
-	stringstyle=\color{mauve},
-	rulecolor=\color{black},
-	breaklines=true,
-	breakatwhitespace=true,
-	tabsize=4
-}
-
-\newcommand{\code}[2][python]{
-%	\begin{latin}
-		%		\noindent #2
-		\lstinputlisting[language=#1]{code/#2}
-%	\end{latin}
-}
-\definecolor{backgroundcode}{HTML}{FBFBFB}
-
-\colorlet{punct}{red!60!black}
-%\definecolor{background}{HTML}{EEEEEE}
-\definecolor{delim}{RGB}{20,105,176}
-\colorlet{numb}{magenta!60!black}
-\definecolor{darkbrown}{rgb}{0.4, 0.26, 0.13}
-\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
-
-
-
-
-\lstdefinelanguage{json}{
-	%	basicstyle=\normalfont\ttfamily,
-	basicstyle=\scriptsize\ttfamily,
-	%	numbers=left,	
-	numbers=none,
-	numberstyle=\scriptsize,
-	stepnumber=1,
-	numbersep=8pt,
-	showstringspaces=false,
-	breaklines=true,
-	breakatwhitespace=false,
-	breakindent=0pt,
-	frame=single,
-	xleftmargin=10pt,
-	xrightmargin=10pt,
-	framexleftmargin=5pt,
-	framexrightmargin=5pt,
-	string=[s]{"}{"},
-	comment=[l]{:\ "},
-	morecomment=[l]{:"},
-	moredelim=**[is][\color{red}]{@}{@},
-	backgroundcolor=\color{backgroundcode},
-	stringstyle=\color{black}, % style of strings
-	literate=%
-	*{0}{{{\color{numb}0}}}{1}
-	{1}{{{\color{numb}1}}}{1}
-	{2}{{{\color{numb}2}}}{1}
-	{3}{{{\color{numb}3}}}{1}
-	{4}{{{\color{numb}4}}}{1}
-	{5}{{{\color{numb}5}}}{1}
-	{6}{{{\color{numb}6}}}{1}
-	{7}{{{\color{numb}7}}}{1}
-	{8}{{{\color{numb}8}}}{1}
-	{9}{{{\color{numb}9}}}{1}
-	{e+}{{{\color{darkbrown}{e+}}}}{1}	
-	{e-}{{{\color{darkbrown}{e-}}}}{1}
-	{:}{{{\color{punct}{:}}}}{1}
-	{,}{{{\color{punct}{,}}}}{1}
-	{.}{{{\color{darkbrown}{.}}}}{1}
-	{"}{{{\color{darkblue}{"}}}}{1}
-	{'}{{{\color{red}{'}}}}{1}
-	{\{}{{{\color{delim}\{}}}{1}
-	{\}}{{{\color{delim}{\}}}}}{1}
-	{[}{{{\color{delim}{[}}}}{1}
-	{]}{{{\color{delim}{]}}}}{1},
-}
-
-
+%\usepackage{color}
+%\usepackage[table]{xcolor}
+%
+%%%%% Page color
+%\definecolor{cream}{rgb}{1.0, 0.99, 0.82}
+%\definecolor{floralwhite}{rgb}{1.0, 0.98, 0.94}
+%\definecolor{ghostwhite}{rgb}{0.97, 0.97, 1.0}
+%\definecolor{honeydew}{rgb}{0.94, 1.0, 0.94}
+%\definecolor{isabelline}{rgb}{0.96, 0.94, 0.93}
+%\definecolor{magnolia}{rgb}{0.97, 0.96, 1.0}
+%\definecolor{mintcream}{rgb}{0.96, 1.0, 0.98}
+%\definecolor{oldlace}{rgb}{0.99, 0.96, 0.9}
+%\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
+%\definecolor{whitegray}{rgb}{0.98, 0.98, 0.98}
+%\definecolor{LightCyan}{rgb}{0.88,1,1}
+%
+%\usepackage{listings}
+%
+%\definecolor{dkgreen}{rgb}{0,0.6,0}
+%\definecolor{gray}{rgb}{0.5,0.5,0.5}
+%\definecolor{lightgray}{rgb}{0.8,0.8,0.8}
+%\definecolor{mauve}{rgb}{0.58,0,0.82}
+%
+%\lstset{frame=tBLr,
+%	%	frameround=fttt,
+%	language=python,
+%	aboveskip=3mm,
+%	belowskip=3mm,
+%	showstringspaces=false,
+%	columns=flexible,
+%	basicstyle={\small\ttfamily},
+%	lineskip=0.5em,
+%	xleftmargin=23pt,
+%	xrightmargin=9pt,
+%	framexleftmargin=17pt,
+%	framexrightmargin=5pt,
+%	framexbottommargin=2pt,
+%	numbers=left,
+%	firstnumber=1,
+%	numberstyle=\tiny\color{gray},
+%	keywordstyle=\color{blue},
+%	commentstyle=\color{dkgreen},
+%	stringstyle=\color{mauve},
+%	rulecolor=\color{black},
+%	breaklines=true,
+%	breakatwhitespace=true,
+%	tabsize=4
+%}
+%
+%\newcommand{\code}[2][python]{
+%%	\begin{latin}
+%		%		\noindent #2
+%		\lstinputlisting[language=#1]{code/#2}
+%%	\end{latin}
+%}
+%\definecolor{backgroundcode}{HTML}{FBFBFB}
+%
+%\colorlet{punct}{red!60!black}
+%%\definecolor{background}{HTML}{EEEEEE}
+%\definecolor{delim}{RGB}{20,105,176}
+%\colorlet{numb}{magenta!60!black}
+%\definecolor{darkbrown}{rgb}{0.4, 0.26, 0.13}
+%\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+%
+%
+%
+%
+%\lstdefinelanguage{json}{
+%	%	basicstyle=\normalfont\ttfamily,
+%	basicstyle=\scriptsize\ttfamily,
+%	%	numbers=left,	
+%	numbers=none,
+%	numberstyle=\scriptsize,
+%	stepnumber=1,
+%	numbersep=8pt,
+%	showstringspaces=false,
+%	breaklines=true,
+%	breakatwhitespace=false,
+%	breakindent=0pt,
+%	frame=single,
+%	xleftmargin=10pt,
+%	xrightmargin=10pt,
+%	framexleftmargin=5pt,
+%	framexrightmargin=5pt,
+%	string=[s]{"}{"},
+%	comment=[l]{:\ "},
+%	morecomment=[l]{:"},
+%	moredelim=**[is][\color{red}]{@}{@},
+%	backgroundcolor=\color{backgroundcode},
+%	stringstyle=\color{black}, % style of strings
+%	literate=%
+%	*{0}{{{\color{numb}0}}}{1}
+%	{1}{{{\color{numb}1}}}{1}
+%	{2}{{{\color{numb}2}}}{1}
+%	{3}{{{\color{numb}3}}}{1}
+%	{4}{{{\color{numb}4}}}{1}
+%	{5}{{{\color{numb}5}}}{1}
+%	{6}{{{\color{numb}6}}}{1}
+%	{7}{{{\color{numb}7}}}{1}
+%	{8}{{{\color{numb}8}}}{1}
+%	{9}{{{\color{numb}9}}}{1}
+%	{e+}{{{\color{darkbrown}{e+}}}}{1}	
+%	{e-}{{{\color{darkbrown}{e-}}}}{1}
+%	{:}{{{\color{punct}{:}}}}{1}
+%	{,}{{{\color{punct}{,}}}}{1}
+%	{.}{{{\color{darkbrown}{.}}}}{1}
+%	{"}{{{\color{darkblue}{"}}}}{1}
+%	{'}{{{\color{red}{'}}}}{1}
+%	{\{}{{{\color{delim}\{}}}{1}
+%	{\}}{{{\color{delim}{\}}}}}{1}
+%	{[}{{{\color{delim}{[}}}}{1}
+%	{]}{{{\color{delim}{]}}}}{1},
+%}
+%
+%
 
 
 
 \begin{document}
+	\begin{equation}
+		E = mc^2 \times \sum_1^k i^3
+	\end{equation}
 	.
-	
-	\vspace*{10cm}
-	
-	\begin{minipage}{0.6\linewidth}
-		\code[python,firstnumber=18]{alg-test.py}
-%		\code{dqn-train.py}
-	\end{minipage}
+%	
+%	\vspace*{10cm}
+%	
+%	\begin{minipage}{0.6\linewidth}
+%		\code[python,firstnumber=18]{alg-test.py}
+%%		\code{dqn-train.py}
+%	\end{minipage}
 \end{document}

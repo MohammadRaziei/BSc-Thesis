@@ -27,7 +27,7 @@
 \BOOKMARK [2][-]{subsection.2.5.1}{بسته‌های کمکی}{section.2.5}% 27
 \BOOKMARK [2][-]{subsection.2.5.2}{بسته gym}{section.2.5}% 28
 \BOOKMARK [2][-]{subsection.2.5.3}{بسته stable-baseline}{section.2.5}% 29
-\BOOKMARK [0][-]{chapter.3}{تعریف مسیله و بررسی الگوریتم}{}% 30
+\BOOKMARK [0][-]{chapter.3}{تعریف مسئله و بررسی الگوریتم}{}% 30
 \BOOKMARK [1][-]{section.3.1}{معرفی محیط شبیه سازی}{chapter.3}% 31
 \BOOKMARK [1][-]{section.3.2}{معرفی *w:api و *w:alg}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.3}{تعریف کردن پارامتر های *w:rl}{chapter.3}% 33
